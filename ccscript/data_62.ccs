@@ -1,0 +1,481 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import ebpp
+import Item_Articles
+import Enemy_Articles
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xef6bef:
+    newline
+    "@[B9]El cuerpo de {asmcall_long(PrintLowDefArticleTarget)}{target}" linebreak
+    "  se solidific[C3]!{sound(83)}[03]" eob
+
+l_0xef6c0b:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} no se pudo" linebreak
+    "  concentrar!{sound(83)}" next
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} no pudo" linebreak
+    "  usar PSI![03]" eob
+
+l_0xef6c3a:
+    newline
+    "@{asmcall_long(PrintCapDefArticleTarget)}{target} se sinti[C3]" linebreak
+    "  un poco extra[C7]o...{sound(83)}[03]" eob
+
+l_0xef6c55:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} se" linebreak
+    "  durmi[C3]!{sound(83)}[03]" eob
+
+l_0xef6c6b:
+    newline
+    "@{asmcall_long(PrintCapDefArticleTarget)}{target} fue herid{asmcall_long(PrintGenderedVerbTarget)} y colaps[C3]...{sound(32)}[03]" eob
+
+l_0xef6c84:
+    newline
+    "@{asmcall_long(PrintCapDefArticleTarget)}{target} fue herid{asmcall_long(PrintGenderedVerbTarget)}" linebreak
+    "  y colaps[C3]...{sound(32)}{unset(flag 587)}" next
+    "[06 CF 00 {e(l_0xef6ce2)}][06 CE 00 {e(l_0xef6cd9)}][06 CD 00 {e(l_0xef6cd0)}][06 CC 00 {e(l_0xef6cc7)}]{set(flag 204)}" call(l_0xef6ceb) eob
+
+l_0xef6cc7:
+    "{set(flag 205)}" call(l_0xef6ceb) eob
+
+l_0xef6cd0:
+    "{set(flag 206)}" call(l_0xef6ceb) eob
+
+l_0xef6cd9:
+    "{set(flag 207)}" call(l_0xef6ceb) eob
+
+l_0xef6ce2:
+    "{set(flag 208)}" call(l_0xef6ceb) eob
+
+l_0xef6ceb:
+    "[19 10 02]{store_registers}{result_is(11)}[1B 02 {e(l_0xef6cfc)}][1F 12 0B]" eob
+
+l_0xef6cfc:
+    "{load_registers}{result_is(12)}[1B 02 {e(l_0xef6d0a)}][1F 12 0C]" eob
+
+l_0xef6d0a:
+    "{load_registers}{result_is(13)}[1B 02 {e(l_0xef6d18)}][1F 12 0D]" eob
+
+l_0xef6d18:
+    "{load_registers}{result_is(14)}[1B 02 {e(l_0xef6d26)}][1F 12 0E]" eob
+
+l_0xef6d26:
+    "[1F 12 0F]" eob
+
+l_0xef6d2a:
+    newline
+    "@{asmcall_long(PrintCapDefArticleTarget)}{target} se volvi[C3]" linebreak
+    "  una pila de pelusa...{sound(32)}" next
+    "[1D 01 FF 02]" eob
+
+l_0xef6d4c:
+    newline
+    "@{asmcall_long(PrintCapDefArticleTarget)}{target} se convirti[C3]" linebreak
+    "  un gran mont[C3]n de pelusa...{sound(32)}" next
+    "[1D 01 FF 03]" eob
+
+l_0xef6d71:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target}" linebreak
+    "  fue derrotad{asmcall_long(PrintGenderedVerbTarget)}!{sound(33)}" eob
+
+l_0xef6d83:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} dej[C3] de moverse!{sound(33)}" eob
+
+l_0xef6d96:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target}" next 
+    "  se volvi[C3] d[C3]cil!{sound(33)}" eob
+
+plural:
+    newline
+    "[18 06]@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target}" linebreak
+	"  se volvieron d[C3]ciles!{sound(33)}{pause(10)}" eob
+
+l_0xef6da7:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} desapareci[C3]!{sound(33)}" eob
+
+l_0xef6db8:
+    newline
+    "@[B9]La figura de {asmcall_long(PrintLowDefArticleTarget)}{target} se derriti[C3] en el aire!{sound(33)}" eob
+
+l_0xef6dd8:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} se rompi[C3] en pedazos!{sound(33)}" eob
+
+l_0xef6df0:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} fue destruid{asmcall_long(PrintGenderedVerbTarget)}!{sound(33)}" eob
+
+l_0xef6e03:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} fue totalmente desguazado!{sound(33)}" eob
+
+l_0xef6e19:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} volvi[C3] a la normalidad!{sound(33)}" eob
+
+l_0xef6e31:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} regres[C3] al polvo de la tierra!{sound(33)}" eob
+
+l_0xef6e4a:
+    newline
+    "@[B9]El cuerpo de {asmcall_long(PrintLowDefArticleTarget)} {target}" linebreak
+    "  regreso a la normalidad!{sound(37)}[03]" eob
+
+l_0xef6e67:
+    newline
+    "@[B9]La par[C0]lisis de {asmcall_long(PrintLowDefArticleTarget)}{target}" linebreak
+    "  se ha ido!{sound(37)}[03]" eob
+
+l_0xef6e81:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} se sinti[C3]" linebreak
+    "  mucho mejor!{sound(37)}[03]" eob
+
+l_0xef6e97:
+    newline
+    "@[B9]El veneno fue removido del" linebreak
+    "  cuerpo de {asmcall_long(PrintLowDefArticleTarget)}{target}!{sound(37)}[03]" eob
+
+l_0xef6ebc:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} se repuso" linebreak
+    "  de su resfriado!{sound(37)}[03]" eob
+
+l_0xef6ed1:
+    newline
+    "@{asmcall_long(PrintCapDefArticleTarget)}{target} finalmente" linebreak
+    "  dej[C3] de llorar...{sound(37)}[03]" eob
+
+l_0xef6eed:
+    newline
+    "@[B9]El cuerpo de {asmcall_long(PrintLowDefArticleTarget)}{target}" linebreak
+    "  se movi[C3] libremente de nuevo!{sound(37)}[03]" eob
+
+l_0xef6f0b:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} se pudo" linebreak
+    "  mover!{sound(37)}[03]" eob
+
+l_0xef6f1e:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} volvi[C3]" linebreak
+    "  a la normalidad!{sound(37)}[03]" eob
+
+l_0xef6f38:
+    newline
+    "@[B9]La insolaci[C3]n de {asmcall_long(PrintLowDefArticleTarget)}{target}" linebreak
+    "  fue curada!{sound(37)}[03]" eob
+
+l_0xef6f54:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} despert[C3]!{sound(37)}[03]" eob
+
+l_0xef6f64:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} fue capaz" linebreak
+    "  de concentrarse!{sound(37)}[03]" eob
+
+l_0xef6f7c:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} fue revivid{asmcall_long(PrintGenderedVerbTarget)}!{sound(37)}[03]" eob
+
+l_0xef6f8e:
+    newline
+    "@No funcion[C3]...[03]" eob
+
+l_0xef6f9a:
+    newline
+    "@[B9]El cuerpo de {asmcall_long(PrintLowDefArticleTarget)}{target} fue protegido por el escudo de luz![03]" eob
+
+l_0xef6fbd:
+    newline
+    "@[B9]El escudo de {asmcall_long(PrintLowDefArticleTarget)}{target} se volvi[C3] m[C0]s resistente![03]" eob
+
+l_0xef6fd3:
+    newline
+    "@[B9]El cuerpo de {asmcall_long(PrintLowDefArticleTarget)}{target} fue protegido por el escudo de poder![03]" eob
+
+l_0xef6ff4:
+    newline
+    "@[B9]El escudo de poder de {asmcall_long(PrintLowDefArticleTarget)}{target} se volvi[C3] m[C0]s resistente![03]" eob
+
+l_0xef700c:
+    newline
+    "@[B9]El cuerpo de {asmcall_long(PrintLowDefArticleTarget)}{target} fue protegido por el escudo ps[C2]quico![03]" eob
+
+l_0xef7032:
+    newline
+    "@[B9]El escudo ps[C2]quico de {asmcall_long(PrintLowDefArticleTarget)}{target} se volvi[C3] m[C0]s resistente![03]" eob
+
+l_0xef7050:
+    newline
+    "@[B9]El cuerpo de {asmcall_long(PrintLowDefArticleTarget)}{target} fue protegido por" next
+    "  el escudo ps[C2]quico de poder![03]" eob
+
+l_0xef707a:
+    newline
+    "@[B9]El escudo ps[C2]quico de poder de {asmcall_long(PrintLowDefArticleTarget)}{target} se volvi[C3] m[C0]s resistente![03]" eob
+
+l_0xef7099:
+    newline
+    "@[B9]El escudo de {asmcall_long(PrintLowDefArticleTarget)}{target}" linebreak
+    "  desapareci[C3]![03]" eob
+
+l_0xef70b1:
+    newline
+    "@[B9]El escudo de poder" linebreak
+    "  desvi[C3] el ataque!{sound(93)}{pause(30)}[03]" eob
+
+l_0xef70d2:
+    newline
+    "@[B9]El escudo ps[C2]quico de poder" linebreak
+    "[19 1F]{swap}  desvi[C3] [1C 12 00]!{sound(93)}[03]" eob
+
+l_0xef70fa:
+    newline
+    "@[B9]El escudo ps[C2]quico de {asmcall_long(PrintLowDefArticleTarget)}{target} hizo[19 1F]{swap} [1C 12 00] desaparecer![03]" eob
+
+l_0xef7123:
+    newline
+    "@[B9]Los efectos de PSI en" linebreak
+    "  {asmcall_long(PrintLowDefArticleTarget)}{target} desaparecieron!{sound(41)}[03]" eob
+
+l_0xef7142:
+    newline
+    "@[B9][1C 01 4A] regres[C3]" linebreak
+    "  a su forma original![03]" eob
+
+l_0xef7160:
+    newline
+    "@La Medalla Franklin desvi[C3]" linebreak
+    "  el rel[C0]mpago!{sound(93)}[03]" eob
+
+l_0xef7186:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} no puede moverse![03]" eob
+
+l_0xef7192:
+    newline
+    "@[B9]El cuerpo de {asmcall_long(PrintLowDefArticleAttacker)}{user} est[C0]" linebreak
+    "  entumecido y " call(data_36.l_0xc7e602) " no puede moverse![03]" eob
+
+l_0xef71b4:
+    newline
+    "@{asmcall_long(PrintCapDefArticleAttacker)}{user} se siente" linebreak
+    "  muy enfermo para moverse...[03]" eob
+
+l_0xef71cc:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} est[C0]" linebreak
+    "  envenenad{asmcall_long(PrintGenderedVerbTarget)}![03]" eob
+
+l_0xef71df:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} est[C0]" linebreak
+    "  durmiendo![03]" eob
+
+l_0xef71f6:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} no puede" linebreak
+    "  moverse![03]" eob
+
+l_0xef720c:
+    newline
+    "[1F 41 08][1B 02 {e(l_0xef721e)}]{sound(55)}" goto(l_0xef7221)
+
+l_0xef721e:
+    "{sound(29)}" goto(l_0xef7221)
+
+l_0xef7221:
+    "@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user}[19 1F]{swap} intent[C3]" linebreak
+    "  [1C 12 00]!{sound(87)}" next
+    "@[B9]Pero no funcion[C3] muy bien![03]" eob
+
+l_0xef7249:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} est[C0]" linebreak
+    "  en guardia![03]" eob
+
+l_0xef725a:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} perdi[C3]" linebreak
+    "  su mente por devorar la <Miel de Mosca>![03]" eob
+
+l_0xef727f:
+    "[1D 21 03][09 03 {e(l_0xef72a0)} {e(l_0xef72b9)} {e(l_0xef72db)}]" newline
+    "@{asmcall_long(PrintCapDefArticleAttacker)}{user} extra[C7]a su hogar.[03]" eob
+
+l_0xef72a0:
+    newline
+    "@{asmcall_long(PrintCapDefArticleAttacker)}{user} pens[C3] en su mam[C0].[03]" eob
+
+l_0xef72b9:
+    newline
+    "@{asmcall_long(PrintCapDefArticleAttacker)}{user} pens[C3] en comer un poco de [1C 01 04] y se le antoj[C3].[03]" eob
+
+l_0xef72db:
+    newline
+    "@{asmcall_long(PrintCapDefArticleAttacker)}{user} perdi[C3] toda motivaci[C3]n" linebreak
+    "  en batalla.[03]" eob
+
+l_0xef72f6:
+    eob
+
+l_0xef72f7:
+    newline
+    "@[B9]Un humo negro se verti[C3] del" linebreak
+    "  cuerpo de {asmcall_long(PrintLowDefArticleAttacker)}{user}!{prompt}" linebreak
+    "@[B9]" call(data_37.l_0xc7e6d7) " fue" linebreak
+    "  abrumado por el humo!{prompt}" linebreak
+    "@[B9]No puede ver nada!{prompt}" eob
+
+l_0xef733d:
+    newline
+    "@[B9]De repente," linebreak
+    "  unos chicos se apresuraron dentro de la habitaci[C3]n!{prompt}{music(149)}{pause(60)}" newline
+    "@[B9]Eran los Hermanos Fugitivos!{prompt}{window_closetop}{pause(30)}{window_open(1)}" newline
+    "[1F 62 00]@[B9]Lucky r[C0]pidamente se agach[C3] detr[C0]s del robot!{prompt}{sound(11)}{pause(60)}{window_clear}@<Accion[C1] el interruptor, y se detuvo. >" next
+    "@<Ha ha ha hah..." linebreak
+    "  Vaya, todo un robot perdedor.  [B9]Fue tan f[C0]cil de detener!>{pause(20)}{prompt}{window_clear}@<[B9]Eso fue pensar r[C0]pido!>{prompt}{pause(60)}[1F 62 01]{window_closetop}{window_open(14)}{set(flag 318)}" eob
+
+l_0xef7415:
+    "[1F 71 04 02]" newline
+    "@[B9]De pronto, [1C 02 04] se abalanz[C3]" linebreak
+    "  desde el cielo!" eob
+
+l_0xef743b:
+    newline
+    "@[B9][1C 02 04] us[C3] su nuevo poder,{prompt}" linebreak
+    "  PK Tormenta Estelar!{prompt}" linebreak
+    eob
+
+l_0xef745f:
+    "[1D 21 08][09 08 {e(l_0xef749d)} {e(l_0xef74b0)} {e(l_0xef74c9)} {e(l_0xef74e6)} {e(l_0xef74fa)} {e(l_0xef7514)} {e(l_0xef7530)} {e(l_0xef7548)}]" newline
+    "@[B9]Porky us[C3] a [1C 01 08]" linebreak
+    "  como escudo![03]" eob
+
+l_0xef749d:
+    newline
+    "@[B9]Porky se hizo el muerto![03]" eob
+
+l_0xef74b0:
+    newline
+    "@[B9]Porky fingi[C3]" linebreak
+    "  llorar![03]" eob
+
+l_0xef74c9:
+    newline
+    "@[B9]Porky se disculp[C3]" linebreak
+    "  profusamente![03]" eob
+
+l_0xef74e6:
+    newline
+    "@[B9]Porky pens[C3]" linebreak
+    "  en s[C2] mismo![03]" eob
+
+l_0xef74fa:
+    newline
+    "@[B9]Porky actu[C3]" linebreak
+    "  todo inocente![03]" eob
+
+l_0xef7514:
+    newline
+    "@[B9]Porky sonri[C3]" linebreak
+    "  hip[C3]critamente![03]" eob
+
+l_0xef7530:
+    newline
+    "@[B9]Porky se quej[C3]" linebreak
+    "  con [1C 01 08]![03]" eob
+
+l_0xef7548:
+    newline
+    "@[B9]Porky intent[C3]" linebreak
+    "  acercarse al enemigo![03]" eob
+
+l_0xef7569:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} est[C0]" linebreak
+    "  ladrando![03]" eob
+
+l_0xef7579:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} est[C0]" linebreak
+    "  recitando un hechizo m[C0]gico![03]" eob
+
+l_0xef7591:
+    newline
+    eob
+
+l_0xef7593:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} est[C0]" linebreak
+    "  rascando su cabeza![03]" eob
+
+l_0xef75ab:
+    newline
+    "{sound(46)}@[B9]{delta} PV de da[C7]o" linebreak
+    "  a {asmcall_long(PrintLowDefArticleTarget)}{target}![03]" eob
+
+l_0xef75c2:
+    newline
+    "{sound(30)}@[B9]{delta} PV de da[C7]o" linebreak
+    "  a {asmcall_long(PrintLowDefArticleTarget)}{target}![03]" eob
+
+l_0xef75d9:
+    newline
+    "{sound(46)}@[B9]{delta} PV de da[C7]o" linebreak
+    "  a {asmcall_long(PrintLowDefArticleTarget)}{target}![03]" eob
+
+l_0xef75f0:
+    newline
+    "{sound(30)}@[B9]{delta} PV de da[C7]o" linebreak
+    "  a {asmcall_long(PrintLowDefArticleTarget)}{target}![03]" eob
+
+l_0xef7607:
+    newline
+    "{sound(47)}@[B9]{delta} PV de da[C7]o" linebreak
+    "  a {asmcall_long(PrintLowDefArticleTarget)}{target}![03]" eob
+
+l_0xef7624:
+    newline
+    "{sound(31)}  [1C 08 01]" linebreak
+    "[03]" eob
+
+l_0xef7630:
+    newline
+    "  [1C 08 01]" linebreak
+    "{sound(47)}[03]" eob
+
+l_0xef763c:
+    newline
+    "{sound(35)}@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target}" linebreak
+    "  esquiv[C3] r[C0]pidamente![03]" eob
+
+l_0xef7655:
+    newline
+    "{sound(35)}@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target}" linebreak
+    "  esquiv[C3] r[C0]pidamente![03]" eob
+
+l_0xef766e:
+    newline
+    "@[B9]No funcion[C3]" linebreak
+    "  en {asmcall_long(PrintLowDefArticleTarget)}{target}![03]" eob
+
+l_0xef7682:
+    newline
+    "@[B9]No funcion[C3]" linebreak
+    "  en {asmcall_long(PrintLowDefArticleTarget)}{target}![03]" eob

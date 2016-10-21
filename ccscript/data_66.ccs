@@ -1,0 +1,232 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import ebpp
+import Item_Articles
+import Enemy_Articles
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xef9a9e:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} estall[C3]" linebreak
+    "  en llamas!{sound(75)}[03]{pause(30)}" eob
+
+l_0xef9abb:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user}[19 1F][1B 02 {e(l_0xef9ae8)}]{swap} en su confusi[C3]n," next
+    "  rob[C3] {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00] durante la batalla![03]" eob
+
+l_0xef9ae8:
+    " intent[C3]" linebreak
+    "  robar algo, [B9]pero fall[C3]![03]" eob
+
+l_0xef9b02:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} te congel[C3]" linebreak
+    "  a tiempo!{music(4)}[03]{pause(1)}" eob
+
+l_0xef9b20:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} deslumbr[C3]" linebreak
+    "  con sus ojos espeluznantes![03]{pause(1)}" eob
+
+l_0xef9b43:
+    "{sound(25)}" newline
+    "@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} gener[C3]" linebreak
+    "  un misterioso campo el[C1]ctrico!{sound(77)}[03]{pause(1)}" eob
+
+l_0xef9b73:
+    newline
+    "{sound(25)}@{asmcall_long(PrintCapDefArticleAttacker)}{user} tropez[C3], pero lanz[C3] un extra[C7]o rayo.{sound(77)}[03]{pause(1)}" eob
+
+l_0xef9b96:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} eruct[C3]" linebreak
+    "  su aliento nauseabundo hacia ti!{sound(78)}[03]{pause(1)}" eob
+
+l_0xef9bc3:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} pic[C3]" linebreak
+    "  con su aguja venenosa![03]{pause(1)}" eob
+
+l_0xef9be6:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} di[C3]" linebreak
+    "  el beso de la muerte![03]{pause(1)}" eob
+
+l_0xef9c02:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} exhal[C3]" linebreak
+    "  su aliento de fr[C2]o [C0]rtico!{sound(81)}[03]{pause(1)}" eob
+
+l_0xef9c30:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} esparci[C3]" linebreak
+    "  esporas!{sound(82)}[03]{pause(1)}" eob
+
+l_0xef9c51:
+    newline
+    "{sound(25)}@{asmcall_long(PrintCapDefArticleAttacker)}{user} intent[C3]" linebreak
+    "  poseerte de forma aterradora.{sound(96)}[03]{pause(1)}" eob
+
+l_0xef9c7e:
+    newline
+    "{sound(25)}@{asmcall_long(PrintCapDefArticleAttacker)}{user} espolvore[C3] un polvo de olor maravilloso.{sound(82)}[03]{pause(1)}" eob
+
+
+l_0xef9cad:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} esparci[C3]" linebreak
+    "  esporas mohosas!{sound(82)}[03]{pause(1)}" eob
+
+l_0xef9cd1:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} emple[C3]" linebreak
+    "  un ataque de atadura![03]{pause(1)}" eob
+
+l_0xef9cf1:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} escupi[C3] un moco pegajoso!{sound(81)}[03]{pause(1)}" eob
+
+l_0xef9d14:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} arroj[C3]" linebreak
+    "  <Miel de Mosca> fuera de su boca!{sound(81)}[03]{pause(1)}" eob
+
+l_0xef9d3e:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} dispar[C3]" linebreak
+    "  seda de ara[C7]a de su cuerpo![03]" eob
+
+l_0xef9d62:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} dijo" linebreak
+    "  algo muy horripilante!{sound(84)}[03]{pause(1)}" eob
+
+l_0xef9d81:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} hizo" linebreak
+    "  algo muy misterioso!{sound(85)}[03]{pause(1)}" eob
+
+l_0xef9da1:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} transtorn[C3]" linebreak
+    "  tus sentidos![03]" eob
+
+l_0xef9dbd:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} est[C0]" linebreak
+    "  analizando la situaci[C3]n![03]" eob
+
+l_0xef9dda:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} exhal[C3]" linebreak
+    "  una explosi[C3]n de aliento apestoso!{sound(92)}[03]{pause(1)}" eob
+
+l_0xef9e05:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} invoc[C3]" linebreak
+    "  una tormenta!{sound(86)}[03]{pause(1)}" eob
+
+l_0xef9e22:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} derram[C3]" linebreak
+    "  un poco de espreso hirviendo![03]" eob
+
+l_0xef9e47:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} toc[C3]" linebreak
+    "  una inquietante melod[C2]a![03]{pause(1)}" eob
+
+l_0xef9e69:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} dispens[C3]" linebreak
+    "  una explosi[C3]n extinguidora!{sound(88)}[03]{pause(1)}" eob
+
+l_0xef9e92:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} us[C3] un" linebreak
+    "  ataque de Choque Boom Bang![03]" eob
+
+l_0xef9eb4:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} dispar[C3]" linebreak
+    "  un roc[C2]o de fuego!{sound(75)}[03]{pause(1)}" eob
+
+l_0xef9ed7:
+    newline
+    "{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} sopl[C3]" linebreak
+    "  fuego!{sound(75)}[03]{pause(1)}" eob
+
+l_0xef9ef4:
+    "{store_registers}" newline
+    "[1D 22][1B 02 {e(l_0xef9f9f)}][06 0A 03 {e(l_0xef9fe2)}]{isset(flag 180)}[1B 03 {e(l_0xefa002)}]{isset(flag 181)}[1B 03 {e(l_0xefa07e)}]{isset(flag 645)}[1B 03 {e(l_0xefa07e)}]{isset(flag 446)}[1B 03 {e(l_0xefa029)}]{isset(flag 646)}[1B 03 {e(l_0xefa029)}]{isset(flag 647)}[1B 03 {e(l_0xefa029)}]{isset(flag 648)}[1B 03 {e(l_0xefa029)}]{isset(flag 675)}[1B 03 {e(l_0xefa002)}]{isset(flag 694)}[1B 03 {e(l_0xefa07e)}]{isset(flag 695)}[1B 03 {e(l_0xefa07e)}][06 FE 02 {e(l_0xefa0b7)}][1F 41 05]@(El rat[C3]n encontr[C3] la salida e" next
+	"@hizo se[C7]as para que lo sigas.)[03][1F 69]{load_registers}[1D 0F 00 00]{unset(flag 512)}[1F 41 06]" call(data_36.l_0xc7de60) eob
+
+l_0xef9f9f:
+    "@([B9]El Rat[C3]n de Salida no puede hacer su trabajo" next
+    "@a menos que est[C1] en un agujero, una cueva, o alg[C4]n" linebreak
+    "  lugar con salida!)" end
+
+l_0xef9fe2:
+    "@(A estas horas, el rat[C3]n est[C0] dormido profundamente.)" end
+
+l_0xefa002:
+    "@No deber[C2]as dejar ir al rat[C3]n" next
+    "@hasta que haya llegado la pizza." end
+
+l_0xefa029:
+    "@Si sacas el rat[C3]n ahora, podr[C2]a ser pisado por un cliente que se acerque." next
+    "@As[C2] que... No es buena idea sacar al rat[C3]n ahora." end
+
+l_0xefa07e:
+    "@Por favor qu[C1]date hasta que llegue el Escargo Express." next
+    "@As[C2] que... [B9]No uses el Rat[C3]n de Salida!" eob
+
+l_0xefa0b7:
+    "@Por alguna raz[C3]n, el Rat[C3]n de Salida no parece estar de acuerdo." end
+
+l_0xefa0dc:
+    "{swap}@[1C 02 00] lee los jerogl[C2]ficos." next
+    "@<Para pelear contra los invasores, construimos esta pir[C0]mide como fortaleza." next
+    "@Sin embargo, nuestros esfuerzos fueron en vano, y perdimos." next
+    "@A pesar de ello, nuestra pir[C0]mide fue protegida por los dioses de Scaraba." next
+    "@Los invasores renacer[C0]n cada milenio y atacar[C0]n de nuevo." next
+    "@Incluso ahora, los invasores est[C0]n m[C0]s all[C0] del tiempo y del espacio," next
+    "@y construyen su mal[C1]fico fuerte." next
+    "@Un lugar fuera del tiempo est[C0] m[C0]s all[C0] de la Oscuridad," next
+    "@y est[C0] mucho m[C0]s all[C0] del Inframundo Perdido." next
+    "@La Profunda Oscuridad est[C0] cubierta, sin una sola luz." next
+    "@S[C3]lo aquel que tenga el [1C 05 AF] podr[C0] perforar la oscuridad." next
+    "@La Esfinge ahora observa todo," next
+    "@esperando la llegada de un verdadero h[C1]roe valiente." next
+    "@   #" linebreak
+    "  4   3" linebreak
+    "   2 5" next
+    "@[B9]Baila enfrente de la esfinge!>" end
+
+l_0xefa2ab:
+    "[1F 41 07][1B 02 {e(l_0xefa2b5)}]" eob
+
+l_0xefa2b5:
+    "@Este pueblo no aparece en el mapa." end
+
+l_0xefa2c9:
+    "[06 6C 00 {e(l_0xefa2d5)}]" call(data_27.l_0xc6fb20) goto(l_0xefa2d5)
+
+l_0xefa2d5:
+    eob
+
+l_0xefa2d6:
+    "{store_registers}[19 19 00 00]{swap}{result_is(170)}[1B 02 {e(data_27.l_0xc6fb5d)}]" call(data_27.l_0xc6fb33) "{load_registers}[1D 0F 00 00][1F 1E 93 00 06]{set(flag 108)}" eob
+
+l_0xefa2fa:
+    "{set(flag 11)}[1F 15 6A 00 91 00 01][1F EF 6A 00][1F E8 FF][1F 61][1F EB FF 06]{music(83)}{music_switching_off}[1F ED][1F E5 FF][1F 15 A2 00 8B 00 01][1F 61][1F E9 6F 02][1F 61][1F 21 AE][1F 15 D1 00 92 00 01]{pause(1)}[1F EF D1 00][1F E8 FF]{pause(1)}[1F 61][1F ED][1F E5 FF][1F 11 01][1F 11 02][1F 12 03][1F 21 4D][1F 15 0D 00 B0 00 01]{pause(60)}[1F 1F 0D 00 06][1F 15 03 00 B1 00 01]{pause(1)}[1F E7 03 00]{window_open(1)}{unset(flag 11)}" goto(data_43.l_0xc884d0)
+
+l_0xefa379:
+    eob

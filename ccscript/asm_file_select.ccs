@@ -1,0 +1,37 @@
+import asm65816
+
+ROM[0xC1F08C] = ASMLoadAddress0E (Continue)
+ROM[0xC1F0C5] = ASMLoadAddress0E (Copy)
+ROM[0xC1F102] = ASMLoadAddress0E (Delete)
+ROM[0xC1F120] = ASMLoadAddress0E (SetUp)
+
+// Copy horizontal alignment
+ROM[0xC1F0DC] = LDX_i (0x0006)
+
+// Delete horizontal alignment
+ROM[0xC1F117] = LDX_i (0x000B)
+
+// Set Up horizontal alignment
+ROM[0xC1F135] = LDX_i (0x0010)
+
+Continue:
+"Continuar[00]"
+
+Copy:
+"Copiar[00]"
+
+Delete:
+"Borrar[00]"
+
+SetUp:
+"Configurar[00]"
+
+ROM[0xC1EE9B] = ASMLoadAddress12 (level)
+ROM[0xC1F326] = ASMLoadAddress0E (level)
+
+level:
+"Nivel:[00]"
+
+/*Copy where?" Animation Data */
+
+ROM[0xC4C0B0] = "[B8 71 50 94 C3 9E 94 95 6F 00 00]"

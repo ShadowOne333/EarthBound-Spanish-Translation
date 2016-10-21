@@ -1,0 +1,346 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import ebpp
+import Item_Articles
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc5cf0a:
+    "@Oh, creo que no puedes llevar m[C0]s." end
+
+l_0xc5cf1c:
+    "@Muchas gracias." next
+    eob
+
+l_0xc5cf26:
+    "@Muchas gracias." next
+    eob
+
+l_0xc5cf30:
+    "@[B8]Quieres comprar algo m[C0]s?" linebreak
+    eob
+
+l_0xc5cf3d:
+    "@[1C 02 00] ya lleva demasiadas cosas." next
+    "@[B8]Alguien m[C0]s quiere llevarlo?" linebreak
+    eob
+
+l_0xc5cf60:
+    " resort)" goto(l_0xc5cf67)
+
+l_0xc5cf67:
+    "@[B9]Tenemos cosas espectaculares!" next
+    eob
+
+l_0xc5cf82:
+    "@Vuelve pronto." end
+
+l_0xc5cf8a:
+    "@[B9]En serio, deber[C2]as comer aqu[C2]! " end
+
+l_0xc5cf9b:
+    "@[B8]Qu[C1] necesitas?[03]" eob
+
+l_0xc5cfa6:
+    "@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?" next
+    eob
+
+l_0xc5cfae:
+    "@[B8]Qui[C1]n va a llevarlo?[03]" eob
+
+l_0xc5cfba:
+    "@[B8]Entonces no vas a comprar nada...?" end
+
+l_0xc5cfd5:
+    "@No llevas suficiente dinero." end
+
+l_0xc5cfdf:
+    "@Llevas demasiadas cosas." next
+    "@Vende o tira cualquier cosa, y ven otra vez." end
+
+l_0xc5d00c:
+    "@Muchas gracias.[03]" eob
+
+l_0xc5d015:
+    "@Muchas gracias.[03]" eob
+
+l_0xc5d01e:
+    "@[B8]Quieres comprar otro?" linebreak
+    eob
+
+l_0xc5d02d:
+    "@[1C 02 00] ya lleva muchas cosas." next
+    "@[B8]Qui[C1]n m[C0]s puede llevarlo?" linebreak
+    eob
+
+l_0xc5d050:
+    "@Oooga boooga." linebreak
+    "  ([B8]Puedo ayudarles?)" next
+    eob
+
+l_0xc5d06d:
+    "@[B9]Ungawa goongaloo!" linebreak
+    "  (Muchas gracias.)" end
+
+l_0xc5d08d:
+    "@[B9]Woongu Goongaree!" linebreak
+    "  (Por favor, vuelve pronto.)" end
+
+l_0xc5d0aa:
+    "@[B8]Wakka ungawa?" linebreak
+    "  ([B8]Qu[C1] necesitas?)" next
+    eob
+
+l_0xc5d0c9:
+    "@[B8]Wunga Din?" linebreak
+    "  ([B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?)" next
+    eob
+
+l_0xc5d0df:
+    "@[B8][B9]Spoongawa goonga ugh!?" linebreak
+    "  ([B8]Qui[C1]n va a llevarlo?)[03]" eob
+
+l_0xc5d104:
+    "@[B9]Goongoo, woo woo!" linebreak
+    "  (Vuelve pronto.)" next
+    eob
+
+l_0xc5d120:
+    "@[B9][B9]Wunga woo gun woonga wakka!!" linebreak
+    "  (No tienes suficiente dinero.)" next
+    eob
+
+l_0xc5d148:
+    "@[B9]Uah!  [B9]Woon woonga wakka woo!" linebreak
+    "  (Ya llevas demasiadas cosas.)" end
+
+l_0xc5d178:
+    "@[B9]Ungaah, goon wakkawoo!" linebreak
+    "  (Muchas gracias.)" next
+    eob
+
+l_0xc5d19d:
+    "@[B9]Wanga woon gawa din goo!" linebreak
+    "  (Gracias por comprar aqu[C2].)" next
+    eob
+
+l_0xc5d1c7:
+    "@[B8][B9]Wakka gowoon din woo?!" linebreak
+    "  ([B8]Algo m[C0]s?)" linebreak
+    eob
+
+l_0xc5d1ed:
+    "@[B9]Ungawa ungawa ungawa woo!  [B9]Wonga wakka woonga!" linebreak
+    "  ([1C 02 00] lleva ya muchas cosas." next
+    "@  [B8]Alguien puede ayudar a {swap}" call(data_37.l_0xc7e6a4) " a llevarlo?)" linebreak
+    eob
+
+l_0xc5d24b:
+    "{set(flag 226)}" call(data_14.l_0xc5decb) "{unset(flag 226)}" eob
+
+l_0xc5d257:
+    "{set(flag 227)}" call(data_14.l_0xc5decb) "{unset(flag 227)}" eob
+
+l_0xc5d263:
+    "{set(flag 228)}" call(data_15.l_0xc5dfb1) "{unset(flag 228)}" eob
+
+l_0xc5d26f:
+    "{set(flag 229)}" call(data_15.l_0xc5dfb1) "{unset(flag 229)}" eob
+
+l_0xc5d27b:
+    "{set(flag 230)}" call(data_15.l_0xc5dfb1) "{unset(flag 230)}" eob
+
+l_0xc5d287:
+    "{set(flag 231)}" call(data_15.l_0xc5dfb1) "{unset(flag 231)}" eob
+
+l_0xc5d293:
+    "{set(flag 232)}" call(data_15.l_0xc5dfb1) "{unset(flag 232)}" eob
+
+l_0xc5d29f:
+    "{set(flag 233)}" call(data_14.l_0xc5decb) "{unset(flag 233)}" eob
+
+l_0xc5d2ab:
+    "{set(flag 234)}" call(data_14.l_0xc5decb) "{unset(flag 234)}" eob
+
+l_0xc5d2b7:
+    "{set(flag 235)}{set(flag 656)}" call(data_14.l_0xc5decb) "{unset(flag 235)}{unset(flag 656)}" eob
+
+l_0xc5d2c9:
+    "{set(flag 236)}{set(flag 656)}" call(data_15.l_0xc5dfb1) "{unset(flag 236)}{unset(flag 656)}" eob
+
+l_0xc5d2db:
+    "{set(flag 237)}{set(flag 656)}" call(data_15.l_0xc5dfb1) "{unset(flag 237)}{unset(flag 656)}" eob
+
+l_0xc5d2ed:
+    "{set(flag 238)}{set(flag 656)}" call(data_15.l_0xc5e02f) "{unset(flag 238)}{unset(flag 656)}" eob
+
+l_0xc5d2ff:
+    "{set(flag 239)}" call(data_14.l_0xc5decb) "{unset(flag 239)}" eob
+
+l_0xc5d30b:
+    "{set(flag 240)}" call(data_14.l_0xc5decb) "{unset(flag 240)}" eob
+
+l_0xc5d317:
+    "{set(flag 241)}" call(data_14.l_0xc5decb) "{unset(flag 241)}" eob
+
+l_0xc5d323:
+    "{set(flag 242)}" call(data_14.l_0xc5decb) "{unset(flag 242)}" eob
+
+l_0xc5d32f:
+    "{set(flag 243)}{set(flag 656)}" call(data_14.l_0xc5decb) "{unset(flag 243)}{unset(flag 656)}" eob
+
+l_0xc5d341:
+    "{set(flag 244)}" call(data_15.l_0xc5dfb1) "{unset(flag 244)}" eob
+
+l_0xc5d34d:
+    "{set(flag 245)}" call(data_14.l_0xc5decb) "{unset(flag 245)}" eob
+
+l_0xc5d359:
+    "{set(flag 246)}{set(flag 656)}" call(data_15.l_0xc5dfb1) "{unset(flag 246)}{unset(flag 656)}" eob
+
+l_0xc5d36b:
+    "{set(flag 247)}{set(flag 656)}" call(data_15.l_0xc5dfb1) "{unset(flag 247)}{unset(flag 656)}" eob
+
+l_0xc5d37d:
+    "{set(flag 248)}" call(data_14.l_0xc5decb) "{unset(flag 248)}" eob
+
+l_0xc5d389:
+    "{set(flag 249)}" call(data_14.l_0xc5decb) "{unset(flag 249)}" eob
+
+l_0xc5d395:
+    "{set(flag 250)}" call(data_14.l_0xc5decb) "{unset(flag 250)}" eob
+
+l_0xc5d3a1:
+    "{set(flag 251)}" call(data_14.l_0xc5decb) "{unset(flag 251)}" eob
+
+l_0xc5d3ad:
+    "{set(flag 252)}" call(data_14.l_0xc5decb) "{unset(flag 252)}" eob
+
+l_0xc5d3b9:
+    "{set(flag 253)}{set(flag 656)}" call(data_15.l_0xc5dfb1) "{unset(flag 253)}{unset(flag 656)}" eob
+
+l_0xc5d3cb:
+    "{set(flag 254)}{set(flag 656)}" call(data_14.l_0xc5decb) "{unset(flag 254)}{unset(flag 656)}" eob
+
+l_0xc5d3dd:
+    "{set(flag 255)}" call(data_15.l_0xc5dfb1) "{unset(flag 255)}" eob
+
+l_0xc5d3e9:
+    "{set(flag 256)}" call(data_14.l_0xc5decb) "{unset(flag 256)}" eob
+
+l_0xc5d3f5:
+    "{set(flag 257)}" call(data_14.l_0xc5decb) "{unset(flag 257)}" eob
+
+l_0xc5d401:
+    "{set(flag 258)}" call(data_15.l_0xc5dfb1) "{unset(flag 258)}" eob
+
+l_0xc5d40d:
+    "{set(flag 259)}" call(data_14.l_0xc5decb) "{unset(flag 259)}" eob
+
+l_0xc5d419:
+    "{set(flag 260)}" call(data_14.l_0xc5decb) "{unset(flag 260)}" eob
+
+l_0xc5d425:
+    "{set(flag 261)}" call(data_15.l_0xc5dfb1) "{unset(flag 261)}" eob
+
+l_0xc5d431:
+    "{set(flag 262)}" call(data_15.l_0xc5dfb1) "{unset(flag 262)}" eob
+
+l_0xc5d43d:
+    "{set(flag 263)}{set(flag 656)}" call(data_14.l_0xc5decb) "{unset(flag 263)}{unset(flag 656)}" eob
+
+l_0xc5d44f:
+    "{set(flag 264)}{set(flag 656)}" call(data_15.l_0xc5dfb1) "{unset(flag 264)}{unset(flag 656)}" eob
+
+l_0xc5d461:
+    "{set(flag 265)}" call(data_14.l_0xc5decb) "{unset(flag 265)}" eob
+
+l_0xc5d46d:
+    "{set(flag 266)}{set(flag 656)}" call(data_15.l_0xc5dfb1) "{unset(flag 266)}{unset(flag 656)}" eob
+
+l_0xc5d47f:
+    "{set(flag 267)}" call(data_14.l_0xc5decb) "{unset(flag 267)}" eob
+
+l_0xc5d48b:
+    "{set(flag 268)}{set(flag 656)}" call(data_15.l_0xc5e02f) "{unset(flag 268)}{unset(flag 656)}" eob
+
+l_0xc5d49d:
+    "{set(flag 269)}{set(flag 656)}" call(data_15.l_0xc5e02f) "{unset(flag 269)}{unset(flag 656)}" eob
+
+l_0xc5d4af:
+    "{set(flag 270)}{set(flag 656)}" call(data_15.l_0xc5dfb1) "{unset(flag 270)}{unset(flag 656)}" eob
+
+l_0xc5d4c1:
+    "{set(flag 271)}" call(data_14.l_0xc5decb) "{unset(flag 271)}" eob
+
+l_0xc5d4cd:
+    "{set(flag 324)}{set(flag 656)}" call(data_15.l_0xc5dfb1) "{unset(flag 324)}{unset(flag 656)}" eob
+
+l_0xc5d4df:
+    "{set(flag 325)}{set(flag 656)}" call(data_14.l_0xc5decb) "{unset(flag 325)}{unset(flag 656)}" eob
+
+l_0xc5d4f1:
+    "{set(flag 326)}{set(flag 656)}" call(data_14.l_0xc5decb) "{unset(flag 326)}{unset(flag 656)}" eob
+
+l_0xc5d503:
+    "{set(flag 478)}{set(flag 656)}" call(data_15.l_0xc5dfb1) "{unset(flag 478)}{unset(flag 656)}" eob
+
+l_0xc5d515:
+    "{set(flag 597)}{set(flag 656)}" call(data_15.l_0xc5dfb1) "{unset(flag 597)}{unset(flag 656)}" eob
+
+l_0xc5d527:
+    "{set(flag 598)}{set(flag 656)}" call(data_15.l_0xc5e02f) "{unset(flag 598)}{unset(flag 656)}" eob
+
+l_0xc5d539:
+    "{set(flag 599)}{set(flag 656)}" call(data_14.l_0xc5decb) "{unset(flag 599)}{unset(flag 656)}" eob
+
+l_0xc5d54b:
+    "{set(flag 600)}{set(flag 656)}" call(data_14.l_0xc5decb) "{unset(flag 600)}{unset(flag 656)}" eob
+
+l_0xc5d55d:
+    "{set(flag 653)}{set(flag 656)}" call(data_14.l_0xc5decb) "{unset(flag 653)}{unset(flag 656)}" eob
+
+l_0xc5d56f:
+    "{set(flag 731)}{set(flag 656)}" call(data_14.l_0xc5decb) "{unset(flag 731)}{unset(flag 656)}" eob
+
+l_0xc5d581:
+    "{set(flag 732)}{set(flag 656)}" call(data_14.l_0xc5decb) "{unset(flag 732)}{unset(flag 656)}" eob
+
+l_0xc5d593:
+    "{set(flag 733)}{set(flag 656)}{set(flag 659)}" call(data_15.l_0xc5dfb1) "{unset(flag 733)}{unset(flag 656)}{unset(flag 659)}" eob
+
+l_0xc5d5ab:
+    "[06 E2 00 {e(l_0xc5d742)}][06 E3 00 {e(l_0xc5d746)}][06 E4 00 {e(l_0xc5d74a)}][06 E5 00 {e(l_0xc5d74e)}][06 E6 00 {e(l_0xc5d752)}][06 E7 00 {e(l_0xc5d756)}][06 E8 00 {e(l_0xc5d75a)}][06 E9 00 {e(l_0xc5d75e)}][06 EA 00 {e(l_0xc5d762)}][06 EB 00 {e(data_14.l_0xc5d766)}][06 EC 00 {e(data_14.l_0xc5d76a)}][06 ED 00 {e(data_14.l_0xc5d76e)}][06 EE 00 {e(data_14.l_0xc5d772)}][06 EF 00 {e(data_14.l_0xc5d776)}][06 F0 00 {e(data_14.l_0xc5d77a)}][06 F1 00 {e(data_14.l_0xc5d77e)}][06 F2 00 {e(data_14.l_0xc5d782)}][06 F3 00 {e(data_14.l_0xc5d786)}][06 F4 00 {e(data_14.l_0xc5d78a)}][06 F5 00 {e(data_14.l_0xc5d78e)}][06 F6 00 {e(data_14.l_0xc5d792)}][06 F7 00 {e(data_14.l_0xc5d7a1)}][06 F8 00 {e(data_14.l_0xc5d7a5)}][06 F9 00 {e(data_14.l_0xc5d7a9)}][06 FA 00 {e(data_14.l_0xc5d7ad)}][06 FB 00 {e(data_14.l_0xc5d7b1)}][06 FC 00 {e(data_14.l_0xc5d7b5)}][06 FD 00 {e(data_14.l_0xc5d7b9)}][06 FE 00 {e(data_14.l_0xc5d7bd)}][06 FF 00 {e(data_14.l_0xc5d7c1)}][06 00 01 {e(data_14.l_0xc5d7c5)}][06 01 01 {e(data_14.l_0xc5d7c9)}][06 02 01 {e(data_14.l_0xc5d7cd)}][06 03 01 {e(data_14.l_0xc5d7d1)}][06 04 01 {e(data_14.l_0xc5d7d5)}][06 05 01 {e(data_14.l_0xc5d7d9)}][06 06 01 {e(data_14.l_0xc5d7dd)}][06 07 01 {e(data_14.l_0xc5d7e1)}][06 08 01 {e(data_14.l_0xc5d7e5)}][06 09 01 {e(data_14.l_0xc5d7e9)}][06 0A 01 {e(data_14.l_0xc5d7ed)}][06 0B 01 {e(data_14.l_0xc5d7f1)}][06 0C 01 {e(data_14.l_0xc5d7f5)}][06 0D 01 {e(data_14.l_0xc5d7f9)}][06 0E 01 {e(data_14.l_0xc5d7fd)}][06 0F 01 {e(data_14.l_0xc5d801)}][06 44 01 {e(data_14.l_0xc5d805)}][06 45 01 {e(data_14.l_0xc5d809)}][06 46 01 {e(data_14.l_0xc5d80d)}][06 DE 01 {e(data_14.l_0xc5d811)}][06 55 02 {e(data_14.l_0xc5d815)}][06 56 02 {e(data_14.l_0xc5d819)}][06 57 02 {e(data_14.l_0xc5d81d)}][06 58 02 {e(data_14.l_0xc5d821)}][06 8D 02 {e(data_14.l_0xc5d825)}][06 DB 02 {e(data_14.l_0xc5d829)}][06 DC 02 {e(data_14.l_0xc5d82d)}][06 DD 02 {e(data_14.l_0xc5d831)}]" eob
+
+l_0xc5d742:
+    "[1A 06 01]" eob
+
+l_0xc5d746:
+    "[1A 06 02]" eob
+
+l_0xc5d74a:
+    "[1A 06 04]" eob
+
+l_0xc5d74e:
+    "[1A 06 04]" eob
+
+l_0xc5d752:
+    "[1A 06 05]" eob
+
+l_0xc5d756:
+    "[1A 06 06]" eob
+
+l_0xc5d75a:
+    "[1A 06 07]" eob
+
+l_0xc5d75e:
+    "[1A 06 08]" eob
+
+l_0xc5d762:
+    "[1A 06 09]" eob
+

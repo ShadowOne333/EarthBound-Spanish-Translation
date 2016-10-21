@@ -1,0 +1,116 @@
+// Routines for changing different words in the game to match number/gender
+
+command e(label) "{long label}"
+
+
+/* Labels for Party Members number check */
+verb_party:
+	"[1D 19 02][1B 02 {e(verb_multi)}]gan[C3]" eob
+	
+verb_multi:
+	"ganaron" eob
+
+run_party:
+	"[1D 19 02][1B 02 {e(run_multi)}]intent[C3]" eob
+	
+run_multi:
+	"intentaron" eob
+
+fail_party:
+	"[1D 19 02][1B 02 {e(fail_multi)}]pudo" eob
+	
+fail_multi:
+	"pudieron" eob
+
+success_party:
+	"[1D 19 02][1B 02 {e(success_multi)}]logr[C3]" eob
+	
+success_multi:
+	"lograron" eob
+	
+carry_party:
+	"[1D 19 02][1B 02 {e(carry_multi)}]pu[C4]" eob
+	
+carry_multi:
+	"possono" eob
+	
+smoke_party:
+	"[1D 19 02][1B 02 {e(smoke_multi)}]viene" eob
+	
+smoke_multi:
+	"vengono" eob
+	
+have_party:
+	"[1D 19 02][1B 02 {e(have_multi)}]obtuvo" eob
+	
+have_multi:
+	"obtuvieron" eob
+	
+be_party:
+	"[1D 19 02][1B 02 {e(be_multi)}]eres" eob //sei
+	
+be_multi:
+	"son" eob //siete
+	
+ticket_party:
+	"[1D 19 02][1B 02 {e(ticket_multi)}]hai" eob
+	
+ticket_multi:
+	"avete" eob
+	
+friends_party:
+	"[1D 19 02][1B 02 {e(friends_multi)}]amico" eob //amico
+	
+friends_multi:
+	"amici" eob //amici
+
+
+/* Labels for Enemy Party Members number check */
+
+trap_party:
+	"[1C 14 02][09 03 {e(trap_single)} {e(trap_multi1)} {e(trap_multi2)}]atraparon" eob
+	
+trap_single:
+	"atrap[C3]" eob
+
+trap_multi1:
+	"atraparon" eob
+
+trap_multi2:
+	"atraparon" eob
+
+come_party:
+	"[1C 14 02][09 03 {e(come_single)} {e(come_multi1)} {e(come_multi2)}]vinieron" eob
+
+come_single:
+	"vino" eob
+
+come_multi1:
+	"vinieron" eob
+
+come_multi2:
+	"vinieron" eob
+
+block_party:
+	"[1C 14 02][09 03 {e(block_single)} {e(block_multi1)} {e(block_multi2)}]bloquearon" eob
+
+block_single:
+	"bloque[C3]" eob
+
+block_multi1:
+	"bloquearon" eob
+
+block_multi2:
+	"bloquearon" eob
+
+attack_party:
+	"[1C 14 02][09 03 {e(attack_single)} {e(attack_multi1)} {e(attack_multi2)}]atacaron" eob
+
+attack_single:
+	"atac[C3]" eob
+
+attack_multi1:
+	"atacaron" eob
+
+attack_multi2:
+	"atacaron" eob

@@ -1,0 +1,355 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc98db4:
+    "[03][06 79 00 {e(l_0xc98dd9)}]" newline
+    "@[B8]Ya pagaron?{pause(20)}  Bien, bien.{wait}{unset(flag 120)}" eob
+
+l_0xc98dd9:
+    newline
+    "@[B9]Me fije que no hab[C2]an pagado![03]" call(data_23.l_0xc6852a) "[1B 03 {e(data_23.l_0xc683de)}]{window_open(1)}" newline
+    goto(l_0xc98df9)
+
+l_0xc98df9:
+    "@Ganaste esta confrontaci[C3]n." next
+    "@Pero el lado bueno de ti debe estar sufriendo en remordimiento.  Ha ha ha.{wait}{set(flag 67)}" eob
+
+l_0xc98e33:
+    "@Dicen que alguien llamado Porky rob[C3] toda la comida del puesto." end
+
+l_0xc98e5e:
+    "@De una forma diferente a la de antes, el Sr. Carpainter se a vuelto un muy buen hombre." end
+
+l_0xc98e8d:
+    "[06 44 00 {e(l_0xc98e9a)}]" call(data_20.l_0xc64eca) eob
+
+l_0xc98e9a:
+    "@(Gracias por su apoyo a trav[C1]s de los a[C7]os." next
+    "@El puesto de comida se retira del negocio debido a razones personales.)" end
+
+l_0xc98ede:
+    "[06 49 00 {e(data_54.l_0xc98940)}][06 44 00 {e(l_0xc98f27)}]@Un d[C2]a, el Sr. Carpainter recibi[C3] una revelaci[C3]n." next
+    "@[B1]l ahora habla con la verdad." end
+
+l_0xc98f27:
+    "@Despert[C1] de un sue[C7]o." end
+
+l_0xc98f37:
+    "[06 49 00 {e(data_54.l_0xc98940)}][06 44 00 {e(l_0xc99002)}]@No parece que hayas entendido,{pause(15)} as[C2] que te lo explicar[C1]." next
+    "@Cuando el mundo se cambia a azul,{pause(15)} un pa[C2]s pac[C2]fico puede ser establecido." next
+    "@[B8]Lo entiendes ahora?" linebreak
+    "  [19 02]S[C2]" eob
+
+l_0xc98fa3:
+    "  [19 02]No" eob
+
+l_0xc98faa:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc98fd3)} {e(l_0xc98fb9)}]" goto(l_0xc98fb9)
+
+l_0xc98fb9:
+    "@Aunque no lo entiendas ahora, alg[C4]n d[C2]a lo har[C0]s." end
+
+l_0xc98fd3:
+    "@Puedo ver en tu rostro que s[C3]lo est[C0]s pretendiendo entender." next
+    "@[B9]T[C4] quieres algo!" end
+
+l_0xc99002:
+    "@Estaba mal en muchas formas." end
+
+l_0xc99018:
+    "[06 49 00 {e(l_0xc99088)}][06 44 00 {e(l_0xc99061)}]@El Sr. Carpainter se comunica con los dioses," next
+    "  as[C2] que el puede entregar mensajes de inspiraci[C3]n." end
+
+l_0xc99061:
+    "@Puede que hayamos estado escuchando mensajes de maldad en lugar de bondad." end
+
+l_0xc99088:
+    "@[B8]No crees que la salud mental de todos en la aldea ha mejorado?" end
+
+l_0xc990b3:
+    "[06 49 00 {e(data_54.l_0xc98940)}][06 44 00 {e(l_0xc99104)}]@Puede que malinterpretes lo que tengo que decir," next
+    "@Pero la voz de Carpainter afecta la mente de los dem[C0]s, como un hipnotista." end
+
+l_0xc99104:
+    "@Parece que ya no estoy hipnotizado." end
+
+l_0xc99120:
+    "[06 49 00 {e(l_0xc9919b)}][06 44 00 {e(l_0xc99171)}]@Cuando pint[C1] todo de azul, como el Sr. Carpainter dijo," next
+    "@[B9]mi esposa que se hab[C2]a ido regres[C3] a casa!" end
+
+l_0xc99171:
+    "@Mi esposa huy[C3] por segunda vez.{pause(20)}  Vaya que tengo p[C1]sima suerte..." end
+
+l_0xc9919b:
+    "@Wow, ha sido un largo tiempo.{pause(20)}  Tu gorro...  [B8]Lo lavas siquiera?" end
+
+l_0xc991c7:
+    "[06 D3 00 {e(l_0xc99260)}][06 44 00 {e(l_0xc9922d)}]@Creo que aquellos que no pintan todo de azul se oponen a la paz." next
+    "@Quiero que todos ellos escuchen,{pause(15)} aunque eso requiera patearles el trasero." end
+
+l_0xc9922d:
+    "@Necesitamos regresar el pueblo a sus colores originales.{pause(20)}  Estar[C1] muy ocupado." end
+
+l_0xc99260:
+    "@No deber[C2]a buscar la felicidad tan desesperadamente." end
+
+l_0xc99282:
+    "[06 49 00 {e(l_0xc992d1)}][06 44 00 {e(l_0xc992b6)}]@[B9]Azul, azul!" next
+    "@Deseo que todo en este mundo se vuelva azul." end
+
+l_0xc992b6:
+    "@Fue inc[C3]modo para la vista el tener todo de azul." end
+
+l_0xc992d1:
+    "@Hey,{pause(15)} cu[C0]nto tiempo sin verte." next
+    "@YEres un amigo de los famosos Hermanos Fugitivos." end
+
+l_0xc992fa:
+    "[06 49 00 {e(l_0xc99389)}][06 44 00 {e(l_0xc99362)}]@[B8]Quieres hablar con el Sr. Carpainter directamente?" next
+    "@Debes pensar que eres muy importante, [B9]y vaya que tienes muchas agallas!" next
+    "@Mereces ser golpeado por un rayo y morir." end
+
+l_0xc99362:
+    "@El Sr. Carpainter estaba muy extra[C7]o.{pause(20)}  Pero tambi[C1]n los dem[C0]s lo estaban." end
+
+l_0xc99389:
+    "@[B9]Hola!{pause(20)}  Estoy bien.{pause(30)}  T[C4] te ves bien tambi[C1]n." end
+
+l_0xc993a5:
+    "[06 49 00 {e(l_0xc9946f)}][06 44 00 {e(l_0xc99411)}][06 0A 00 {e(l_0xc99438)}][06 7B 00 {e(l_0xc99405)}]@(S[C3]lo soy una simple y vieja vaca,{pause(15)}  pero los mensajes del Sr. Carpainter siempre me mu{pause(5)}u{pause(5)}u{pause(5)}even.){wait}{set(flag 123)}" eob
+
+l_0xc99405:
+    "@([B9]Moo!){wait}{unset(flag 123)}" eob
+
+l_0xc99411:
+    "@(Eso de la vaca azul no era una gran idea despu[C1]s de todo, huh.)" end
+
+l_0xc99438:
+    "@(Te mo{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}viste aqu[C2] porque le diste al Sr. Carpainter una mala mueca.)" end
+
+l_0xc9946f:
+    "@(Tengo mu{pause(5)}u{pause(5)}u{pause(5)}u{pause(5)}cho m[C0]s respeto por el Sr. Carpainter que por los dem[C0]s." next
+    "@Aunque me convierta en el filete de alguien,{pause(15)} A[C4]n as[C2] lo respetar[C1].)" end
+
+l_0xc994cb:
+    "@(Valle de los Muertos Agradecidos adelante.{pause(20)}  Proceda a trav[C1]s de la cueva.)" end
+
+l_0xc994f5:
+    call(data_48.l_0xc903ed) eob
+
+l_0xc994fb:
+    "[06 49 00 {e(l_0xc99555)}]@Azul, azul..." next
+    "@[B9]Oops!  No lo dir[C1] de nuevo." next
+    "@Repar[C1] el puente en se[C7]al de disculpa.{pause(20)}  S[C3]lo intento ayudar." end
+
+l_0xc99555:
+    "@[1C 01 08], [B8]cierto?{pause(15)}  [B9]Eres siempre tan alegre!" next
+    "@Gracias por la ayuda el otro d[C2]a." end
+
+l_0xc99582:
+    "[06 BF 00 {e(l_0xc99635)}][06 44 00 {e(l_0xc995e4)}]@Hay un lugar m[C0]s adelante que no puede ser pintado de azul." next
+    "@Es un lugar extra[C7]o y anti-azul." next
+    "@No puedo dejar de pensar en ello... y no puedo ni acercarme a ese lugar." end
+
+l_0xc995e4:
+    "@Soy una persona diferente.{pause(20)}  Ya no soy un creyente del Feliz-felicismo." next
+    "@De todos modos, tengo mucha curiosidad sobre el lugar que est[C0] m[C0]s adelante de aqu[C2]." end
+
+l_0xc99635:
+    "@[B8]C[C3]mo era el lugar anti-azul?" next
+    "@[B8]Era aterrador?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc9965a:
+    "[19 02]No" eob
+
+l_0xc9965f:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc99686)} {e(l_0xc9966e)}]" goto(l_0xc9966e)
+
+l_0xc9966e:
+    "@Pareces prosperar en lugar as[C2]." end
+
+l_0xc99686:
+    "@[B8]Viste un topo enorme como el que he escuchado que vive ah[C2]?" end
+
+l_0xc996aa:
+    "@Escuch[C1] que hay muchas huellas que existen en lo profundo de la cueva en el este." next
+    "@La gente llama a ese lugar Pasos de Lilliput, y los hace sentir inc[C3]modos." end
+
+l_0xc99703:
+    "@Parece que todos despertaron y se fueron..." end
+
+l_0xc99720:
+    "@S[C3]lo quedan 3 personas..." next
+    "@No quiero quedarme.{pause(20)}  Me ir[C1] de aqu[C2]..." end
+
+l_0xc99757:
+    "@[B9]Disc[C4]lpame por todo!" linebreak
+    "  Seamos amigos." end
+
+l_0xc99776:
+    "@Hemos querido unirnos al grupo religioso Feliz-Feliz." next
+    "@Somo una pareja casada de Twoson." end
+
+l_0xc997ae:
+    "@Nuestro hijo nos est[C0] esperando en Twoson." next
+    "@Como recuerdo nos gustar[C2]a llevarle algo de felicidad." end
+
+l_0xc997ee:
+    "@Esta es la famosa oficina de orientaci[C3]n del Feliz-Felicismo." next
+    "@Cuando obtenga la felicidad" next
+    "@deberi[C0] visitar la sede del Feliz-Felicismo." next
+    "@Est[C0] ubicada en el centro de la aldea." end
+
+l_0xc9985a:
+    "@Hey [1C 01 08], ha sido un largo tiempo." next
+    "@Desde la [C4]ltima vez que nos encontramos, el pueblo entero ha despertado." next
+    "@La mejor felicidad viene de ser libre... ustedes me hicieron darme cuenta de eso." end
+
+l_0xc998c1:
+    "[06 44 00 {e(l_0xc998fd)}]@(Nuestros productos est[C0]n bendecidos.{pause(20)}" linebreak
+    "             --Farmacia Azul-Azul)" end
+
+l_0xc998fd:
+    "@(No todos nuestros productos est[C0]n bendecidos." linebreak
+    "     --Farmacia Nada Azul)" end
+
+l_0xc9992f:
+    eob
+
+l_0xc99930:
+    "[06 D1 00 {e(l_0xc9992f)}][06 05 02 {e(l_0xc9992f)}][1F 63 {e(l_0xc99945)}]" eob
+
+l_0xc99945:
+    "{pause(30)}{set(flag 517)}[1F E1 10 03 1E][06 D5 01 {e(l_0xc9992f)}]{set(flag 476)}{set(flag 11)}" eob
+
+l_0xc9995d:
+    "{set(flag 513)}{isset(flag 469)}[1B 02 {e(l_0xc9992f)}][06 1E 00 {e(l_0xc99991)}]{isset(flag 97)}[1B 02 {e(l_0xc9992f)}][06 25 03 {e(l_0xc99981)}]" eob
+
+l_0xc99981:
+    "{isset(flag 94)}[1B 02 {e(l_0xc9992f)}]{set(flag 310)}{unset(flag 301)}" eob
+
+l_0xc99991:
+    "{isset(flag 95)}[1B 02 {e(l_0xc9992f)}][1F 63 {e(data_16.l_0xc5e819)}]" eob
+
+l_0xc999a1:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}]{isset(flag 469)}[1B 02 {e(l_0xc9992f)}][06 68 00 {e(l_0xc9992f)}][06 12 00 {e(l_0xc9992f)}]{window_open(1)}[06 02 00 {e(l_0xc99a3c)}]@[B9]Hey [1C 01 08]!" linebreak
+    "[19 22 01 01 05 00][1F 13 01 00]  Como dije, [B9]mi pap[C0] a[C4]n no est[C0] en casa!" next
+    "@[B9]Debes traer a Picky de vuelta antes de que [C1]l vuelva a la casa!" next
+    "@Intentar[C1] ayudarte un poco.[19 22 01 01 05 00][1F 13 01 00]{wait}{window_closeall}{set(flag 2)}" eob
+
+l_0xc99a3c:
+    "@[B9][1C 01 08]!" next
+    "[19 22 01 01 05 00][1F 13 01 00]@No tienes ni la m[C0]s m[C2]nima idea de que hacer.{wait}{window_closeall}{unset(flag 2)}" eob
+
+l_0xc99a6b:
+    "{isset(flag 107)}[1B 02 {e(l_0xc9992f)}][1F 63 {e(l_0xc99a7b)}]" eob
+
+l_0xc99a7b:
+    "{music(122)}{pause(155)}[1F E1 01 00 FF]{set(flag 422)}{unset(flag 107)}{music_resume}" eob
+
+l_0xc99a8f:
+    "{unset(flag 103)}" eob
+
+l_0xc99a93:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}][06 69 00 {e(l_0xc9992f)}]{unset(flag 38)}{set(flag 289)}{set(flag 290)}{set(flag 291)}{set(flag 292)}{set(flag 293)}[06 B6 00 {e(l_0xc99abb)}]" eob
+
+l_0xc99abb:
+    "{set(flag 39)}{unset(flag 36)}[06 69 00 {e(l_0xc9992f)}]{set(flag 449)}" eob
+
+l_0xc99acc:
+    "[06 D3 00 {e(l_0xc99ae3)}]{set(flag 43)}{isset(flag 309)}[1B 02 {e(l_0xc9992f)}][1F 67 01]" eob
+
+l_0xc99ae3:
+    "{window_open(1)}@(Estaremos cerrados por un corto periodo de tiempo." next
+    "@Gracias por su apoyo a trav[C1]s de los a[C7]os." next
+    "@Sr. Poochyfud, Gerente, Teatro Caos.){wait}{window_closeall}" eob
+
+l_0xc99b3f:
+    "{set(flag 416)}{set(flag 417)}{set(flag 418)}{set(flag 419)}{set(flag 420)}{set(flag 421)}[06 0E 00 {e(l_0xc9992f)}]{set(flag 50)}" eob
+
+l_0xc99b5c:
+    "{unset(flag 51)}" eob
+
+l_0xc99b60:
+    call(data_57.l_0xc9b10b) eob
+
+l_0xc99b66:
+    "{set(flag 106)}" eob
+
+l_0xc99b6a:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}]{set(flag 110)}" eob
+
+l_0xc99b75:
+    "{set(flag 750)}{unset(flag 383)}{isset(flag 533)}" call(l_0xc99bb2) "{isset(flag 469)}[1B 02 {e(l_0xc9992f)}][06 62 00 {e(l_0xc99c15)}][06 5F 00 {e(l_0xc99bb6)}]{isset(flag 30)}[1B 02 {e(l_0xc9992f)}][1F F1 15 00 29 00]{set(flag 95)}{set(flag 753)}{pause(120)}" eob
+
+l_0xc99bb2:
+    "{unset(flag 533)}" eob
+
+l_0xc99bb6:
+    "{window_open(1)}@[B9]El tel[C1]fono est[C0] sonando!{pause(15)}  [B9]Contesta!" next
+    "@[B9]En mi casa, mi pap[C0] se enoja si no contesto el tel[C1]fono..." next
+    "@en los primeros tres timbres!{wait}{window_closeall}" eob
+
+l_0xc99c15:
+    "{set(flag 209)}{set(flag 200)}" call(l_0xc99c24) "{unset(flag 514)}" eob
+
+l_0xc99c24:
+    "{isset(flag 688)}[1B 02 {e(l_0xc9992f)}]{set(flag 201)}" eob
+
+l_0xc99c31:
+    "{set(flag 210)}[06 34 01 {e(l_0xc9992f)}]{set(flag 31)}{unset(flag 32)}{unset(flag 33)}{unset(flag 306)}{unset(flag 307)}" eob
+
+l_0xc99c4b:
+    "{unset(flag 315)}" eob
+
+l_0xc99c4f:
+    "{set(flag 213)}" eob
+
+l_0xc99c53:
+    "{set(flag 214)}{unset(flag 590)}[06 60 02 {e(l_0xc99c61)}]" eob
+
+l_0xc99c61:
+    "{unset(flag 608)}{set(flag 174)}" eob
+
+l_0xc99c68:
+    "{isset(flag 214)}[1B 02 {e(l_0xc9992f)}]" goto(l_0xc99c53)
+
+l_0xc99c76:
+    call(data_57.l_0xc9b10b) "[06 60 02 {e(l_0xc99c61)}]" eob
+
+l_0xc99c83:
+    "{set(flag 219)}" call(data_57.l_0xc9b10b) "{isset(flag 126)}[1B 02 {e(l_0xc9992f)}]{set(flag 538)}" eob
+
+l_0xc99c98:
+    "{unset(flag 383)}[06 7B 01 {e(l_0xc9992f)}][1F 63 {e(l_0xc99ca9)}]" eob
+
+l_0xc99ca9:
+    call(data_34.l_0xc7ae41) "{pause(15)}" call(data_34.l_0xc7acb8) "{set(flag 379)}{set(flag 52)}" eob
+
+l_0xc99cbc:
+    "[06 89 02 {e(l_0xc99cc9)}]" call(data_51.l_0xc937a3) eob
+
+l_0xc99cc9:
+    "{unset(flag 383)}" eob
+
+l_0xc99ccd:
+    "[1F EB FF 06][1F 63 {e(l_0xc99cd8)}]" eob
+
+l_0xc99cd8:
+    "{music(15)}{pause(240)}{pause(100)}" call(data_24.l_0xc69082) "{set(flag 220)}{set(flag 55)}{unset(flag 52)}[1F 21 3B][1F EC FF 01]" eob
+
+l_0xc99cf6:
+    "[06 24 00 {e(l_0xc99cfe)}]" eob
+
+l_0xc99cfe:
+    "[1F 63 {e(data_16.l_0xc5f83b)}]" eob
+
+l_0xc99d05:
+    "[06 55 01 {e(l_0xc9992f)}]{isset(flag 82)}[1B 02 {e(l_0xc9992f)}][1F 63 {e(data_56.l_0xc99d1c)}]" eob

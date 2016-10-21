@@ -1,0 +1,424 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc86e58:
+    "@([B9][1C 01 4A] ley[C3] los Jerogl[C2]ficos!)" next
+    "@<Para pelear contra los invasores, construimos esta pir[C0]mide como fortaleza." next
+    "@Sin embargo, nuestros esfuerzos fueron en vano, y perdimos." next
+    "@A pesar de ello, nuestra pir[C0]mide fue protegida por los dioses de Scaraba." next
+    "@Los invasores renacer[C0]n cada milenio y atacar[C0]n de nuevo." next
+    "@Incluso ahora, los invasores est[C0]n m[C0]s all[C0] del tiempo y del espacio," next
+    "@y construyen su mal[C1]fico fuerte." next
+    "@Un lugar fuera del tiempo est[C0] m[C0]s all[C0] de la Oscuridad," next
+    "@y est[C0] mucho m[C0]s all[C0] del Inframundo Perdido." next
+    "@La Profunda Oscuridad est[C0] cubierta, sin una sola luz." next
+    "@S[C3]lo aquel que tenga el [1C 05 AF] podr[C0] perforar la oscuridad." next
+    "@La Esfinge ahora observa todo," next
+    "@esperando la llegada de un verdadero h[C1]roe valiente." next
+    "@   #" linebreak
+    "  4   3" linebreak
+    "   2 5" next
+    "@[B9]Baila enfrente de la esfinge!>[06 94 00 {e(l_0xc87099)}][03]{window_closeall}{pause(120)}[1F 1C 04 04]{pause(10)}[19 22 01 01 04 00][1F 13 01 00][19 22 02 01 04 00][1F 13 02 00][19 22 03 01 04 00][1F 13 03 00]{pause(50)}[1F 1D 04]{pause(30)}{window_open(1)}[19 10 01]{rtoarg}@[B9][1C 02 00]!  Vamos a Scaraba.{pause(15)}  [B9]La pir[C0]mide es la llave!{wait}{set(flag 148)}[1F 66 01 31 6F AC C8 00]" eob
+
+l_0xc87099:
+    end
+
+l_0xc8709b:
+    end
+
+l_0xc8709d:
+    "[06 14 01 {e(l_0xc86e58)}]" goto(l_0xc870a4)
+
+l_0xc870a4:
+    "@(Este conjunto de jerogl[C2]ficos se cree que fueron hechos alrededor del a[C7]o 4000 a.C." next
+    "@Nadie nunca hab[C2]a entendido su contenido" next
+    "@porque est[C0] escrito en un estilo de caracteres inusuales." next
+    "@[B8]No te acercar[C0]s un poco m[C0]s" next
+    "@para intentar resolver el acertijo de las tabletas de piedra ancestrales?)" end
+
+l_0xc87155:
+    "@(Vasija de entrenamiento de Ron Pasas el quinto.)" end
+
+l_0xc87176:
+    "@(Ata[C4]d de Ron Pasas el cuarto.)" end
+
+l_0xc87194:
+    "@(Ata[C4]d de Ron Pasas el tercero.)" end
+
+l_0xc871b2:
+    "@(Lonchera de Toten Karmen.)" end
+
+l_0xc871cd:
+    "@(Caja de l[C0]pices de Toten Karmen.)" end
+
+l_0xc871e9:
+    "@(Ata[C4]d de Toten Karmen.)" end
+
+l_0xc87202:
+    "[06 5C 01 {e(data_55.l_0xc9992f)}][06 56 01 {e(l_0xc87280)}][06 94 00 {e(l_0xc87220)}]{window_open(1)}@.....{wait}{window_closeall}" eob
+
+l_0xc87220:
+    "{window_open(1)}@[B8]Eres un ladr[C3]n, un guerrero, o alguien que ha venido a ver a mi majestad?" next
+    "@Debes decidir lo que eres.  Por tanto, [B8]qu[C1] vas a hacer?{wait}{window_closeall}{set(flag 7)}{set(flag 152)}" eob
+
+l_0xc87280:
+    "{window_open(1)}@Guerreros, entren ahora.{pause(20)}" linebreak
+    "  Busquen el [1C 05 AF].[03]{window_closeall}" eob
+
+l_0xc872a6:
+    "@Un viejo submarino roto.  El color amarillo es meramente una coincidencia." next
+    "@                      ...Brickroad" end
+
+l_0xc872e6:
+    "@Bicicleta Oxidada." linebreak
+    "  El [C3]xido es el freno perfecto." next
+    "@                      ...Brickroad" end
+
+l_0xc87313:
+    "@Taxi sin motor." linebreak
+    "  Hermoso, a[C4]n cuando la cosa no funcione." next
+    "@                      ...Brickroad" end
+
+l_0xc8734b:
+    "@Colecci[C3]n de Veh[C2]culos Viejos." linebreak
+    "  Este es mi pasatiempo secreto." next
+    "@                      ...Brickroad" end
+
+l_0xc8737f:
+    "@Constru[C2] un tabl[C3]n de anuncios sin mensaje." next
+    "@                      ...Brickroad" end
+
+l_0xc873ab:
+    "@El c[C1]sped siempre es m[C0]s verde en la otra cuerda...  Me pregunto porqu[C1] ser[C0]..." next
+    "@                      ...Brickroad" end
+
+l_0xc873dd:
+    "@Puse un tabl[C3]n de anuncios, pero probablemente sea innecesario." next
+    "@                      ...Brickroad" end
+
+l_0xc87411:
+    "@Hay un art[C2]culo muy [C4]til al final despu[C1]s de que hayas hecho una larga caminata." next
+    "@                      ...Brickroad" end
+
+l_0xc87444:
+    "@Mientras exploras el calabozo, [B8]por qu[C1] no haces una parada al ba[C7]o?" next
+    "@                      ...Brickroad" end
+
+l_0xc87474:
+    "@Ahorra esfuerzos innecesarios. Haz caso a esta regla, y grandes art[C2]culos ser[C0]n tuyos." next
+    "@                      ...Brickroad" end
+
+l_0xc874a2:
+    "@No podr[C2]a estar m[C0]s de acuerdo con la opini[C3]n del tabl[C3]n de anuncios de la izquierda." next
+    "@                      ...Brickroad" end
+
+l_0xc874d4:
+    "@Instal[C1] un tel[C1]fono en el calabozo. Estoy seguro de que tiene sus ventajas y desventajas, claro." next
+    "@                      ...Brickroad" end
+
+l_0xc87511:
+    "@Tienes un largo camino por delante.  El descanso y la relajaci[C3]n podr[C2]an salvarte." next
+    "@                      ...Brickroad" end
+
+l_0xc87546:
+    "@Una vez que un calabozo es construido, los monstruos siempre empiezan a moverse hacia dentro." next
+    "@                      ...Brickroad" end
+
+l_0xc8757d:
+    "@Pon un art[C2]culo al final.  Est[C0]s en libertad de tomarlo cuando gustes." next
+    "@                      ...Brickroad" end
+
+l_0xc875b0:
+    "@Los art[C2]culos que son f[C0]cil de obtener usualmente son decepcionantes." next
+    "@                      ...Brickroad" end
+
+l_0xc875db:
+    "@Es la obligaci[C3]n del due[C7]o del calabozo el contratar a un doctor y a una enfermera." next
+    "@                      ...Brickroad" end
+
+l_0xc87617:
+    "@Mant[C1]n este tabl[C3]n en mente." next
+    "@                      ...Brickroad" end
+
+l_0xc87632:
+    "@Mis estad[C2]sticas muestran que cerca del 70% de las personas van a la derecha primero." next
+    "@                      ...Brickroad" end
+
+l_0xc87664:
+    "@Tu primera meta es llegar a las cuatro cuerdas." next
+    "@                      ...Brickroad" end
+
+l_0xc8768c:
+    "@A veces hay lugares que no puedes alcanzar de momento, pero podr[C0]s llegar ah[C2] con el tiempo." next
+    "@                      ...Brickroad" end
+
+l_0xc876b6:
+    "@Bienvenido." linebreak
+    "  Est[C0]s dentro de mi cuerpo." next
+    "@                      ...Brickroad" end
+
+l_0xc876d6:
+    "@Si el molino de agua permanece diligente," next    
+    "@el agua no tiene tiempo de congelarse." next
+    "@                      ...Brickroad" end
+
+l_0xc876f9:
+    "@Aprende de tus errores." next
+    "@El fracaso es el padre del [C1]xito." next
+    "@                      ...Brickroad" end
+
+l_0xc8773b:
+    "@Tienes un cuerpo fuerte.  [B8]Te gustar[C2]a trabajar en el calabozo?" next
+    "@                      ...Brickroad" end
+
+l_0xc8776e:
+    "@Hay muchos monstruos aqu[C2] arriba, pero no te estreses." next
+    "@                      ...Brickroad" end
+
+l_0xc87798:
+    "@La exploraci[C3]n de calabozos es dif[C2]cil, pero tambi[C1]n divertida." next
+    "@                      ...Brickroad" end
+
+l_0xc877c4:
+    "@Eso es un agujero ah[C2] abajo.  No debes preocuparte por esto en este momento." next
+    "@                      ...Brickroad" end
+
+l_0xc877f1:
+    "@Este es el segundo piso de mi cuerpo." next
+    "@                      ...Brickroad" end
+
+l_0xc87811:
+    "@[B8]Qu[C1] es un calabozo?  Esa es mi eterna pregunta." next
+    "@                      ...Brickroad" end
+
+l_0xc8783f:
+    "@Hay un art[C2]culo al final," next
+    "@pero suelo equivocarme ocasionalmente.  Lo siento." next
+    "@                      ...Brickroad" end
+
+l_0xc87881:
+    "@Huele a flores aqu[C2].  Si no puedes olerlas, tu nariz debe estar congestionada." next
+    "@                      ...Brickroad" end
+
+l_0xc878b9:
+    "@Esta m[C4]sica es uno de mis mejores logros." next
+    "@                      ...Brickroad" end
+
+l_0xc878e2:
+    "@Dentro del calabozo, se prohibe la fotograf[C2]a con flash." next
+    "@                      ...Brickroad" end
+
+l_0xc8791a:
+    "@Est[C0]s parado justo alrededor de mi ombligo." next
+    "@                      ...Brickroad" end
+
+l_0xc87941:
+    "@Este es el tercer piso de mi cuerpo." next
+    "@                      ...Brickroad" end
+
+l_0xc87961:
+    "@<Pato Enojado>" linebreak
+    "  Pueden ser una buena mascota si se mantienen alejados." next
+    "@                      ...Brickroad" end
+
+l_0xc87995:
+    "@<Cabra Brusca>" linebreak
+    "  Un tipo muy brusco de cabra." next
+    "@                      ...Brickroad" end
+
+l_0xc879c5:
+    "@<[B9]Buen trabajo, finalmente lo lograste!>" next
+    "@Hay un tabl[C3]n arriba que dice eso." next
+    "@                      ...Brickroad" end
+
+l_0xc879fe:
+    "@[B8]Por qu[C1] no tomas una buena siesta aqu[C2]?" next
+    "@                      ...Brickroad" end
+
+l_0xc87a1d:
+    "@<Montoncito Viscoso>" linebreak
+    "  Tiene el mal h[C0]bito de eructar." next
+    "@                      ...Brickroad" end
+
+l_0xc87a50:
+    "@[B9]Buen trabajo," linebreak
+    "  finalmente lo lograste!" next
+    "@                      ...Brickroad" end
+
+l_0xc87a6f:
+    "@<Agujero de Regreso>" linebreak
+    "  Entra con todo tu valor." next
+    "@                      ...Brickroad" end
+
+l_0xc87a9a:
+    "@[B9]Bienvenido a mi modesto calabozo!" next
+    "@                      ...Brickroad" end
+
+l_0xc87aba:
+    "@[B9]Cuidado con materiales que caen!" next
+    "@                      ...Brickroad" linebreak
+    "{wait}{window_closeall}[06 C1 02 {e(data_55.l_0xc9992f)}]{pause(60)}" call(data_23.l_0xc68851) eob
+
+l_0xc87aeb:
+    "@Bien hecho." linebreak
+    "  Por favor vuelve pronto." next
+    "@                      ...Brickroad" end
+
+l_0xc87b0b:
+    "@(<Seguridad Primero>" linebreak
+    "  [B9]No te vayas a lastimar!" next
+    "  [B9]Mejor eructa!)" end
+
+l_0xc87b33:
+    "@(Tienda de art[C2]culos aqu[C2].)" end
+
+l_0xc87b40:
+    "@(Fuentes Termales.  Buenas por todos lados)" end
+
+l_0xc87b56:
+    "@(Hotel aqu[C2].)" end
+
+l_0xc87b60:
+    "@(Chatarra rara.)" end
+
+l_0xc87b70:
+    "@(Bienvenido al hermoso Onett, la flor salvaje de Eagleland.)" end
+
+l_0xc87b9e:
+    "@(Onett, limpio, tranquilo y hermoso-- dirigido por el Alcalde Pirkle...)" end
+
+l_0xc87bcf:
+    "@(Si tiene alg[C4]n problema, [B9]consulte a su bondadoso alcalde!)" end
+
+l_0xc87bf5:
+    "@(Buenos y Fuertes, los ni[C7]os de Onett..." linebreak
+    "  B.H. Pirkle)" end
+
+l_0xc87c1d:
+    "@([B9]La gente de Onett est[C0] orgullosa de B.H. Pirkle!" next
+    "@El Alcalde est[C0] orgulloso de la gente de Onett.)" end
+
+l_0xc87c57:
+    "@(Se busca ayuda - Polic[C2]as cerrar[C0]n caminos." linebreak
+    "  Dept. de Polic[C2]a de Onett)" end
+
+l_0xc87c8c:
+    "@(Twoson es diferente de Onett.  Tenemos el Parque Ladr[C3]n.)" end
+
+l_0xc87cb8:
+    "@([B9]Esta noche, el coco ha regresado!" linebreak
+    "  [B9]Es momento de los Hermanos Fugitivos!)" end
+
+l_0xc87cd9:
+    "@([B8]Practicas alg[C4]n deporte?  ...Si es as[C2], eso est[C0] bien para nosotros." next
+    "@<Comit[C1] Atl[C1]tico de Twoson>`)" end
+
+l_0xc87d1f:
+    "@(No le dir[C1] nada a los adultos," next
+    "@pero se los digo a ustedes jovencitos, no jueguen por m[C0]s de dos horas." next
+    "@Cualquier cosa en exceso no es buena." next
+    "@Padres Oponi[C1]ndose al Plan de Obsesi[C3]n)" end
+
+l_0xc87d94:
+    "@Hay grafitti aqu[C2]." next
+    "@([B9]Este juego apesta!)" end
+
+l_0xc87db4:
+    "@Hay graffiti aqu[C2]." next
+    "@(Casa de Desarrollo de Software donde puedes ver el Mt. Fuji - HAL Laboratory)" end
+
+l_0xc87dff:
+    "[06 59 00 {e(data_35.l_0xc7c59e)}][06 7E 00 {e(l_0xc87e13)}]" call(data_35.l_0xc7c59e) eob
+
+l_0xc87e13:
+    "@(Hay otros libros menos <Superando la Timidez.>)" end
+
+l_0xc87e37:
+    "[06 59 00 {e(data_35.l_0xc7c59e)}][06 7E 00 {e(l_0xc87e4c)}]" call(data_35.l_0xc7c59e) end
+
+l_0xc87e4c:
+    "@([B9]Encontraste el libro" linebreak
+    "  <Superando la Timidez>!)" next
+    "[1D 03 FF][1B 02 {e(l_0xc87e8e)}][1D 0E 00 A4][1B 05]" call(data_36.l_0xc7dcb6) "{wait}{set(flag 89)}{unset(flag 766)}{unset(flag 51)}" eob
+
+l_0xc87e8e:
+    "@(Pero observa, en este glorioso momento no tienes m[C0]s espacio.)" next
+    eob
+
+l_0xc87eb2:
+    "@No hay problema aqu[C2]." eob
+
+l_0xc87ebc:
+    "@Este es un regalo del Dr. Andonuts. Us[C1]moslo con cuidado." next
+    "@                      ...Brickroad" end
+
+l_0xc87eee:
+    "@Si checas en este banco, ser[C2]a tal como checar en un hotel." next
+    "@                      ...Brickroad" end
+
+l_0xc88000:
+    "{isset(flag 22)}[1B 02 {e(l_0xc8807d)}]@(El mono burbuja tom[C3] un pedazo de chicle," next
+    "@lo mastic[C3] y empez[C3] a soplar.)[03]{window_closeall}[06 52 01 {e(l_0xc8824a)}][1F EB 09 06][1F 15 31 00 FD 00 01][1F 61]{sound(14)}[1F 1F 31 00 06][1F 15 32 00 FE 00 01][1F 15 58 01 FF 00 01][1F 61][1F 1F 32 00 06][1F 1F 58 01 06][1F EC 09 01]" eob
+
+l_0xc8807d:
+    "[19 10 01]{rtoarg}@[1C 02 00] mastic[C3] un pedazo de chicle,{pause(15)} pero no era tan satisfactorio como alimento." end
+
+l_0xc880b9:
+    "[1F 11 09][1F EB 09 06][1F 1E 61 02 06][1F 15 31 00 FC 00 01][1F 61]{sound(14)}[1F 1F 31 00 06][1F 15 32 00 FE 00 01][1F 15 58 01 FF 00 01][1F 61][1F 1F 58 01 06][1F 1F 32 00 06][1F 15 2E 00 31 00 01][1F 61][1F 1F 2E 00 06][1F EC 09 01]" eob
+
+l_0xc88103:
+    "[1F 67 02]{set(flag 11)}[1F 41 05][1F E9 8F 02][1F E9 90 02][1F 1F 2E 00 06][1F 15 31 00 FC 00 01][1F 61][1F 1F 31 00 06][1F 15 32 00 DF 01 01][1F 61]                              [1F 15 FC 00 E0 01 01]      [1F 61]                              {unset(flag 2)}[1F 1F 32 00 06][1F 15 2E 00 E1 01 01][1F 61]                              [1F E7 FC 00][1F E7 2E 00]{unset(flag 344)}     [1F 1E 82 02 06][1F 1E 83 02 06][1F 1E 84 02 06][1F 1E 8E 02 06][1F F1 8F 02 EB 01][1F F1 90 02 EC 01]{pause(120)}[1F EA 2E 00][1F EA FC 00][1F 61]                              [1F E7 FC 00]{set(flag 537)}{music_resume}[1F 15 6A 00 E3 01 01]{pause(1)}[1F EF 6A 00][1F E8 FF][1F 61]                              {set(flag 2)}                       {pause(60)}[1F EA FC 00]             [1F E5 03][1F 61]                              [1F E7 FC 00][1F F2 6A 00 E4 01]  [1F E8 03]{unset(flag 2)}                       [1F 61][1F ED][1F E5 FF][1F F2 2E 00 E2 01]     [1F 61][1F 1F 2E 00 06][1F EC 09 01]{pause(60)}[1F EA FC 00]             [1F 61][1F 15 73 01 ED 01 01][1F 15 73 01 EE 01 01][1F 61]                              [1F 1F FC 00 06][1F 1E 8F 02 06][1F 1E 90 02 06]{unset(flag 345)}{unset(flag 11)}" call(data_36.l_0xc7dd6b) "{unset(flag 537)}{music_resume}[19 26 06]{set(flag 129)}[1F 41 06]" eob
+
+l_0xc8824a:
+    "[1F EB 09 06][1F 15 31 00 FD 00 01][1F 61][1F 1F 31 00 06][1F 15 32 00 05 01 01][1F 15 58 01 FF 00 01] [1F 61][1F F2 58 01 06 01] [1F 61][1F 1F 32 00 06][1F 1F 58 01 06][1F 15 2E 00 07 01 01] [1F 61][1F 1E A5 02 06][1F 61][1F 1F 2E 00 06][1F 15 2F 00 08 01 01][1F 61][1F 1F 2F 00 06][1F 15 2E 00 09 01 01][1F 61][1F 1F 2E 00 06][1F EC 09 01]{unset(flag 338)}{set(flag 311)}" eob
+
+l_0xc882bd:
+    "[1F E6 78 02] [1F 13 09 05][1F 1C 09 03]{pause(60)}[1F 1D 09]{window_open(1)}@Kye uki kukyi" linebreak
+    "  (Ahora ella es mi tipo...)" next
+    "@Ki kukkyo uke" linebreak
+    "  ([B9]Creo que la invitar[C1] a salir!)[03]{window_closeall}[1F 12 09][1F 15 2E 00 1D 01 01]{pause(4)}[1F E9 78 02] [1F 61]{unset(flag 22)}" eob
+
+l_0xc88332:
+    "{set(flag 11)}[1F 41 05]" call(data_24.l_0xc69082) "[1F 15 6A 00 91 00 01][1F EF 6A 00][1F E8 FF][1F 61][1F EB FF 06]" call(data_36.l_0xc7dd6b) "{set(flag 655)}{music_resume}[1F ED][1F E5 FF][1F F1 67 02 8B 00][1F 61][06 B8 00 {e(l_0xc88386)}]{unset(flag 9)}[1F F1 67 02 8C 00][1F 61][06 09 00 {e(l_0xc88386)}]" call(data_44.l_0xc886f9) goto(l_0xc88386)
+
+l_0xc88386:
+    eob
+
+l_0xc88387:
+    "[1F 15 B9 01 09 03 01][1F E9 6F 02][1F 61]{pause(30)}[1F 1E 6D 02 06][1F 61][1F 15 D1 00 92 00 FF][1F 21 BA][1F E8 FF]{pause(1)}[1F 61][1F ED][1F 15 D1 00 93 00 FF][1F 21 BC][1F EF D1 00][1F E8 FF]{pause(1)}[1F 61][1F ED][1F 15 D1 00 99 00 FF][1F 15 E6 00 9B 00 FF][1F 21 BD][1F EF E6 00][1F E8 FF]{pause(1)}[1F 61][1F ED][1F 15 D1 00 94 00 FF][1F 21 BC][1F EF D1 00][1F E8 FF]{pause(1)}[1F 61][1F ED][1F 15 D1 00 9D 00 FF][1F 15 E6 00 9F 00 FF][1F 21 BF][1F EF E6 00][1F E8 FF]{pause(1)}[1F 61][1F ED][1F 15 D1 00 95 00 FF][1F 21 BC][1F EF D1 00][1F E8 FF]{pause(1)}[1F 61][1F ED][1F 15 D1 00 A1 00 FF][1F 15 E6 00 A4 00 FF][1F 21 C1][1F EF E6 00][1F 61][1F E7 D1 00][1F E7 E6 00]" call(data_44.l_0xc886d7) "{pause(15)}" call(data_44.l_0xc886d7) "[1F EA D1 00][1F EA E6 00][1F 61][1F E7 D1 00][1F E7 E6 00]{unset(flag 655)}{music(110)}[1F E8 FF][1F EA D1 00][1F EA E6 00][1F 61][1F ED][1F E5 FF][1F 11 01][1F 11 02][1F 12 03]" call(data_49.l_0xc915f4) "{set(flag 47)}[1F 15 0D 00 B0 00 FF][1F 21 4D]{music_resume}[1F 15 6A 00 AF 00 01]{pause(1)}[1F EF 6A 00][1F E8 FF][1F 61][1F ED][1F E5 FF][1F 1F 0D 00 06][1F 15 03 00 B1 00 01]{pause(1)}[1F E7 03 00]{window_open(1)}" goto(l_0xc884d0)
+
+l_0xc884d0:
+    "@[B9]Vaya,{pause(15)} oh,{pause(5)} vaya{pause(20)} que eso jam[C0]s me ha asustado!..." next
+    "@El Caminante del Cielo...{pause(20)}  Supongo que se da[C7][C3] un poco al aterrizar..." next
+    "@Oh bueno...[03]{window_closeall}[1F EA 03 00][1F 61]{window_open(1)}" newline
+    "@No tienes porqu[C1] explicarme nada...{pause(20)}  Soy [1C 02 03]." next
+    "@Vine porque ustedes" linebreak
+    "  me llamaron." next
+    "@No soy muy fuerte,{pause(15)} soy algo miope,{pause(15)} y un poco t[C2]mido," next
+    "@y tiendo a ser algo descuidado.{pause(20)}  As[C2] soy yo..." next
+    "@Espero que quieran que sea su amigo... [B8]est[C0] bien?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc885cb:
+    " [19 02]No" eob
+
+l_0xc885d1:
+    "[1C 07 02][11]{clearline}[09 02 {e(data_44.l_0xc88650)} {e(l_0xc885e0)}]" goto(l_0xc885e0)
+
+l_0xc885e0:
+    "@...As[C2] que, [B8]por qu[C1] me llamaron?{pause(20)}  [B8]S[C3]lo se estaban burlando de m[C2]?" next
+    "@As[C2] soy yo..." next
+    "@Espero que quieran que sea su amigo... [B8]est[C0] bien?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc88636:
+    " [19 02]No" eob
+
+l_0xc8863c:
+    "[1C 07 02][11]{clearline}[09 02 {e(data_44.l_0xc88650)} {e(l_0xc885e0)}]" goto(l_0xc885e0)

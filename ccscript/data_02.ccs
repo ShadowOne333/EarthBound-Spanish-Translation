@@ -1,0 +1,544 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import ebpp
+import Item_Articles
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc52dcc:
+    "@[B8]Ser[C2]a todo?" linebreak
+    "  Buena suerte, amigo!" end
+
+l_0xc52de8:
+    "@[B8]Es todo?" linebreak
+    "  Mantente alerta, puede haber tipos malos." end
+
+l_0xc52e0d:
+    "@Tengo lo que necesitas.[03]" eob
+
+l_0xc52e1c:
+    "@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?" next
+    eob
+
+l_0xc52e24:
+    "@[B8]Qui[C1]n va a llevar esto?[03]" eob
+
+l_0xc52e3a:
+    "@Bien.  [B8]Supongo que vas a querer equiparlo aqu[C2]?" linebreak
+    eob
+
+l_0xc52e59:
+    "@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]...?" linebreak
+    "  Dir[C2]a que cerca de {swap}$[1C 0A 00 00 00 00]." next
+    "@T[C3]malo o d[C1]jalo." linebreak
+    eob
+
+l_0xc52e85:
+    "@[1C 02 00] no podr[C0] equipar esto." next
+    "@[B8]Pretendes comprarlo de cualquier forma?" linebreak
+    eob
+
+l_0xc52eb2:
+    "@Bueno, eso demuestra buen juicio.  No deber[C2]as esforzarte mucho." next
+    eob
+
+l_0xc52ed7:
+    "@[B9]Un segundo!  [B9]No tienes suficiente dinero!" next
+    eob
+
+l_0xc52ef5:
+    "@No vas a poder cargar una cosa m[C0]s." next
+    "@Est[C0]s arrastrando toda esa basura..." next
+    "@Supongo que podr[C2]a ayudarte comprando algunas cosas que no necesites..." next
+    eob
+
+l_0xc52f4a:
+    "@[B8]Qu[C1] vas a empe[C7]ar?[03]" eob
+
+l_0xc52f5f:
+    "@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?" linebreak
+    "  Te dar[C1] {swap}$[1C 0A 00 00 00 00] y ni un centavo m[C0]s." next
+    "@T[C3]malo o d[C1]jalo." linebreak
+    eob
+
+l_0xc52f94:
+    "@...No creo que encuentres un mejor precio en otro lugar." next
+    eob
+
+l_0xc52fb6:
+    "@[B8]Qu[C1] es lo que intentas hacer?" next
+    "@Dices que quieres vender, [B9][B8]pero no tienes algo que ofrecer?!" next
+    "@[B9]Tienes valor, ni[C7]o!" next
+    eob
+
+l_0xc52ffa:
+    "@[B9]Olv[C2]dalo!" linebreak
+    "  [B9]No quiero comprar esa basura!" next
+    eob
+
+l_0xc53018:
+    "@Excelente." linebreak
+    "  Me alegra que nos arreglaramos." next
+    eob
+
+l_0xc53037:
+    "@Gracias.{pause(20)}" next
+    "@Las cosas deben estar dif[C2]ciles, especialmente para un ni[C7]o como t[C4]." next
+    eob
+
+l_0xc53063:
+    "@[B8]Algo m[C0]s?" linebreak
+    eob
+
+l_0xc53072:
+    "@[B8]Ahora qu[C1]?" linebreak
+    eob
+
+l_0xc5307d:
+    "@[1C 02 00] no puede cargar m[C0]s." next
+    "@[B8]Alguien m[C0]s est[C0] dispuesto a llevarlo?" linebreak
+    eob
+
+l_0xc530a2:
+    "{font_saturn}@Hola Hola." linebreak
+    "  [B8]T[B4] vienes" linebreak
+    "  comprando?" next
+    "@Puedes vender," linebreak
+    "  tambi[B1]n." next
+    "@Yo, Sr. Saturn,  boing" next
+    "@puedo hacer todo por ti." next
+    "@[B8]Qu[B1]" linebreak
+    "  quieres zoom?" linebreak
+    "{font_normal}" eob
+
+l_0xc530fc:
+    "{font_saturn}@Oh," linebreak
+    "  [B9]t[B4] gracias!{wait}{font_normal}" eob
+
+l_0xc5310f:
+    "{font_saturn}@Gracias." linebreak
+    "  [B9]Boing!{wait}{font_normal}" eob
+
+l_0xc5311f:
+    "{font_saturn}@[B8]Qu[B1] t[B4]" linebreak
+    "  comprando"linebreak 
+    "  zoom?[03]{font_normal}" eob
+
+l_0xc53134:
+    "{font_saturn}@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?" next
+    "{font_normal}" eob
+
+l_0xc53144:
+    "{font_saturn}@[B8]Cu[B0]l" linebreak
+    "  ustedes" linebreak
+    "  llevar" next
+    "  esta carga?[03]{font_normal}" eob
+
+l_0xc53161:
+    "{font_saturn}@[B8]Equipar" linebreak
+    "  aqu[B2]?" linebreak
+    "{font_normal}" eob
+
+l_0xc53172:
+    "{font_saturn}@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?" next
+    "@Uhh," linebreak
+    "  ese est[B0] a" linebreak
+    "  {swap}$[1C 0A 00 00 00 00]." next
+    "@[B8]Qu[B1] pensar t[B4]" next
+    "@sobre ese precio..." linebreak
+    "  [B8]zoom?" linebreak
+    "{font_normal}" eob
+
+l_0xc531ba:
+    "{font_saturn}@[1C 02 00] no poder equipar esto." next
+    "@[B9]Boing!" next
+    "@[B8]A[B4]n quieres" linebreak
+    "  comprar?" linebreak
+    "{font_normal}" eob
+
+l_0xc531ea:
+    "{font_saturn}@Si t[B4] no" linebreak
+    "  compr[B0]s," next
+    "@[B9]no" linebreak
+    "  compres zoom!" next
+    "{font_normal}" eob
+
+l_0xc53212:
+    "{font_saturn}@Uhh," next
+    "@a una mirada boing vista," next
+    "  no hay posibilidad." next
+    "@No" linebreak
+    "  suficiente" next
+    "@dineroooola." linebreak
+    "  [B9]Zoicks!" next
+    "{font_normal}" eob
+
+l_0xc53259:
+    "{font_saturn}@Qu[B1] feliz" next
+    "@sorpresa." linebreak
+    "  Zoom..." next
+    "@T[B4] tienes" linebreak
+    "  mucha" linebreak
+    "  chatarra." next
+    "{font_normal}" eob
+
+l_0xc5328f:
+    "{font_saturn}@[B8]T[B4] quieres" linebreak
+    "  venderme" linebreak
+    "  cosas" next
+    "@a m[B2] boing?[03]{font_normal}" eob
+
+l_0xc532b3:
+    "{font_saturn}@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?" next
+    "@Lo m[B0]s" linebreak
+    "  pagamos" linebreak
+    "  es {swap}$[1C 0A 00 00 00 00]." next
+    "@[B8]Est[B0] bien-o" linebreak
+    "  en ti?" next
+    "@[B9]Ding! [B9]Ding!" linebreak
+    "{font_normal}" eob
+
+l_0xc532fa:
+    "{font_saturn}@[B9]Oh alegr[B2]a!  [B9]Zooooom!" next
+    "{font_normal}" eob
+
+l_0xc53312:
+    "{font_saturn}@[B9]Ah-choo!  [B9]Hola Hola!" next
+    "@[B8]intento de" linebreak
+    "  enga[B7]ar boing?" next
+    "@Porque t[B4]" linebreak
+    "  tienes" linebreak
+    "  nada" next
+    "@vender.  [B9]Ding Ding!" next
+    "{font_normal}" eob
+
+l_0xc53363:
+    "{font_saturn}@Querido, querido,  querido  ...[B9]Boing!" next
+    "@No poder" linebreak
+    "  comprar eso." next
+    "{font_normal}" eob
+
+l_0xc5338f:
+    "{font_saturn}@Oh," linebreak
+    "  t[B4] gracias." next
+    "{font_normal}" eob
+
+l_0xc533a3:
+    "{font_saturn}@[B9]Gracias!  [B9]Ding Zoom!" next
+    "{font_normal}" eob
+
+l_0xc533b6:
+    "{font_saturn}@[B8]Hay algo Zoom" next
+    "@m[B0]s necesitar?" next
+    "{font_normal}" eob
+
+l_0xc533d5:
+    "{font_saturn}@[B8]Qu[B1] sigue, Boing?" linebreak
+    "{font_normal}" eob
+
+l_0xc533e5:
+    "{font_saturn}@[B8][1C 02 00] tiene" linebreak
+    "  dem[B0]s" linebreak
+    "  cosas?" next
+    "@[B8]Alguien" linebreak
+    "  quiere ayudar" linebreak
+    "  Zoom?" next
+    "{font_normal}" eob
+
+l_0xc5341d:
+    "@Juguemos a la tienda.  Mi amigo Ay-go adora este juego.  As[C2] que..." next
+    "@[B9]Hola!  [B8]Puedo ayudarte?" linebreak
+    eob
+
+l_0xc53454:
+    "@[B9]Bye bye!" linebreak
+    "  [B9]Juguemos de nuevo en otro momento!" end
+
+l_0xc5346f:
+    "@[B9]Bye bye!" linebreak
+    "  [B9]Juguemos de nuevo en otra ocasi[C3]n!" end
+
+l_0xc5348a:
+    "@[B8]Est[C0]s buscando algo en particular?[03]" eob
+
+l_0xc5349f:
+    "@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?" next
+    eob
+
+l_0xc534a7:
+    "@[B8]Qui[C1]n llevar[C0] esto?[03]" eob
+
+l_0xc534b6:
+    "@[B8]Quieres intentar equiparlo aqu[C2]?" linebreak
+    eob
+
+l_0xc534c8:
+    "@[B8]Quieres que compre tu [1C 05 00]" next
+    "@por {swap}$[1C 0A 00 00 00 00]?" linebreak
+    eob
+
+l_0xc534e9:
+    "@[B8] Te das cuenta que [1C 02 00] no puede equipar esto?" next
+    "@[B8]A[C4]n as[C2] quieres comprarlo?" linebreak
+    eob
+
+l_0xc53515:
+    "@Bueno, el cliente siempre tiene la raz[C3]n." next
+    eob
+
+l_0xc5352c:
+    "[19 10 01]@" call(data_37.l_0xc7e6c5) ", parece que no tienes el dinero necesario para esta transacci[C3]n." next
+    eob
+
+l_0xc53562:
+    "@De verdad no creo que puedas cargar m[C0]s adquisiciones." next
+    "@Puedes venir de nuevo despu[C1]s de que vendas algo," next
+    "@o puedes simplemente descartar un art[C2]culo para aligerar tu carga." next
+    "@[B9]O quiz[C0]s quieras vender las cosas que no necesites aqu[C2]!" next
+    eob
+
+l_0xc535d3:
+    "@[B8]Qu[C1] te gustar[C2]a vender?[03]" eob
+
+l_0xc535df:
+    "@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?" linebreak
+    "  Estoy autorizado a pagar hasta" linebreak
+    "  {swap}$[1C 0A 00 00 00 00] por ese objeto." next
+    "@[B8]Te parece?" linebreak
+    eob
+
+l_0xc53615:
+    "@Est[C0] bien.  Es la prerrogativa del cliente de cambiar su opini[C3]n." next
+    eob
+
+l_0xc53645:
+    "@Aunque de verdad me gustar[C2]a comprarte algo, no tienes algo que ofrecer." next
+    eob
+
+l_0xc5366d:
+    "@Lo siento, no estoy autorizado para comprar eso." next
+    eob
+
+l_0xc53687:
+    "[19 10 01]@Muchas gracias," linebreak
+    "  " call(data_37.l_0xc7e6b3) "." next
+    eob
+
+l_0xc5369d:
+    "@Le dar[C1] a Ay-go estos coloridos papeles que me diste." next
+    eob
+
+l_0xc536c1:
+    "@[B8]Algo m[C0]s por hoy?" linebreak
+    eob
+
+l_0xc536d2:
+    "@[B8]Qu[C1] vas a hacer ahora?" linebreak
+    eob
+
+l_0xc536e1:
+    "@Parece que [1C 02 00] est[C0] sobrecargado de art[C2]culos." next
+    "@[B8]Quieres que uno de tus amigos lo lleve?" linebreak
+    eob
+
+l_0xc53711:
+    newline
+    " <Medalla Franklin>" next
+    "@Al mantenerla como una de tus cosas," next
+    "@refleja un ataque de rel[C0]mpago de vuelta al atacante." end
+
+l_0xc53750:
+    newline
+    " <Oso de peluche>" next
+    "@" call(data_05.l_0xc56b5d) end
+
+l_0xc53761:
+    newline
+    " <Super peluche>" next
+    "@" call(data_05.l_0xc56b5d) end
+
+l_0xc53772:
+    newline
+    " <[1C 05 04]>" next
+    "@No hay forma de saber su uso original." next
+    "@S[C3]lo es un tipo de aparato roto." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc537bc:
+    newline
+    " <[1C 05 05]>" next
+    "@No hay forma de saber su uso original." next
+    "@S[C3]lo es un tipo de mecanismo roto." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53809:
+    newline
+    " <[1C 05 06]>" next
+    "@Una pistola de aire rota." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc5382a:
+    newline
+    " <[1C 05 07]>" next
+    "@Una lata de aerosol rota." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc5384d:
+    newline
+    " <[1C 05 08]>" next
+    "@Una pistola l[C0]ser rota." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53870:
+    newline
+    " <[1C 05 09]>" next
+    "@Un artilugio que parece una plancha." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53897:
+    newline
+    " <[1C 05 0A]>" next
+    "@Parece una tuber[C2]a de agua reventada." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc538bc:
+    newline
+    " <[1C 05 0B]>" next
+    "@Un ca[C7][C3]n de rayos roto." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc538e0:
+    newline
+    " <[1C 05 0C]>" next
+    "@Un art[C2]culo con forma de tubo roto." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53908:
+    newline
+    " <[1C 05 0D]>" next
+    "@Una bazuca rota." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53929:
+    newline
+    " <[1C 05 0E]>" next
+    "@Un aparato roto con forma de trompeta." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53960:
+    newline
+    " <[1C 05 0F]>" next
+    "@Un dispositivo roto que parece una harm[C3]nica." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc5398e:
+    newline
+    " <[1C 05 10]>" next
+    "@Un pedazo de equipo que parece una antena parab[C3]lica." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc539c4:
+    newline
+    " <[1C 05 11]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc539d4:
+    newline
+    " <[1C 05 12]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc539e4:
+    newline
+    " <Bate para bald[C2]os>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc539f4:
+    newline
+    " <Bate de Liga Menor>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a04:
+    newline
+    " <[1C 05 15]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a14:
+    newline
+    " <Bate de Liga Mayor>" next
+    call(data_05.l_0xc56b8e) next
+    "@[B9]Este art[C2]culo parece que pudo haber tenido un corcho en su centro!" end
+
+l_0xc53a47:
+    newline
+    " <[1C 05 17]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a57:
+    newline
+    " <[1C 05 18]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a67:
+    newline
+    " <[1C 05 19]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a77:
+    newline
+    " <[1C 05 1A]>" next
+    call(data_05.l_0xc56b8e) next
+    "@Cuando est[C0] equipado, incrementa tus agallas." end
+
+l_0xc53a9f:
+    newline
+    " <[1C 05 1B]>" next
+    call(data_05.l_0xc56b8e) next
+    "@No puedes evitar el mecer este bate con toda tu fuerza." next
+    "@Hay una buena posibilidad de que puedas apestar." end
+
+l_0xc53ae6:
+    newline
+    " <[1C 05 1C]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53af6:
+    newline
+    " <[1C 05 1D]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b06:
+    newline
+    " <Sart[C1]n de lujo>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b16:
+    newline
+    " <[1C 05 1F]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b26:
+    newline
+    " <[1C 05 20]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b36:
+    newline
+    " <[1C 05 21]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b46:
+    newline
+    " <[1C 05 22]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b56:
+    newline
+    " <[1C 05 23]>" next
+    call(data_05.l_0xc56ba9) next
+    "@Incrementa tu ofensa." end
+

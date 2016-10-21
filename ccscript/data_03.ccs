@@ -1,0 +1,568 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc53b76:
+    newline
+    " <[1C 05 24]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53b86:
+    newline
+    " <[1C 05 25]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53b96:
+    newline
+    " <[1C 05 26]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53ba6:
+    newline
+    " <[1C 05 27]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53bb6:
+    newline
+    " <[1C 05 28]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53bc6:
+    newline
+    " <[1C 05 29]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53bd6:
+    newline
+    " <[1C 05 2A]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53be6:
+    newline
+    " <[1C 05 2B]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53bf6:
+    newline
+    " <Rayo de espectro>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53c06:
+    newline
+    " <[1C 05 2D]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53c16:
+    newline
+    " <[1C 05 2E]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53c26:
+    newline
+    " <[1C 05 2F]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53c36:
+    newline
+    " <[1C 05 30]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53c46:
+    newline
+    " <[1C 05 31]>" next
+    "@Un arma regular." end
+
+l_0xc53c5f:
+    newline
+    " <[1C 05 32]>" next
+    "@Una peque[C7]a y decente." end
+
+l_0xc53c7a:
+    newline
+    " <[1C 05 33]>" next
+    "@Un arma bastante poderosa." end
+
+l_0xc53c95:
+    newline
+    " <[1C 05 34]>" next
+    "@[B9]Un arma dura y fuerte!" end
+
+l_0xc53caf:
+    newline
+    " <[1C 05 35]>" next
+    "@[B1]ste es genial de seguro." end
+
+l_0xc53cc8:
+    newline
+    " <[1C 05 36]>" next
+    call(data_05.l_0xc56bc0) end
+
+l_0xc53cd8:
+    newline
+    " <[1C 05 37]>" next
+    call(data_05.l_0xc56bc0) next
+    "@Adem[C0]s, a[C7]ade un poco de Velocidad." end
+
+l_0xc53d00:
+    newline
+    " <[1C 05 38]>" next
+    call(data_05.l_0xc56bc0) next
+    "@Tambi[C1]n incrementa tu Velocidad." end
+
+l_0xc53d21:
+    newline
+    " <[1C 05 39]>" next
+    call(data_05.l_0xc56bc0) next
+    "@Incrementa tu Velocidad de forma considerable." end
+
+l_0xc53d46:
+    newline
+    " <Colgante de flama>" next
+    call(data_05.l_0xc56bdf) "@Protege contra ataques de fuego." end
+
+l_0xc53d6a:
+    newline
+    " <Colgante de lluvia>" next
+    call(data_05.l_0xc56bdf) "@Protege contra ataques de hielo." end
+
+l_0xc53d8f:
+    newline
+    " <Colgante de noche>" next
+    call(data_05.l_0xc56bdf) "@Absorbe la luz de un ataque de destello." end
+
+l_0xc53db8:
+    newline
+    " <Colgante de mar>" next
+    call(data_05.l_0xc56bdf) "@Protege contra ataques de fuego, hielo y destello." end
+
+l_0xc53de8:
+    newline
+    " <Colgante de estrella>" next
+    call(data_05.l_0xc56bdf) "@Protege contra ataques de fuego, hielo, destello y par[C0]lisis." end
+
+l_0xc53e23:
+    newline
+    " <[1C 05 3F]>" next
+    "@Equipo de cuerpo para [1C 02 04]." next
+    "@Incrementa su Defensa." end
+
+l_0xc53e4f:
+    newline
+    " <[1C 05 40]>" next
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53e5f:
+    newline
+    " <[1C 05 41]>" next
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53e6f:
+    newline
+    " <[1C 05 42]>" next
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53e7f:
+    newline
+    " <[1C 05 43]>" next
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53e8f:
+    newline
+    " <[1C 05 44]>" next
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53e9f:
+    newline
+    " <[1C 05 45]>" next
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53eaf:
+    newline
+    " <[1C 05 46]>" next
+    call(data_05.l_0xc56bf4) next
+    call(data_05.l_0xc56c16) end
+
+l_0xc53ec6:
+    newline
+    " <[1C 05 47]>" next
+    call(data_05.l_0xc56bf4) next
+    call(data_05.l_0xc56c16) end
+
+l_0xc53edd:
+    newline
+    " <[1C 05 48]>" next
+    call(data_05.l_0xc56bf4) next
+    call(data_05.l_0xc56c16) end
+
+l_0xc53ef4:
+    newline
+    " <Pulsera de reyes>" next
+    "@Para ser equipado en" linebreak
+    "  el brazo de [1C 02 04]." next
+    "@Ayuda a proteger de ser hipnotizado, y la Suerte sube." next
+    "@Por supuesto, la Defensa tambi[C1]n sube." end
+
+l_0xc53f58:
+    newline
+    " <[1C 05 4A]>" next
+    call(data_05.l_0xc56c40) next
+    "@Tiene el logo de uno de tus equipos favoritos de b[C1]isbol." end
+
+l_0xc53f89:
+    newline
+    " <[1C 05 4B]>" next
+    call(data_05.l_0xc56c40) next
+    "@Te hace sentir como el gran detective, Sherlock Holmes, cuando es equipado." end
+
+l_0xc53fc9:
+    newline
+    " <[1C 05 4C]>" next
+    call(data_05.l_0xc56c40) next
+    "@Se dice que ha sido dado a tu amigo por un jugador famoso en el parque de juego." end
+
+l_0xc5400a:
+    newline
+    " <[1C 05 4D]>" next
+    call(data_05.l_0xc56c40) next
+    "@Debe ser usado cuando se busca por tesoro enterrado," next
+    "@o cuando est[C1]s en una obra de construcci[C3]n." end
+
+l_0xc54055:
+    newline
+    " <[1C 05 4E]>" next
+    call(data_05.l_0xc56c6d) end
+
+l_0xc54065:
+    newline
+    " <[1C 05 4F]>" next
+    call(data_05.l_0xc56c6d) end
+
+l_0xc54075:
+    newline
+    " <[1C 05 50]>" next
+    call(data_05.l_0xc56c6d) end
+
+l_0xc54085:
+    newline
+    " <Moneda de sue[C7]o>" next
+    call(data_05.l_0xc56c54) end
+
+l_0xc54095:
+    newline
+    " <Moneda de defensa>" next
+    call(data_05.l_0xc56c54) end
+
+l_0xc540a5:
+    newline
+    " <Moneda de suerte>" next
+    call(data_05.l_0xc56c54) end
+
+l_0xc540b5:
+    newline
+    " <[1C 05 54]>" next
+    call(data_05.l_0xc56c54) end
+
+l_0xc540c5:
+    newline
+    " <[1C 05 55]>" next
+    call(data_05.l_0xc56c54) end
+
+l_0xc540d5:
+    newline
+    " <Moneda de recuerdo>" next
+    call(data_05.l_0xc56c54) end
+
+l_0xc540e5:
+    newline
+    " <Diadema de reyes>" next
+    call(data_05.l_0xc56c91) next
+    "@Incrementa su Defensa." end
+
+l_0xc54106:
+    newline
+    " <[1C 05 58]>" next
+    call(data_05.l_0xc56cb5) "6" call(data_05.l_0xc56cd6) end
+
+l_0xc5411c:
+    newline
+    " <[1C 05 59]>" next
+    call(data_05.l_0xc56cb5) "24" call(data_05.l_0xc56cd6) end
+
+l_0xc54133:
+    newline
+    " <[1C 05 5A]>" next
+    call(data_05.l_0xc56cb5) "50" call(data_05.l_0xc56cd6) next
+    "@100% beef." end
+
+l_0xc54156:
+    newline
+    " <[1C 05 5B]>" next
+    call(data_05.l_0xc56cb5) "40" call(data_05.l_0xc56cd6) end
+
+l_0xc5416d:
+    newline
+    " <[1C 05 5C]>" next
+    call(data_05.l_0xc56cb5) "80" call(data_05.l_0xc56cd6) next
+    "@[B9]Tan fresco, que a[C4]n est[C0] caliente!" end
+
+l_0xc54197:
+    newline
+    " <[1C 05 5D]>" next
+    call(data_05.l_0xc56cb5) "80" call(data_05.l_0xc56cd6) next
+    "@[B9]Incluso hay un pedazo de tu pastel favorito!" end
+
+l_0xc541cb:
+    newline
+    " <[1C 05 5E]>" next
+    "@Es un platillo de pasta cuya leyenda dice que era el favorito del Rey Summers Tercero" next
+    "@en el siglo 16. En ese entonces, hab[C2]a varios grandes chefs, confiados de sus" next
+    "@habilidades culinarias, siempre yendo y viniendo del Palacio de Summers." next
+    "@Un d[C2]a, la esposa del Rey Summers, Anna Summers, dijo:" next
+    "@<[B9]Oh qu[C1] no dar[C2]a por una deliciosa pasta!> ... ... ..." next
+    "@...Bueno, dej[C1]moslo en eso. La historia es muy larga para decirla completa..." next
+    "@pero es realmente una hermosa y conmovedora historia..." next
+    call(data_05.l_0xc56cb5) "110" call(data_05.l_0xc56cd6) end
+
+l_0xc54321:
+    newline
+    " <[1C 05 5F]>" next
+    call(data_05.l_0xc56cb5) "120" call(data_05.l_0xc56cd6) end
+
+l_0xc54339:
+    newline
+    " <[1C 05 60]>" next
+    "@Este es el especial de hoy. Altamente recomendado por nuestro chef," next
+    "@que trabaj[C3] en un restaurante de cinco estrellas en Par[C2]s." next
+    call(data_05.l_0xc56cb5) "200" call(data_05.l_0xc56cd6) end
+
+l_0xc543a4:
+    newline
+    " <[1C 05 61]>" next
+    "@Ya que es una pizza muy grande, todos puedes recuperar cerca de 240 PV cuando se coma." end
+
+l_0xc543da:
+    newline
+    " <[1C 05 62]>" next
+    "@Repone 20 PP." end
+
+l_0xc543f5:
+    newline
+    " <[1C 05 63]>" next
+    "@Un manjar de ensue[C7]o" linebreak
+    "  que se dice crece en la base de los [C0]rboles" next
+    "@en lugares h[C4]medos y lodosos." next
+    "@Restaura cerca de 80 PP." end
+
+l_0xc54451:
+    newline
+    " <[1C 05 64]>" next
+    call(data_05.l_0xc56cb5) "300 PV y cerca de 50 PP." end
+
+l_0xc54471:
+    newline
+    " <[1C 05 65]>" next
+    "@Cuando comes esto, incrementar[C0] tu Velocidad, Agallas, Vitalidad, CI o Suerte." end
+
+l_0xc544af:
+    newline
+    " <[1C 05 66]>" next
+    call(data_05.l_0xc56cb5) "60" call(data_05.l_0xc56cd6) end
+
+l_0xc544c6:
+    newline
+    " <[1C 05 67]>" next
+    call(data_05.l_0xc56cb5) "30" call(data_05.l_0xc56cd6) end
+
+l_0xc544dd:
+    newline
+    " <Paquete de chicle>" next
+    "@[B1]ste es el favorito del Mono Burburja." next
+    "@No te ayudar[C0] a recuperarte, pero" next
+    "@nunca se acabar[C0], [B9]porqu[C1] es un paquete super jumbo!" end
+
+l_0xc5453e:
+    newline
+    " <[1C 05 69]>" next
+    "@La comida favorita de Eructo en todo el mundo." next
+    "@Sin embargo... [B9]huele MUY, muy repugnante!" next
+    "[B9]Estamos hablando de una hediondez mayor!" end
+
+l_0xc545a1:
+    newline
+    " <[1C 05 6A]>" next
+    call(data_05.l_0xc56cc5) "6" call(data_05.l_0xc56cd6) end
+
+l_0xc545b7:
+    newline
+    " <[1C 05 6B]>" next
+    "@T[C1] de la m[C0]s alta calidad, producido por el experto en t[C1]," next
+    "@el Sr. Y. Todaar," next
+    "@quien cuidadosamente selecciona solo hojas de t[C1] escogidas a mano." next
+    "@Hace mucho tiempo, s[C3]lo los arist[C3]cratas en la corte de un rey" next
+    "  se les permit[C2]a beber de este t[C1]." next
+    call(data_05.l_0xc56cc5) "60" call(data_05.l_0xc56cd6) end
+
+l_0xc54660:
+    newline
+    " <[1C 05 6C]>" next
+    "@Para construir un cuerpo m[C0]s sano y fuerte." next
+    "@Da una explosi[C3]n de nutrici[C3]n cuando est[C0]s fatigado." next
+    call(data_05.l_0xc56cc5) "80" call(data_05.l_0xc56cd6) end
+
+l_0xc546bc:
+    newline
+    " <[1C 05 6D]>" next
+    "@Sopa hecha de la aleta del monstruo marino conocido como Kraken." next
+    "@Esta bestia vive en el oc[C1]ano de la costa de Summers." next
+    "@Muy costosa, pero un est[C2]mulo de poder est[C0] garantizado." end
+
+l_0xc54733:
+    newline
+    " <[1C 05 6E]>" next
+    "@Cuando lo bebes, tu PP incrementa ligeramente." end
+
+l_0xc5475a:
+    newline
+    " <Remedio para resfriado>" next
+    "@[B1]sta es la cosa m[C0]s efectiva que se pueda tomar cuando se tiene un resfriado." end
+
+l_0xc54789:
+    newline
+    " <[1C 05 70]>" next
+    "@Est[C0] es la mejor cosa que se pueda tomar cuando se est[C0] envenenado." end
+
+l_0xc547b0:
+    newline
+    " <[1C 05 71]>" next
+    "@Incrementa tu CI al tomarlo." end
+
+l_0xc547cb:
+    newline
+    " <[1C 05 72]>" next
+    "@Incrementa tus Agallas al tomarlo." end
+
+l_0xc547e8:
+    newline
+    " <C[C0]psula de velocidad>" next
+    "@Incrementa tu Velocidad al tomarlo." end
+
+l_0xc54806:
+    newline
+    " <[1C 05 74]>" next
+    "@Incrementa tu Vitalidad al tomarlo." end
+
+l_0xc54826:
+    newline
+    " <[1C 05 75]>" next
+    "@Incrementa tu Suerte al tomarlo." end
+
+l_0xc54842:
+    newline
+    " <Paquete de ketchup>" next
+    call(data_05.l_0xc56d63) end
+
+l_0xc54852:
+    newline
+    " <Paquete de az[C4]car>" next
+    call(data_05.l_0xc56d63) end
+
+l_0xc54862:
+    newline
+    " <[1C 05 78]>" next
+    call(data_05.l_0xc56d63) end
+
+l_0xc54872:
+    newline
+    " <[1C 05 79]>" next
+    call(data_05.l_0xc56d63) end
+
+l_0xc54882:
+    newline
+    " <[1C 05 7A]>" next
+    call(data_05.l_0xc56d63) end
+
+l_0xc54892:
+    newline
+    " <[1C 05 7B]>" next
+    call(data_05.l_0xc56d63) end
+
+l_0xc548a2:
+    newline
+    " <[1C 05 7C]>" next
+    call(data_05.l_0xc56d63) end
+
+l_0xc548b2:
+    newline
+    " <[1C 05 7D]>" next
+    "@Permite ir tras camerinos en el Teatro Caos." next
+    "@Por supuesto, tambi[C1]n puedes ver el espect[C0]culo usando el pase." end
+
+l_0xc548fc:
+    newline
+    " <[1C 05 7E]>" next
+    "@Usar una pizca sobre la comida." next
+    "@Sabe bien con cualquier tipo de comida, de este modo" next
+    "@incrementa el poder de recuperaci[C3]n de la comida." end
+
+l_0xc54952:
+    newline
+    " <[1C 05 7F]>" next
+    "@Grandioso para esos momentos en que tienes insolaci[C3]n." end
+
+l_0xc54979:
+    newline
+    " <[1C 05 80]>" next
+    "@Ayuda cuando has sido envenenado, o cuando sientas n[C0]useas." next
+    "@Tambi[C1] tiene otros usos..." next
+    call(data_05.l_0xc56d02) call(data_05.l_0xc56d36) end
+
+l_0xc549c3:
+    newline
+    " <[1C 05 81]>" next
+    "@Puede revivir a un amigo que est[C1] inconsciente." next
+    call(data_05.l_0xc56cdb) call(data_05.l_0xc56d02) next
+    call(data_05.l_0xc56d36) call(data_05.l_0xc56d38) end
+
+l_0xc549ff:
+    newline
+    " <[1C 05 82]>" next
+    goto(l_0xc54a08)
+
+l_0xc54a08:
+    "@Revive a un amigo que est[C1] inconsciente." next
+    call(data_05.l_0xc56cdb) call(data_05.l_0xc56d02) next
+    call(data_05.l_0xc56d37) call(data_05.l_0xc56d38) end
+
+l_0xc54a3a:
+    newline
+    " <[1C 05 83]>" next
+    call(data_05.l_0xc56db7) "@Retiene el PSI de un enemigo durante una batalla." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54a6c:
+    newline
+    " <[1C 05 84]>" next
+    call(data_05.l_0xc56db7) "@Rompe a trav[C1]s de el escudo del enemigo durante una batalla." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54aa1:
+    newline
+    " <[1C 05 85]>" next
+    call(data_05.l_0xc56db7) call(data_05.l_0xc56dc5) next
+    "@Debido a su poder explosivo," next
+    "@puede afectar a otros adem[C0]s del objetivo especificado." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54af5:
+    newline
+    " <[1C 05 86]>" next
+    call(data_05.l_0xc56db7) "@Realmente reparte el da[C7]o al enemigo durante una batalla." next
+    "@Debido a su poder explosivo," next
+    "@puede afectar a otros adem[C0]s del objetivo especificado." next
+    call(data_05.l_0xc56d9b) end
+

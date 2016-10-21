@@ -1,0 +1,452 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc605db:
+    "[06 5A 00 {e(l_0xc6060c)}]@Los he estado observando cavar por un rato...{pause(20)}  Me pregunto que encontrar[C0]n." end
+
+l_0xc6060c:
+    "@S[C3]lo encontraron un diamante...{pause(15)} Bueno,{pause(15)} se toma lo que se puede..." end
+
+l_0xc60633:
+    "[06 5A 00 {e(l_0xc6060c)}]@Si transmitieran la excavaci[C3]n en vivo," next
+    "@podr[C2]a verla mientras me relajo en el piso." end
+
+l_0xc60678:
+    "[06 5A 00 {e(l_0xc6060c)}]@Creo que deber[C2]a excavar en otro lado." end
+
+l_0xc60696:
+    "[06 5A 00 {e(l_0xc6060c)}]@Tengo mucho trabajo que hacer, pero no me puedo mover." next
+    "@Tengo curiosidad sobre la excavaci[C3]n.{pause(20)}  No puedo evitarlo." end
+
+l_0xc606d8:
+    call(l_0xc606de) eob
+
+l_0xc606de:
+    "[19 10 01][19 22 00 02 0B 03]{swap}{store_registers}{result_is(1)}[1B 03 {e(l_0xc6070c)}]{load_registers}{result_is(2)}[1B 03 {e(l_0xc6070c)}]{load_registers}{result_is(8)}[1B 03 {e(l_0xc6070c)}]" goto(l_0xc607b9)
+
+l_0xc6070c:
+    "@(Soy una m[C0]quina de casino rota." next
+    "@Pero, los Hermanos S[C0]nchez y su amigo son un tr[C2]o muy alegre..." next
+    "@te har[C0]n feliz.)" next
+    "@([B8]Te gustar[C2]a insertar un d[C3]lar?)" linebreak
+    call(data_36.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc6078b)} {e(l_0xc607a5)}]" goto(l_0xc607a5)
+
+l_0xc6078b:
+    "[1D 14 01 00 00 00][1B 03 {e(l_0xc607ae)}]{pause(1)}[1D 09 01 00]{open_wallet}" call(l_0xc607e4) eob
+
+l_0xc607a5:
+    "@(Bien...)" end
+
+l_0xc607ae:
+    "@(No tienes dinero.)" end
+
+l_0xc607b9:
+    "@(Soy una m[C0]quina de casino.{pause(20)}  [B8]Puedes hablarme por enfrente?)" end
+
+l_0xc607e4:
+    "{window_closeall}{pause(2)}[1F F1 FD 02 AD 02]{pause(2)}[1F F1 FE 02 AE 02]{pause(2)}[1F F1 FF 02 AF 02]{pause(120)}{pause(120)}[1F F1 FD 02 B0 02][1F 61][06 0A 02 {e(l_0xc6081d)}][06 0B 02 {e(l_0xc60844)}]" goto(l_0xc60829)
+
+l_0xc6081d:
+    "[06 0B 02 {e(l_0xc6087a)}]" goto(l_0xc6085f)
+
+l_0xc60829:
+    "[1F F1 FE 02 B1 02][1F 61][06 0A 02 {e(l_0xc60b69)}][06 0B 02 {e(l_0xc60b69)}]" goto(l_0xc6089a)
+
+l_0xc60844:
+    "[1F F1 FE 02 B1 02][1F 61][06 0A 02 {e(l_0xc60b69)}][06 0B 02 {e(l_0xc608b5)}]" goto(l_0xc60b69)
+
+l_0xc6085f:
+    "[1F F1 FE 02 B1 02][1F 61][06 0B 02 {e(l_0xc60b69)}][06 0A 02 {e(l_0xc608d0)}]" goto(l_0xc60b69)
+
+l_0xc6087a:
+    "[1F F1 FE 02 B1 02][1F 61][06 0A 02 {e(l_0xc6088e)}]" goto(l_0xc60b69)
+
+l_0xc6088e:
+    "[06 0B 02 {e(l_0xc608eb)}]" goto(l_0xc60b69)
+
+l_0xc6089a:
+    "[1F F1 FF 02 B3 02][1F 61][06 0A 02 {e(l_0xc60b71)}][06 0B 02 {e(l_0xc60b71)}]" goto(l_0xc6090b)
+
+l_0xc608b5:
+    "[1F F1 FF 02 B3 02][1F 61][06 0A 02 {e(l_0xc60b71)}][06 0B 02 {e(l_0xc60985)}]" goto(l_0xc60b71)
+
+l_0xc608d0:
+    "[1F F1 FF 02 B3 02][1F 61][06 0B 02 {e(l_0xc60b71)}][06 0A 02 {e(l_0xc60a0d)}]" goto(l_0xc60b71)
+
+l_0xc608eb:
+    "[1F F1 FF 02 B3 02][1F 61][06 0A 02 {e(l_0xc608ff)}]" goto(l_0xc60b71)
+
+l_0xc608ff:
+    "[06 0B 02 {e(l_0xc60a97)}]" goto(l_0xc60b71)
+
+l_0xc6090b:
+    "{pause(120)}[1F F1 FF 02 B4 02][1F 61][1F E6 FF 02]{window_open(1)}@[B9]Amigo, ganaste el premio mayor!" next
+    "@[B9]Aqu[C2] hay un gran premio para ti, amigo!" next
+    "[1D 03 FF][1B 02 {e(l_0xc60b13)}][1D 0E 00 A8]@" call(data_37.l_0xc7e6d7) " gan[C3] un [1C 05 A8] como premio.{wait}{sound(116)}{window_closeall}[1F E9 FF 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60985:
+    "{pause(120)}[1F F1 FF 02 B4 02][1F 61][1F E6 FF 02]{window_open(1)}@[B9]Amigo, ganaste!{pause(20)}  [B9]Un gran triunfo, yo creo!" next
+    "@[B9]Aqu[C2] hay un buen premio para el importante amigo!" next
+    "[1D 03 FF][1B 02 {e(l_0xc60b13)}][1D 0E 00 E0]@" call(data_37.l_0xc7e6d7) " gan[C3] un [1C 05 E0] como premio.{wait}{sound(116)}{window_closeall}[1F E9 FF 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60a0d:
+    "{pause(120)}[1F F1 FF 02 B4 02][1F 61][1F E6 FF 02]{window_open(1)}@[B9]Amigo, ganaste!{pause(20)}  [B9]Un gran triunfo, y le pegaste!" next
+    "@[B9]Aqu[C2] est[C0] el premio para el importante amigo!" next
+    "[1D 03 FF][1B 02 {e(l_0xc60b13)}][1D 0E 00 62]@" call(data_37.l_0xc7e6d7) " gan[C3] un [1C 05 62] como premio.{wait}{sound(116)}{window_closeall}[1F E9 FF 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60a97:
+    "{pause(120)}[1F F1 FF 02 B4 02][1F 61][1F E6 FF 02]{window_open(1)}@[B9]Amigo, ganaste!{pause(20)}  [B9]Un gran triunfo, mi amigo!" next
+    "@[B9]Aqu[C2] hay un gran premio para ti!" next
+    "[1D 03 FF][1B 02 {e(l_0xc60b13)}][1D 0E 00 6A]@" call(data_37.l_0xc7e6d7) " gan[C3] un [1C 05 6A] como premio.{wait}{sound(116)}{window_closeall}[1F E9 FF 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60b13:
+    newline
+    "@Eso fue lo que pens[C1], pero amigo, no tienes m[C0]s espacio." next
+    "@Lo siento, pero el trato se cancela." next
+    "@Tu pago se tom[C3] el d[C2]a, amigo.{wait}{window_closeall}[1F E9 FF 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60b69:
+    "[1F F1 FF 02 B2 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60b71:
+    "{pause(2)}[1F F1 FD 02 08 00]{pause(2)}[1F F1 FE 02 08 00]{pause(2)}[1F F1 FF 02 08 00]" eob
+
+l_0xc60b8a:
+    "@Soy el hermano grande Pancho." end
+
+l_0xc60b9b:
+    "@Soy el hermano chico Pincho." end
+
+l_0xc60bae:
+    "@Soy Thomas Jefferson." end
+
+l_0xc60bbf:
+    "@(...S[C3]lo soy un mont[C3]n de huesos decolorados.{pause(20)}  No puedo hablar.)" end
+
+l_0xc60be3:
+    "@(Aunque s[C3]lo sea un mont[C3]n de huesos," next
+    "@puedo hablar y me siento s[C3]lo aqu[C2] en el desierto.)" end
+
+l_0xc60c1b:
+    "@(Porqu[C1] le hablas a un peque[C7]o y negro ajonjol[C2] como yo." next
+    "@Quiero disculparme por el ajonjol[C2] blanco que lastim[C1]." next
+    "@Si pudiera verla.)[06 8A 00 {e(l_0xc60c95)}]{wait}{window_closeall}{set(flag 135)}[06 C6 02 {e(data_55.l_0xc9992f)}]{pause(60)}" call(data_23.l_0xc68880) eob
+
+l_0xc60c95:
+    next
+    "@([B8]Qu[C1]?{pause(20)}  [B8]El ajonjol[C1] blanco a[C4]n... me ama?!  Llora, llora...){wait}{window_closeall}{set(flag 135)}[06 C6 02 {e(data_55.l_0xc9992f)}]{pause(60)}" call(data_23.l_0xc68880) eob
+
+l_0xc60cd8:
+    "@(Escuch[C1] que el ajonjol[C2] negro que sol[C2]a amar est[C0] en alg[C4]n lugar en este desierto." next
+    "@Si lo ves,{pause(15)} por favor dile que a[C4]n lo amo.)[06 87 00 {e(l_0xc60d31)}]{set(flag 138)}" end
+
+l_0xc60d31:
+    next
+    "@([B8]De verdad?{pause(20)}  [B8]Ya lo has viste?  [B8]Se encontraba bien?{pause(20)}  ...Hmmm, ya veo.){wait}{set(flag 138)}" eob
+
+l_0xc60d6c:
+    "[19 10 01]{rtoarg}@[1C 02 00] vi[C3] algo brillante." next
+    "@[B9]Era un conjunto de lentes de contacto!" next
+    "[1D 03 FF][1B 02 {e(l_0xc60db8)}][1D 0E FF BB][1F 1E 1A 03 06]" call(data_36.l_0xc7dccf) "{set(flag 385)}" end
+
+l_0xc60db8:
+    "@No tienes m[C0]s espacio." end
+
+l_0xc60dc4:
+    "@Como los monos de mar viven en el mar...{pause(20)} los monos de desierto viven en el diserto." next
+    "@[C1]Quise decir desierto, no diserto!" next
+    "@Estoy contento de que haya animales en el desierto, [B8]t[C4] no?" end
+
+l_0xc60e2a:
+    call(data_13.l_0xc5d3cb) eob
+
+l_0xc60e30:
+    "[06 49 00 {e(l_0xc611e2)}][06 FC 02 {e(l_0xc61139)}][06 2A 02 {e(l_0xc60ff3)}]{music(119)}@La verdad del espacio y el tiempo se mueve en el universo como una onda..." next
+    "@La verdad habla a trav[C1]s del espacio y la materia y se da a conocer a los seres humanos." next
+    "@Estaba esper[C0]ndote,{pause(15)} y viniste.{pause(30)}  [B1]sto estaba destinado a pasar." next
+    "@En verdad,{pause(15)} todo est[C0] predestinado..." next
+    "@[1C 01 08],{counter(1)}" call(data_49.l_0xc91675) "{sound(37)}{pause(20)} [1C 01 1E]," linebreak
+    "{counter(2)}" call(data_49.l_0xc91675) "{pause(20)}  [1C 01 34]{counter(3)}" call(data_49.l_0xc91675) "{sound(37)}{pause(20)} y [1C 01 4A]," next
+    "@cuando estos cuatro poderes de re[C4]nan," next
+    "@el espacio retorcido traer[C0] de vuelta paz al mundo." next
+    "@[B8]Lo entiendes?" next
+    "@No importa.{pause(20)}  Procede como desees." next
+    "@Abre la caja del tesoro y toma lo que est[C1] adentro contigo." next
+    "{pause(60)}" linebreak
+    "@...[B8]Viniste en busca de esto?" next
+    "@Alguien lo dej[C3] en este agujero." next
+    "[1D 03 FF][1B 02 {e(l_0xc610f1)}][1D 0E 00 8B]{set(flag 554)}" call(data_36.l_0xc7dcb6) next
+    goto(l_0xc60ff3)
+
+l_0xc60ff3:
+    "{window_open(1)}@La aventura que se avecina no ser[C0] f[C0]cil." next
+    "@Te dar[C1] una habilidad especial para ayudarte a que te muevas a trav[C1]s del espacio como desees." next
+    "@Aprende la habilidad del mono que se encuentra all[C2]..." next
+    "@[B8]Te gustar[C2]a aprender este poder especial?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc6106e:
+    "[19 02]No" eob
+
+l_0xc61073:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc610c1)} {e(l_0xc61082)}]" goto(l_0xc61082)
+
+l_0xc61082:
+    "@Ha ha ha." linebreak
+    "  Esa es tu prerrogativa." next
+    "@Aseg[C4]rate de no hablar con el mono, y ve.{wait}{set(flag 2)}{window_closeall}[1F 07 03]{pause(20)}{music_resume}" eob
+
+l_0xc610c1:
+    "@Ha ha ha." linebreak
+    "  [B9]Eso es maravilloso!" next
+    "@Habla con el mono que se encuentra all[C2].{wait}{set(flag 2)}{window_closeall}[1F 07 03]{pause(20)}{music_resume}" eob
+
+l_0xc610f1:
+    "@No puedes cargar nada m[C0]s." next
+    "@Porqu[C1] no te deshaces de algo que no necesites." next
+    "@Necesitar[C0]s esto, el Dispensador de Yogurt.{wait}[1F 07 03]{pause(20)}{music_resume}" eob
+
+l_0xc61139:
+    "@La verdad del espacio y el tiempo se mueve a trav[C1]s del universo como una onda..." next
+    "@La verdad habla a trav[C1]s del espacio y la materia y se da a conocer a los seres humanos." next
+    "@Estaba esper[C0]ndote,{pause(15)} y viniste.{pause(20)}  [B1]sto estaba destinado a pasar." next
+    "@En verdad,{pause(15)} todo est[C0] predestinado..." end
+
+l_0xc611e2:
+    "@Has sido excesivamente paciente." next
+    "@Has superado muchas dificultades." next
+    "@Los elogio a todos ustedes por su valent[C2]a." end
+
+l_0xc61228:
+    "@No tuve problema excavando esto hasta que...{pause(20)} Encontr[C1] un laberinto." next
+    "@Aparecieron muchos monstruos, as[C2] que no pude seguir." next
+    "@[B9]Hay 5 grandes topos...!" next
+    "@Si derroto a los monstruos, podr[C1] continuar." next
+    "@Creo que tengo una [C4]lcera sangrante de tanto preocuparme." next
+    "@Estoy desvalido como para poder hacer algo." end
+
+l_0xc612d2:
+    "[06 15 01 {e(data_35.l_0xc7c588)}]" call(l_0xc613b3) call(data_23.l_0xc6858a) "[1B 03 {e(data_23.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 3F 03 7B 02]{set(flag 277)}" call(l_0xc615a7) eob
+
+l_0xc612ff:
+    "[06 16 01 {e(data_35.l_0xc7c588)}]" call(l_0xc613b3) call(data_23.l_0xc68591) "[1B 03 {e(data_23.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 40 03 7B 02]{set(flag 278)}" call(l_0xc615a7) eob
+
+l_0xc6132c:
+    "[06 17 01 {e(data_35.l_0xc7c588)}]" call(l_0xc613b3) call(data_23.l_0xc68598) "[1B 03 {e(data_23.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 41 03 7B 02]{set(flag 279)}" call(l_0xc615a7) eob
+
+l_0xc61359:
+    "[06 18 01 {e(data_35.l_0xc7c588)}]" call(l_0xc613b3) call(data_23.l_0xc6859f) "[1B 03 {e(data_23.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 45 03 7B 02]{set(flag 280)}" call(l_0xc615a7) eob
+
+l_0xc61386:
+    "[06 19 01 {e(data_35.l_0xc7c588)}]" call(l_0xc613b3) call(data_23.l_0xc685a6) "[1B 03 {e(data_23.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 46 03 7B 02]{set(flag 281)}" call(l_0xc615a7) eob
+
+l_0xc613b3:
+    "{music(155)}[06 09 02 {e(l_0xc614f2)}][06 08 02 {e(l_0xc614b1)}][06 07 02 {e(l_0xc6146d)}][06 06 02 {e(l_0xc61443)}]{window_open(1)}@Soy uno de los maestros de este agujero." next
+    "@Hay cinco maestros en total.{pause(20)}  Todos somos topos, por supuesto." next
+    "@Creo que soy el tercero m[C0]s fuerte de entre nosotros." next
+    "@[B9]Da tu mejor intento![03]{window_closeall}" eob
+
+l_0xc61443:
+    "{window_open(1)}@Soy realmente el tercer maestro m[C0]s fuerte." next
+    "@[B9]Te destruir[C1] ahora![03]{window_closeall}" eob
+
+l_0xc6146d:
+    "{window_open(1)}@Mi fuerza cae entre el segundo y el cuarto de los maestros m[C0]s fuertes." next
+    "@[B8]Quieres ponerme a prueba?" next
+    "{window_closeall}" eob
+
+l_0xc614b1:
+    "{window_open(1)}@Soy en verdad el tercer maestro m[C0]s fuerte de este agujero." next
+    "@[B9]Te demostrar[C1] el poder de ser el tercero![03]{window_closeall}" eob
+
+l_0xc614f2:
+    "{window_open(1)}@Ha ha ha." next
+    "@[B9]Has peleado contra el maestro m[C0]s fuerte de este agujero," next
+    "@el segundo m[C0]s fuerte de este agujero," next
+    "@el cuarto m[C0]s fuerte de este agujero," next
+    "@y el maestro m[C0]s d[C1]bil de este agujero!" next
+    "@Yo soy verdaderamente el tercer maestro m[C0]s fuerte de este agujero." next
+    "@[B9]Ahora ver[C0]s la verdadera ventaja de ser el tercero![03]{window_closeall}" eob
+
+l_0xc615a7:
+    "{isset(flag 277)}[1B 02 {e(l_0xc615e8)}]{isset(flag 278)}[1B 02 {e(l_0xc615e8)}]{isset(flag 279)}[1B 02 {e(l_0xc615e8)}]{isset(flag 280)}[1B 02 {e(l_0xc615e8)}]{isset(flag 281)}[1B 02 {e(l_0xc615e8)}]{set(flag 282)}{set(flag 72)}" call(data_36.l_0xc7dd85) "{unset(flag 54)}{unset(flag 55)}{set(flag 492)}" goto(l_0xc615e8)
+
+l_0xc615e8:
+    eob
+
+l_0xc615e9:
+    "[06 09 02 {e(l_0xc61615)}][06 08 02 {e(l_0xc61611)}][06 07 02 {e(l_0xc6160d)}][06 06 02 {e(l_0xc61609)}]{set(flag 518)}" eob
+
+l_0xc61609:
+    "{set(flag 519)}" eob
+
+l_0xc6160d:
+    "{set(flag 520)}" eob
+
+l_0xc61611:
+    "{set(flag 521)}" eob
+
+l_0xc61615:
+    eob
+
+l_0xc61616:
+    "[06 C3 01 {e(l_0xc61702)}]@[B8]Ukippkyako Ukikiki?" next
+    "@([B8]Tienes" linebreak
+    "  un [1C 05 E0]?)" next
+    "@Ukii Ukieki..." next
+    "@(Me quitar[C1] si me das uno.)" next
+    "@[B8]Ukiki?" next
+    "@([B8]Puedes darme uno?)" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc616b2)} {e(l_0xc61696)}]" goto(l_0xc61696)
+
+l_0xc61696:
+    "@Uki, Ukyakikya" next
+    "@(No me mover[C1].)" end
+
+l_0xc616b2:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc61696)}]{store_registers}" call(data_18.l_0xc623aa) "[1B 02 {e(l_0xc61696)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@[B9]Ukippu Kyako!" next
+    "@([B9]Un [1C 05 E0]!){wait}{wait}{window_closeall}[1F 1E 20 03 06][1F 17 22 03 2B 00 01]{set(flag 451)}" eob
+
+l_0xc61702:
+    "@Ukki." next
+    "@(Suertudo.){wait}" end
+
+l_0xc61715:
+    "[06 C4 01 {e(l_0xc61803)}]@[B9]Kikiki Kiki!" next
+    "@([B9]Quiero comer" linebreak
+    "  un [1C 05 5D]!)" next
+    "@Kikiki Kiki" next
+    "@(Si cumples mi deseo,{pause(15)} podr[C2]a abrir la entrada.)" next
+    "@[B8]Kikiki Kiki?" next
+    "@([B8]Me dar[C0]s" linebreak
+    "  un [1C 05 5D]?)" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc617bb)} {e(l_0xc6179b)}]" goto(l_0xc6179b)
+
+l_0xc6179b:
+    "@[B9]Kikiki Kiki!" next
+    "@([B9]Quiero comer una [1C 05 5D]!)" end
+
+l_0xc617bb:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc6179b)}]{store_registers}[19 19 00 00]{swap}{result_is(93)}[1B 02 {e(l_0xc6179b)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@[B9]Kikie!" next
+    "@([B9]Grandioso!){wait}{window_closeall}[1F 1E 1F 03 06][1F 17 21 03 2B 00 01]{set(flag 452)}" eob
+
+l_0xc61803:
+    "@Kikki" next
+    "@(Hee he he)" end
+
+l_0xc61817:
+    "[06 C5 01 {e(l_0xc61949)}]@Uki Ukikie" next
+    "@([B8]No se siente caliente aqu[C2]?{pause(20)}  [B9]Mi pelaje est[C0] todo sudado!)" next
+    "@Ukie Kikukie" next
+    "@(Quiz[C0] no tengas" linebreak
+    "  una [1C 05 7F], pero)" next
+    "@[B8]Ukke Ukiki Ukkikie?" next
+    "@(si tienes una,{pause(15)} [B8]la compartir[C2]as conmigo?)" next
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc618ed)} {e(l_0xc618c2)}]" goto(l_0xc618c2)
+
+l_0xc618c2:
+    "@Ukie Ukie Ukikie" next
+    "@(De todos modos,{pause(15)} est[C0] h[C4]medo aqu[C2].)" end
+
+l_0xc618ed:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc618c2)}]{store_registers}[19 19 00 00]{swap}{result_is(127)}[1B 02 {e(l_0xc618c2)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@[B8]Ukokkie?  [B8]Ukike?" next
+    "@([B8]Tienes una?{pause(20)}  [B9]Gracias!){wait}{window_closeall}[1F 1E 24 03 06][1F 17 26 03 2B 00 01]{set(flag 453)}" eob
+
+l_0xc61949:
+    "@Ukri Ukrikie" next
+    "@(Est[C0] h[C4]medo aqu[C3].)" end
+
+l_0xc61966:
+    "[06 C6 01 {e(l_0xc61a71)}]@Ukkkin Uki Uki Ukkin" next
+    "@(Oooooooo...,{pause(15)} Soy Monkonna.{pause(20)}  Quiero comer una deliciosa [1C 05 5F].)" next
+    "@Ukkyou kikinkyou" next
+    "@(Si tienes una,{pause(15)} [B8]me la dar[C2]as?)" next
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61a14)} {e(l_0xc619ef)}]" goto(l_0xc619ef)
+
+l_0xc619ef:
+    "@[B9]Uki Ukiekkiki!" next
+    "@([B9]In[C4]til detesta monos!)" end
+
+l_0xc61a14:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc619ef)}]{store_registers}" call(data_18.l_0xc62395) "[1B 02 {e(l_0xc619ef)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Ukkin Ukkikeen" next
+    "@(Hah,{pause(15)} Monkonna est[C0] feliz.){wait}{window_closeall}[1F 1E 23 03 06][1F 17 25 03 2B 00 01]{set(flag 454)}" eob
+
+l_0xc61a71:
+    "@Ukkien" next
+    "@(Oooooooo...)" end
+
+l_0xc61a88:
+    "[06 C7 01 {e(l_0xc61b70)}]@Ukyakki KyaKye" next
+    "@(Me gustar[C2]a tener una [1C 05 6C].)" next
+    "@[B8]Kya Kya?" next
+    "@([B8]Puedes darme una?)" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61b03)} {e(l_0xc61add)}]" goto(l_0xc61add)
+
+l_0xc61add:
+    "@[B8]KyaKya Kyokyokyo?" next
+    "@([B8]Es por qu[C1] a[C4]n soy un ni[C7]o?)" end
+
+l_0xc61b03:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc61add)}]{store_registers}[19 19 00 00]{swap}{result_is(108)}[1B 02 {e(l_0xc61add)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Gulp,{pause(15)} gulp...{pause(20)} [B9]Bliekki!" next
+    "@(Gulp,{pause(15)} gulp...{pause(20)} [B9]Bliekki!){wait}{window_closeall}[1F 1E 2E 03 06][1F 17 30 03 2B 00 01]{set(flag 455)}" eob
+
+l_0xc61b70:
+    "@Kya Kya" next
+    "@(Kya Kya)" end
+
+l_0xc61b85:
+    "[06 C8 01 {e(l_0xc61c76)}]@Si tienes una [1C 05 5F],{pause(15)} por favor dame una." next
+    "@...Ukiki Ukkike" next
+    "@(...Wuups,{pause(20)} te hable en lenguaje humano.)" next
+    "@Ukiki Ukkike" next
+    "@(Si tienes una [1C 05 5F],{pause(15)} por favor dame una.)" next
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61c20)} {e(l_0xc61c0f)}]" goto(l_0xc61c0f)
+
+l_0xc61c0f:
+    "@Kye..." next
+    "@(Maldici[C3]n...)" end
+
+l_0xc61c20:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc61c0f)}]{store_registers}" call(data_18.l_0xc62395) "[1B 02 {e(l_0xc61c0f)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@[B9]Ukki Ukikii!" next
+    "@([B9]Grandioso,{pause(15)} hora de pizza!){wait}{window_closeall}[1F 1E 2D 03 06][1F 17 2F 03 2B 00 01]{set(flag 456)}" eob
+
+l_0xc61c76:
+    "@Gracias." next
+    "@...Kie ukkya" next
+    "@(...demonios,{pause(15)} us[C1] el lenguaje humano de nuevo.)" end
+
+l_0xc61cac:
+    "[06 C9 01 {e(l_0xc61da4)}]@[B9]Unkikie!  [B9]Uukiuki!" next
+    "@([B9]Amo las hamburguesas!)" next
+    "@Ukie Unkikie..." next
+    "@(el mono a un lado m[C2]o ama las hamburguesas tambi[C1]n...)" next
+    "@Uuu.{pause(20)}  [B8]Unkikkie Uki?" next
+    "@(Si tienes una [1C 05 5A],{pause(15)} [B8]me la dar[C2]as por favor?)" next
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61d5d)} {e(l_0xc61d50)}]" goto(l_0xc61d50)
+
+l_0xc61d50:
+    "@....." next
+    "@(.....)" end
+
+l_0xc61d5d:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc61d50)}]{store_registers}" call(data_18.l_0xc62380) "[1B 02 {e(l_0xc61d50)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@[B9]Unkikie!" next
+    "@([1C 05 5A]!){wait}{window_closeall}[1F 1E 28 03 06][1F 17 2A 03 2B 00 01]{set(flag 457)}" eob
+
+l_0xc61da4:
+    "@Uki Unkinki Ukinkie" next
+    "@(la verdad es que el mono a un lado m[C2]o es mi hermano gemelo.)" end
+
+l_0xc61ddb:
+    "[06 CA 01 {e(data_18.l_0xc61ed7)}]@[B9]Unkikkie Uuki Uki!" next
+    "@([B9]Amo las hamburguesas!)" next
+    "@Ukie Unkikie..." next
+    "@(Al mono a un lado m[C2]o ama las hamburguesas tambi[C1]n...)" next
+    "@Uuu.{pause(20)}  [B8]Unkikkie Uki?" next
+    "@(Si tienes una [1C 05 5A],{pause(15)} [B8]me la dar[C2]as por favor?)" next
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(data_18.l_0xc61e8e)} {e(data_18.l_0xc61e81)}]" goto(data_18.l_0xc61e81)

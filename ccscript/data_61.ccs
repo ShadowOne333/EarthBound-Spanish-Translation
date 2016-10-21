@@ -1,0 +1,463 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import ebpp
+import Item_Articles
+import Enemy_Articles
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xef5428:
+    "@Protege a todos con un escudo de poder." linebreak
+    "@Corta el da[C7]o a la mitad y un poco del da[C7]o bloqueado se regresa al enemigo." linebreak
+    "@Usar un escudo diferente cancelar[C0] estos efectos." eob
+
+l_0xef548f:
+    "@Protege a una persona con un escudo ps[C2]quico." linebreak
+    "@Bloquea el ataque PK de un enemigo." linebreak
+    "@Usar un escudo diferente cancelar[C0] estos efectos." eob
+
+l_0xef54e6:
+    "@Protege a todos con un escudo ps[C2]quico." linebreak
+    "@Bloquea el ataque PK de un enemigo." linebreak
+    "@Usar un escudo diferente cancelar[C0] estos efectos." eob
+
+l_0xef553c:
+    "@Protege a una persona con un escudo ps[C2]quico de poder." linebreak
+    "@Refleja el ataque PK de un enemigo de vuelta al atacante." linebreak
+    "@Usar un escudo diferente cancelar[C0] estos efectos." eob
+
+l_0xef55a0:
+    "@Protege a todos con un escudo ps[C2]quico de poder." linebreak
+    "@Refleja el ataque PK de un enemigo de vuelta al atacante." linebreak
+    "@Usar un escudo diferente cancelar[C0] estos efectos." eob
+
+l_0xef5603:
+    "@Incrementa la Ofensa de una persona por la duraci[C3]n de la batalla actual." linebreak
+    call(data_05.l_0xc56b0d) eob
+
+l_0xef562e:
+    "@Incrementa la Ofensa de todos por la duraci[C3]n de la batalla actual." linebreak
+    call(data_05.l_0xc56b0d) eob
+
+l_0xef5658:
+    "@Disminuye la Defensa de un enemigo por la duraci[C3]n de la batalla actual." linebreak
+    call(data_05.l_0xc56b0d) eob
+
+l_0xef5687:
+    "@Disminuye la Defensa de todos los enemigos por la duraci[C3]n de la batalla actual." linebreak
+    call(data_05.l_0xc56b0d) eob
+
+l_0xef56b9:
+    "@Pone a un enemigo a dormir/" linebreak
+    call(data_05.l_0xc56ac0) eob
+
+l_0xef56d0:
+    "@Pone a todos los enemigos a dormir." linebreak
+    call(data_05.l_0xc56ac0) eob
+
+l_0xef56eb:
+    "@Agarra 2-8 puntos de PP de un enemigo y los agrega a los tuyos." eob
+
+l_0xef5712:
+    "@Agarra 2-8 puntos de PP de cada enemigo y los agrega a los tuyos." eob
+
+l_0xef5739:
+    "@Forza a un enemigo en" call(data_05.l_0xc56ac2) eob
+
+l_0xef574e:
+    "@Forza a todos los enemigos en" call(data_05.l_0xc56ac2) eob
+
+l_0xef5766:
+    "@Hace a un enemigo sentirse extra[C7]o." eob
+
+l_0xef5777:
+    "@Hace a todos los enemigos sentirse extra[C7]os." eob
+
+l_0xef578b:
+    call(data_05.l_0xc56ae4) newline
+    "@Necesitas un buen inicio corriendo para que funcione." eob
+
+l_0xef57ae:
+    call(data_05.l_0xc56ae4) newline
+    "@No necesitas un inicio corriendo para usarlo." linebreak
+    "@Tambi[C1]n es llamada <Teleportaci[C3]n Tornado>." eob
+
+l_0xef57eb:
+    "[06 C5 00 {e(data_35.l_0xc7c588)}]{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(data_24.l_0xc690a6)}]{music(155)}@Finalmente llegaste." next
+    "@Esta es la octava locaci[C3]n de <Tu Santuario.>{pause(20)}  Pero ahora es m[C2]a." next
+    "@T[C3]mala de m[C2],{pause(30)} si te atreves...[03]" call(data_23.l_0xc6843a) "[1B 03 {e(data_23.l_0xc683de)}][1F 1E FC 04 08]{pause(120)}{set(flag 197)}" eob
+
+l_0xef5864:
+    "{font_saturn}@Secuestrado.{pause(20)}  Yo fui.  [B9]Boing!" next
+    "@Secuestrador.{pause(20)}  Es malo." next
+    "@Chico malo se fue.  [B9]Zoom!" next
+    "@[B8]D[C3]nde?" linebreak
+    "  Al pasado." next
+    "@[B9]Ding, ding!{wait}{font_normal}" eob
+
+l_0xef58c7:
+    "[06 DF 00 {e(data_23.l_0xc685cb)}][19 10 01]{rtoarg}@[1C 02 00] reviso el Distorsionador de Fase roto." next
+    "@Hab[C2]a [1C 05 82]." next
+    "[1D 03 FF][1B 02 {e(data_23.l_0xc685bb)}][1D 0E 00 82]" call(data_36.l_0xc7dccf) "{set(flag 223)}" end
+
+l_0xef5917:
+    "{sound(99)}[1F 15 A9 00 6C 02 01][1F 61][1F 1F A9 00 06][1F 15 62 00 08 00 01][1F E4 62 00 07][1F E4 62 00 01][1F E4 62 00 03][1F E4 62 00 05][1F E4 62 00 07]{pause(1)}[1F E4 62 00 01]{pause(2)}[1F E4 62 00 03]{pause(3)}[1F E4 62 00 05]{pause(4)}[1F E4 62 00 07]{pause(5)}[1F E4 62 00 01]{pause(6)}[1F E4 62 00 03]{pause(7)}[1F E4 62 00 05]{pause(8)}[1F E4 62 00 07]{window_open(1)}@[B9]Saludos!{pause(20)}  As[C2] que, [B9]finalmente est[C0]s aqu[C2]![03]{window_closeall}" call(data_49.l_0xc915f4) "{sound(37)}{pause(90)}{window_open(1)}@[B9]Excelente!{pause(20)}  [B9]Eres verdaderamente excelente!" next
+    "@[B9]S[C3]lo queda poco tiempo!{pause(15)}  [B9]Te dar[C1] el [C4]ltimo poder." next
+    "@Debo irme ahora...[03]{window_closeall}[1F 71 04 03][1F 1F 62 00 06]{sound(99)}[1F 15 A9 00 6D 02 01][1F 61][1F 71 04 03]{window_open(1)}@([B9][1C 01 4A] se volvi[C3] consciente de PK Tormenta Estelar _!){sound(103)}{wait}{window_closeall}" eob
+
+l_0xef5a3e:
+    "[06 A7 01 {e(l_0xef5a81)}]@Aunque escuch[C1] la historia de la Misteriosa Roca habladora," next
+    "@No entiendo de qu[C1] est[C0] hablando." end
+
+l_0xef5a81:
+    "@La roca de pronto dej[C3] de hablar." next
+    "@En otras palabras..." next
+    "@No est[C0] diciendo nada." end
+
+l_0xef5ab5:
+    "@...Tienes un buen art[C2]culo." next
+    "@Desde que vine al Inframundo Perdido, no he visto ni olido [1C 05 D3]." end
+
+l_0xef5aed:
+    "[06 A7 01 {e(l_0xef5bc8)}][06 68 02 {e(l_0xef5b97)}]@[B8]Qu[C1] haces en la jaula de los dinosaurios?" next
+    "@Abrir[C1] la puerta para ti, y m[C0]s vale que salgas r[C0]pido de la jaula." next
+    "@Es una orden del jefe.{pause(15)}  ...Por cierto,{pause(15)} gracias por [1C 05 D3]." next
+    "[19 10 01]{rtoarg}@([1C 05 D3] de [1C 02 00] fue tomado.)" next
+    "@([B9]Ese olor repugnante te abandon[C3] al mismo tiempo!){wait}{set(flag 616)}" eob
+
+l_0xef5b97:
+    "@Porqu[C1] no ves a la misteriosa roca habladora." next
+    "@[B9]Esa roca vaya que parlotea!!" end
+
+l_0xef5bc8:
+    "@Una roca que no habla no es divertida." end
+
+l_0xef5be6:
+    "[06 49 00 {e(l_0xef5c46)}]@Somos los mismos Tenda que aquellos sobre la tierra." next
+    "@...[B8]Nos vemos diferentes?" next
+    "@S[C2],{pause(15)} t[C4] sabes, los Tenda de all[C0] arriba son t[C2]midos y no les gusta hablar." end
+
+l_0xef5c46:
+    "@Puede ser mi imaginaci[C3]n,{pause(15)} pero creo escuchar el sonido de otros Tenda hablando all[C0] arriba." next
+    "@Me pregunto... [B8]habr[C0]n superado su timidez?" end
+
+l_0xef5c98:
+    "[06 49 00 {e(l_0xef5ce4)}]@[B8]No crees que los Tenda de arriba tienen mujeres particularmente bellas?" next
+    "@Son t[C2]midos, a[C4]n as[C2]." end
+
+l_0xef5ce4:
+    "@Las mujeres Tenda de arriba son lindas, pero los hombres se ven algo descuidados." end
+
+l_0xef5d16:
+    "[06 FF 02 {e(l_0xef5df8)}]{set(flag 767)}@Eres extra[C7]o, pero hueles bien.{pause(20)}  As[C2] que te dir[C1] un secreto." next
+    "@[B8]Sentiste el terremoto de hace rato?" next
+    "@...Ya sabes, tenemos terremotos todo el tiempo aqu[C2]." next
+    "@Despu[C1]s de un terremoto, las aguas termales har[C0]n erupci[C3]n." next
+    "@Las aguas azules son grandiosas para recuperar la salud." next
+    "@Las aguas rojas son perfectas para curar par[C0]lisis o extraer veneno." end
+
+l_0xef5df8:
+    "@[B9]Hey! Sujeto extra[C7]o." next
+    "@Despu[C1]s de un terremoto, las aguas termales har[C0]n erupci[C3]n fuera de la tierra." next
+    "@[B8]Te has dado cuenta?" next
+    "@Las aguas azules son grandiosas para recuperar la salud." next
+    "@Las aguas rojas son perfectas para curar par[C0]lisis o extraer veneno." end
+
+l_0xef5e94:
+    "[06 49 00 {e(l_0xef5f31)}]@Los Tenda que hablan mucho vienen al Inframundo Perdido" next
+    "@porque no soportan el silencio de all[C0] arriba." next
+    "@As[C2] que establecimos una tribu aparte." next
+    "@Espero que podamos ser amistosos de nuevo alg[C4]n d[C2]a." next
+    "@...S[C2],{pause(20)} era mucho m[C0]s f[C0]cil vivir all[C0] arriba." end
+
+l_0xef5f31:
+    "@Ustedes ayudaron a la tribu de arriba y la tribu de abajo a unirse de nuevo." next
+    "@Pronto, [B9]seremos una sola aldea de nuevo!{pause(20)}  Gracias." end
+
+l_0xef5f7d:
+    "@Hicimos una jaula para dinosaurios y los encerramos..." next
+    "@Eso es lo que mi hermano me dice." next
+    "@Pero no lo creo...{pause(20)}  S[C3]lo dice cosas de su bocota." end
+
+l_0xef5fdf:
+    "[06 49 00 {e(l_0xef6038)}]@Un ni[C7]o gordito y odioso vino de un pa[C2]s extranjero y dijo algo desgarrador..." next
+    "@As[C2] que estoy sanando mis heridas en las aguas termales." end
+
+l_0xef6038:
+    "@[B9]Las aguas termales son lo mejor!" end
+
+l_0xef6049:
+    call(data_21.l_0xc655b1) eob
+
+l_0xef604f:
+    "@El ave de all[C0] dice cosas extra[C7]as como <[B8]Hola?> y <click biip biip biip.>" end
+
+l_0xef6084:
+    "[06 49 00 {e(l_0xef60c5)}]@Aqu[C2], los dinosaurios no vienen a atacarme.  As[C2] que, me puedo relajar." next
+    "@...Excepto que ahora no puedo salir." end
+
+l_0xef60c5:
+    "@Sin dinosaurios, a este lugar parecer[C2]a que le falta algo grande." end
+
+l_0xef60f2:
+    "@[B9][B9]Ring, ring, rrriiing!!" next
+    call(data_18.l_0xc63029) eob
+
+l_0xef610c:
+    eob
+
+l_0xef610d:
+    "@([B9]No alimente a los dinosaurios en la jaula!" linebreak
+    "{pause(20)}  El Jefe)" end
+
+l_0xef6132:
+    "@(No le hable a la roca sino tiene algo que decir.{pause(20)}  El Jefe)" end
+
+l_0xef6157:
+    "@(En caso de peligro, [B9]evacuar aqu[C2]!{pause(20)}  El Jefe)" end
+
+l_0xef617b:
+    "[06 6E 01 {e(data_35.l_0xc7c588)}]{window_open(1)}@[B8]Trajiste algo de <Miel de Mosca>?" next
+    "@Es la favorita del Maestro Eructo." linebreak
+    "[19 02]S[C2]" eob
+
+l_0xef61b6:
+    " [19 02]No" eob
+
+l_0xef61bc:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xef61f3)} {e(l_0xef61cb)}]" goto(l_0xef61cb)
+
+l_0xef61cb:
+    "@Entonces, [B8]por qu[C1] est[C0]s aqu[C2]?![03]{window_closeall}" call(data_23.l_0xc6853f) "[1B 03 {e(data_23.l_0xc683de)}]{pause(1)}[1F F1 B0 02 7B 02]{set(flag 366)}" eob
+
+l_0xef61f3:
+    "[1D 05 FF 69][1B 03 {e(l_0xef6247)}]@[B8]No la trajiste?{pause(20)}  Te ves un tanto sospechoso..." next
+    "@[B9]No puedes pasar por aqu[C2]![03]{window_closeall}" call(data_23.l_0xc6853f) "[1B 03 {e(data_23.l_0xc683de)}]{pause(1)}[1F F1 B0 02 7B 02]{set(flag 366)}" eob
+
+l_0xef6247:
+    "@Est[C0] bien, puedes pasar." next
+    "@[B9]Hey, ten cuidado!{pause(20)}  [B9]Aseg[C4]rate de no tirarlo![03]{window_closeall}" eob
+
+l_0xef6276:
+    "@[B9]Urp!" next
+    "@...Es dif[C2]cil hacer esos sonidos asquerosos que el Maestro Eructo hace." next
+    "@Yo s[C1] que no puedo hacerlo." end
+
+l_0xef62b1:
+    "@[B9]El Maestro Eructo es el m[C0]s baboso!" next
+    "@Sin embargo, escuch[C1] que est[C0] sirviendo a un tal Giygas.{pause(15)}  Eso no lo puedo creer." end
+
+l_0xef62f5:
+    "[06 6F 01 {e(data_35.l_0xc7c588)}]{window_open(1)}@[B8]No eres el chico de la entrega de la Miel de Mosca?{pause(15)}  [B9]Cu[C0]l es la contrase[C7]a!" next
+    "@No es que no conf[C2]e en ti.{pause(15)}  [B9]S[C3]lo dilo!" next
+    "@[B9]Dilo ahora!" next
+    "@Alguien tan callado es o extremadamente t[C2]mido o extremadamente peligroso..." next
+    "@[B9]Qu[C1] sujeto tan sospechoso![03]{window_closeall}" call(data_23.l_0xc68546) "[1B 03 {e(data_23.l_0xc683de)}]{pause(1)}[1F F1 B3 02 7B 02]{set(flag 367)}" eob
+
+l_0xef63b5:
+    "[06 70 01 {e(data_35.l_0xc7c588)}]{window_open(1)}@As[C2] que, [B9]ustedes son los que destruyeron a los zombies que asign[C1] en Threed!![03]{window_closeall}" call(data_23.l_0xc6854d) "[1B 03 {e(data_23.l_0xc683de)}]{pause(1)}[1F F1 B4 02 7B 02]{set(flag 368)}" eob
+
+l_0xef6400:
+    "{font_saturn}@Cansado." next
+    "@Pero tan bien.  [B9]Ding!{wait}{font_normal}" eob
+
+l_0xef6419:
+    "{font_saturn}@[B9]Ugh!  [B9]Ge{pause(5)}e{pause(5)}e{pause(5)}z!  Esto realmente..." next
+    "@Sonriente.   [B9]Boing!{wait}{font_normal}" eob
+
+l_0xef6446:
+    "[06 47 00 {e(data_35.l_0xc7c588)}]{music(134)}{sound(78)}@[B9]Buuurp!" next
+    "@[B8]As[C2] que t[C4] eres [1C 02 01]?" next
+    "{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xef66ca)}]@...Ya veo...  [B9]Gyork!{pause(15)}  [B9]Gyork!{pause(15)}  [B9]Gyork!" next
+    "@Hay una profec[C2]a de que un ni[C7]o destruir[C0] al Amo Giygas." next
+    "@[B9]Heeg!  [B9]Heeg!  [B9]Heeg!" linebreak
+    "  Me haces re[C2]r tanto..." next
+    "@Si el Amo Giygas teme a alguien..." next
+    "{sound(78)}@tendr[C2]a que ser peor que el m[C0]s grande mal..." next
+    "@[B9]Garg!  [B9]Ga!  [B9]Garg!  [B9]Ga!  [B9]Ga!  [B9]Ga!" next
+    "@Te dejar[C1] en el suelo, [B9]as[C2] que prep[C0]rate para la peor pelea de tu vida!" next
+    "{sound(78)}{pause(40)}" linebreak
+    goto(l_0xef6569)
+
+l_0xef6569:
+    "@[B9]Gha Gha Gha!" linebreak
+    "  [B9]Prep[C0]rate para sentir el dolor de la verdadera n[C0]usea!" next
+    "{sound(78)}{pause(40)}@[B9]Ghe Ghe!" linebreak
+    "  [B9]Vamos, vamos![03]" call(data_23.l_0xc68554) "[1B 03 {e(data_23.l_0xc683de)}]{window_open(1)}{music(134)}@{sound(78)}{pause(40)}Parece que fue una pelea pareja...{pause(20)}  [B9]Buurp!" next
+    "@Pero, el Amo Giygas ha logrado meter a la estatua Mani Mani a Fourside.{pause(20)}{sound(78)}{pause(40)}" next
+    "@[B9]La ciudad pronto estar[C0] en peor condici[C3]n a que si viviera en su propio v[C3]mito!" next
+    "@[B9]Sufre!{pause(20)}{sound(78)}" linebreak
+    "  {pause(40)}[B9]Gha, Gha, Gha, Gha, Gha!" next
+    "@[B9]Bu{pause(5)}u{pause(5)}u{pause(5)}urp!{sound(78)}{pause(40)}" next
+    "{window_closeall}{pause(1)}[1F F1 B9 02 7B 02]{set(flag 71)}{set(flag 366)}{set(flag 367)}{set(flag 368)}{set(flag 590)}{set(flag 623)}{set(flag 629)}{set(flag 489)}{set(flag 490)}{unset(flag 125)}{unset(flag 773)}{unset(flag 761)}[19 26 04]{music_resume}" eob
+
+l_0xef66ca:
+    "@...[B8]No?..." linebreak
+    "  [B9]Gyork, Gyork, Gyork!" next
+    "@Escuch[C1] que hay una profec[C2]a de que [C1]l derrotar[C0] al Amo Giygas..." next
+    "@Heeg Heeg Heeg" linebreak
+    "  [B9]Me haces re[C2]r tanto!" next
+    "@Si el Amo Giygas le teme a alguien...{sound(78)}" next
+    "@tendr[C2]a que ser peor que el m[C0]s grande mal..." next
+    "@Te dejar[C1] en el suelo, [B9]as[C2] que prep[C0]rate para la peor pelea de tu vida!" next
+    goto(l_0xef6569)
+
+l_0xef679a:
+    "[06 C1 00 {e(data_35.l_0xc7c588)}]{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(data_24.l_0xc690a6)}]{music(155)}@Finalmente llegaste." next
+    "@Esta es tu tercera locaci[C3]n de <Tu Santuario.>{pause(20)}  Pero es m[C2]a ahora." next
+    "@T[C3]mala de m[C2],{pause(30)} si te atreves...[03]" call(data_23.l_0xc6841e) "[1B 03 {e(data_23.l_0xc683de)}][1F 1E C1 02 08]{pause(120)}{set(flag 193)}" eob
+
+l_0xef6814:
+    call(data_13.l_0xc5d36b) eob
+
+l_0xef681a:
+    "[1D 05 FF 69][1B 03 {e(l_0xef6874)}]@[B9]Gyork Gyork!" next
+    "@[B9]Hey you, corriente!{pause(20)}  T[C4] ah[C2] deambulando sin <Miel de Moscar>..." next
+    "@Soy el enemigo mortal de los de tu tipo.[03]" eob
+
+l_0xef6874:
+    "@[B9]Gyork!  [B9]Gyork!" next
+    "@Ya que ten[C2]as <Miel de Mosca,> te consider[C1] un amigo." next
+    "@Pero en verdad, [B9]eres s[C3]lo un corriente!{pause(20)}  Soy el enemigo mortal de los de tu tipo.[03]" eob
+
+l_0xef68d7:
+    "{window_open(1)}[1D 05 FF 69][1B 03 {e(l_0xef6954)}]@Me has derrotado..." next
+    "@Permite que coma algo de Miel de Mosca por [C4]ltima vez..." next
+    "@El Maestro Eructo odia a la gente como t[C4]." next
+    "@...Ver[C0]s, aquellos que no tienen <Miel de Mosca> son nuestros enemigos mortales...[03]{window_closeall}" eob
+
+l_0xef6954:
+    "@Quer[C2]a obtener tu Miel de Mosca y engullirla." next
+    "@El Maestro Eructo y yo amamos la Miel de Mosca.{pause(20)}" linebreak
+    "  [B9]Gyorg Gyorg!...[03]{window_closeall}" eob
+
+l_0xef69a1:
+    newline
+    "@[B9]Los PV de {asmcall_long(PrintLowDefArticleTarget)}{target}" linebreak
+    "  est[C0]n al m[C0]ximo!{sound(36)}[03]" eob
+
+l_0xef69ba:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} recuper[C3]" linebreak
+    "  {delta} PV!{sound(36)}[03]" eob
+
+l_0xef69d2:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} recuper[C3]" linebreak
+    "  {delta} PP!{sound(36)}[03]" eob
+
+l_0xef69ea:
+    newline
+    "@[B9]La Ofensa de {asmcall_long(PrintLowDefArticleTarget)}{target}" linebreak
+    "  es {delta}![03]" eob
+
+l_0xef69ff:
+    newline
+    "@[B9]Defensa es {delta}![03]" eob
+
+l_0xef6a0d:
+    newline
+    "@[B9]Vulnerable a PK Fuego![03]" eob
+
+l_0xef6a24:
+    newline
+    "@[B9]Vulnerable a PK Hielo![03]" eob
+
+l_0xef6a3c:
+    newline
+    "@[B9]Vulnerable a PK Destello![03]" eob
+
+l_0xef6a54:
+    newline
+    "@[B9]Vulnerable a Par[C0]lisis![03]" eob
+
+l_0xef6a6c:
+    newline
+    "@[B9]Abierto a Hipnosis![03]" eob
+
+l_0xef6a7f:
+    newline
+    "@[B9]Susceptible a Confusi[C3]n.[03]" eob
+
+l_0xef6a99:
+    newline
+    "@[B9]Woaa! {user} se convirti[C3] en" linebreak
+    "  {asmcall_long(PrintLowDefArticleTarget)}{target}![03]" eob
+
+l_0xef6ab3:
+    newline
+    "@[B9]{user} no pudo convertirse" linebreak
+    "  en {asmcall_long(PrintLowDefArticleTarget)}{target}![03]" eob
+
+l_0xef6ac7:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} fue" linebreak
+    "  diamonizado!{sound(83)}[03]" eob
+
+l_0xef6ae0:
+    newline
+    "@[B9]El cuerpo de {asmcall_long(PrintLowDefArticleTarget)}{target}" linebreak
+    "  se entumeci[C3]!{sound(83)}[03]" eob
+
+l_0xef6afb:
+    newline
+    "@{asmcall_long(PrintCapDefArticleTarget)}{target} se sinti[C3]" linebreak
+    "  algo nauseabundo...{sound(83)}[03]" eob
+
+l_0xef6b18:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} fue" linebreak
+    "  envenenad{asmcall_long(PrintGenderedVerbTarget)}!{sound(83)}[03]" eob
+
+l_0xef6b2f:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} se ha resfriado!{sound(83)}[03]" eob
+
+l_0xef6b43:
+    "[1C 15 01][09 03 {e(l_0xef6b54)} {e(l_0xef6b59)} {e(l_0xef6b5f)}]" goto(l_0xef6b54)
+
+l_0xef6b54:
+    "(he)" eob
+
+l_0xef6b59:
+    "(she)" eob
+
+l_0xef6b5f:
+    "(it)" eob
+
+l_0xef6b64:
+    "[1C 15 02][09 03 {e(l_0xef6b75)} {e(l_0xef6b79)} {e(l_0xef6b7d)}]" goto(l_0xef6b75)
+
+l_0xef6b75:
+    "(1)" eob
+
+l_0xef6b79:
+    "(2)" eob
+
+l_0xef6b7d:
+    "(3)" eob
+
+l_0xef6b81:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} empez[C3] a" linebreak
+    "  sentirse extra[C7]{asmcall_long(PrintGenderedVerbTarget)}!{sound(83)}[03]" eob
+
+l_0xef6b98:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} fue" linebreak
+    "  pose[C2]d{asmcall_long(PrintGenderedVerbTarget)} por un mini-fantasma!{sound(83)}[03]" eob
+
+l_0xef6bbb:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} no pudo" linebreak
+    "  dejar de llorar!{sound(83)}[03]" eob
+
+l_0xef6bd3:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} de repente" linebreak
+    "  no pudo moverse!{sound(83)}[03]" eob

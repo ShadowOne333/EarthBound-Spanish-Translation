@@ -1,0 +1,427 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc56253:
+    newline
+    " <[1C 05 EA]>" next
+    "@Una de las comidas favoritas del Sr. Saturn." next
+    "@Est[C0] de rechupete." next
+    call(l_0xc56cb5) "100" call(l_0xc56cd6) end
+
+l_0xc5629b:
+    newline
+    " <[1C 05 EB]>" next
+    "@Una de las comidas favoritas del Sr. Saturn." next
+    "@Sabe bien." next
+    call(l_0xc56cb5) "300" call(l_0xc56cd6) end
+
+l_0xc562dd:
+    newline
+    " <[1C 05 EC]>" next
+    "@El platillo de cada d[C2]a en Dalaam." next
+    call(l_0xc56cb5) "200" call(l_0xc56cd6) end
+
+l_0xc5630a:
+    newline
+    " <[1C 05 ED]>" next
+    "@Una croqueta hecha de pure de garbanzo, despu[C1]s se empaniza y se fr[C2]e." next
+    "@Los nativos de Scarabia aman cocinar esto." next
+    "@La sal lo mejora y el aceite de oliva le da un estupendo" linebreak
+    "  sabor." next
+    call(l_0xc56cb5) "40" call(l_0xc56cd6) end
+
+l_0xc563a9:
+    newline
+    " <[1C 05 EE]>" next
+    "@La molokheiya es un vegetal de verano de Scaraba." next
+    "@Es alto en nutrientes, y tiene un ligero sabor que los Scarabes aman." next
+    call(l_0xc56cc5) "80" call(l_0xc56cd6) end
+
+l_0xc56417:
+    newline
+    " <[1C 05 EF]>" next
+    "@No tengo mucho que decir acerca de esto." next
+    "@Supongo que alguna gente cree que es bueno." next
+    call(l_0xc56cb5) "80" call(l_0xc56cd6) end
+
+l_0xc5645d:
+    newline
+    " <[1C 05 F0]>" next
+    "@H[C2]gado de cordero asado, etc. todo servido en brocheta." next
+    "@A veces otro tipo de carne diferente a la de cordero se incluye..." next
+    "@eso es lo que alguien me dijo..." next
+    call(l_0xc56cb5) "120" call(l_0xc56cd6) end
+
+l_0xc564d1:
+    newline
+    " <[1C 05 F1]>" next
+    "@Sabe bien en algunos aspectos." next
+    call(l_0xc56cb5) "160" call(l_0xc56cd6) end
+
+l_0xc564ff:
+    newline
+    " <[1C 05 F2]>" next
+    "@Receta para hacer carne seca." next
+    "@Obt[C1]n alg[C4]n tipo de carne, reb[C0]nala en piezas de un cent[C2]metro de grueso." next
+    "@Cuelga las piezas en un tendedero de ropa o algo parecido" next
+    "@y d[C1]jalas en el sol por unos 6 meses..." next
+    "@Bueno, eso es lo que dice mi receta." next
+    call(l_0xc56cb5) "150" call(l_0xc56cd6) end
+
+l_0xc565bc:
+    newline
+    " <Hamburguesa mamut>" next
+    call(l_0xc56cb5) "200" call(l_0xc56cd6) end
+
+l_0xc565d4:
+    newline
+    " <[1C 05 F4]>" next
+    "@Receta para hacer carne seca" linebreak
+    "  picante." next
+    "@Obt[C1]n alg[C4]n tipo de carne," next
+    "@reb[C0]nala en pedazos de un cent[C2]metro de grueso." next
+    "@Sazona las piezas lo mayormente posible," next
+    "@cuelga las piezas en un tendedero de ropa o algo parecido" next
+    "@y d[C1]jalas en el sol por unos 8 meses..." next
+    "@Bueno, eso es lo que dice mi receta..." next
+    call(l_0xc56cb5) "250" call(l_0xc56cd6) end
+
+l_0xc566b7:
+    newline
+    " <[1C 05 F5]>" next
+    "@Una versi[C3]n gourmet de carne seca que es considerada un manjar." next
+    "@Es creada por un h[C0]bil artesano" next
+    "@quien ha hecho carne seca por m[C0]s de 60 a[C7]os." next
+    "@Los fan[C0]ticos de la carne seca consideran a [C1]ste el caviar de la carne seca." next
+    "@Al parecer no secan la carne seca gourmet en un tendedero..." next
+    call(l_0xc56cb5) "300" call(l_0xc56cd6) end
+
+l_0xc5678d:
+    newline
+    " <[1C 05 F6]>" next
+    "@Una agua muy costosa," next
+    "@pero es casi la misma que el agua que bebes en tu pueblo." next
+    "@Recupera un poco de PP." end
+
+l_0xc567dc:
+    newline
+    " <[1C 05 F7]>" next
+    "@Recupera cerca de 40 PP." end
+
+l_0xc567f4:
+    newline
+    " <Sart[C1]n anti-adherente>" next
+    call(l_0xc56b97) end
+
+l_0xc56804:
+    newline
+    " <[1C 05 F9]>" next
+    call(l_0xc56c54) next
+    "@No es dinero, aunque sea llamada moneda." end
+
+l_0xc5682e:
+    newline
+    " <[1C 05 FA]>" next
+    "@Puede ser vendida por un muy alto precio." next
+    "@Nada ocurre si lo usas." next
+    "@Una buena explicaci[C3]n es algo dif[C2]cil..." end
+
+l_0xc5687b:
+    newline
+    " <[1C 05 FB]>" next
+    call(l_0xc56cb5) "18" call(l_0xc56cd6) end
+
+l_0xc56892:
+    " <Taza de fideos de vida>" next
+    goto(data_03.l_0xc54a08)
+
+l_0xc5689f:
+    newline
+    " <Zanahora para conejo>" next
+    "@Un tipo especial de zanahoria favorita de un conejo." end
+
+l_0xc568c9:
+    "@Un ataque PK mortal que s[C3]lo [1C 02 01] puede usar." linebreak
+    "@Es una onda psicoquin[C1]tica generada por concentraci[C3]n que ocasiona a" eob
+
+l_0xc56913:
+    "@Un fuego estalla desde los dedos y una fila de enemigos toma" eob
+
+l_0xc56935:
+    "@Crea un viento fr[C2]o concentrado en un enemigo," eob
+
+l_0xc56955:
+    "@Puede congelar al enemigo completamente." eob
+
+l_0xc5696c:
+    "@Puede fallar cuando hay pocos enemigos." linebreak
+    "@Elimina un escudo PSI o un escudo PSI de poder." eob
+
+l_0xc569a9:
+    "@Genera un fuerte destello que puede hacer que el enemigo" eob
+
+l_0xc569ca:
+    " empiece a llorar incontrolablemente" eob
+
+l_0xc569df:
+    "@El m[C1]todo de <sacudir las estrellas> el cual [1C 02 04] aprendi[C3] de su entrenamiento." eob
+
+l_0xc56a14:
+    "@Disminuye a la mitad el da[C7]o causado por el golpe de un enemigo." eob
+
+l_0xc56a42:
+    "@Disminuye a la mitad el da[C7]o causado por el golpe de un enemigo.  El da[C7]o bloqueado se regresa al enemigo." eob
+
+l_0xc56a8a:
+    "@Puede bloquear el ataque PK de un enemigo." eob
+
+l_0xc56aa0:
+    "@Refleja el ataque Pk del enemigo de vuelta al atacante." eob
+
+l_0xc56ac0:
+    eob
+
+l_0xc56ac1:
+    eob
+
+l_0xc56ac2:
+    " Condici[C3]n <Entumecido>." eob
+
+l_0xc56ad3:
+    " Hace a un objetivo sentirse extra[C7]o." eob
+
+l_0xc56ae4:
+    "@Te permite regresar inmediatamente a un lugar donde ya has estado." eob
+
+l_0xc56b0d:
+    "@Es m[C0]s efectivo si usas este poder m[C4]ltiples veces para <estratificar> el efecto." eob
+
+l_0xc56b3e:
+    "@Puede no ser efectivo contra algunos enemigos." eob
+
+l_0xc56b5d:
+    "[B9]Un lindo oso de peluche!" eob
+
+l_0xc56b6f:
+    "@Ese genio [1C 02 03] deber[C2]a poder arreglarlo en alg[C4]n momento." eob
+
+l_0xc56b8e:
+    "@[1C 02 01]" goto(l_0xc56bb2)
+
+l_0xc56b97:
+    "@[1C 02 02]" goto(l_0xc56bb2)
+
+l_0xc56ba0:
+    "@[1C 02 03]" goto(l_0xc56bb2)
+
+l_0xc56ba9:
+    "@[1C 02 04]" goto(l_0xc56bb2)
+
+l_0xc56bb2:
+    " puede equipar esta arma." eob
+
+l_0xc56bc0:
+    call(l_0xc56bdf) "@Protege contra ataques de par[C0]lisis." eob
+
+l_0xc56bdf:
+    "@Debe ser equipado en tu cuerpo." next
+    eob
+
+l_0xc56bf4:
+    "@Debe ser equipado en tu brazo." next
+    "@Incrementa tu Defensa." eob
+
+l_0xc56c16:
+    "@Ayudar a evitar ser hipnotizado, y tambi[C1]n incrementa tu Suerte." eob
+
+l_0xc56c40:
+    "@Debe ser equipado como <otro.>" eob
+
+l_0xc56c54:
+    call(l_0xc56c40) next
+    "@Incrementa tu Defensa y Suerte." eob
+
+l_0xc56c6d:
+    "@Equipo diverso que puede ser usado s[C3]lo por [1C 02 02]." eob
+
+l_0xc56c91:
+    "@Equipo diverso que puede ser usado s[C3]lo por [1C 02 04]." eob
+
+l_0xc56cb5:
+    "@Al comerlo, te ayuda a recuperar cerca de " eob
+
+l_0xc56cc5:
+    "@Si bebes esto, recuperas cerca de " eob
+
+l_0xc56cd6:
+    " PV." eob
+
+l_0xc56cdb:
+    "@Adicionalmente, tambi[C1]n funciona bien contra envenenamiento, n[C0]usea," next
+    eob
+
+l_0xc56d02:
+    "@resfriados, insolaci[C3]n, dormirse, llanto incontrolable, y sentirse extra[C7]o." eob
+
+l_0xc56d36:
+    eob
+
+l_0xc56d37:
+    eob
+
+l_0xc56d38:
+    "@Es efectivo cuando tienes par[C0]lisis, o cuando has sido diamonizado." eob
+
+l_0xc56d63:
+    "@Para usarlo, espolvor[C1]alo sobre la comida." next
+    "@Una buena combinaci[C3]n incrementa la intensidad de tu recuperaci[C3]n." eob
+
+l_0xc56d9b:
+    "@Puede ser usado varias veces." eob
+
+l_0xc56dab:
+    "@Desaparece despu[C1]s de un s[C3]lo uso." eob
+
+l_0xc56db7:
+    "@Art[C2]culos para [1C 02 03]." next
+    eob
+
+l_0xc56dc5:
+    "@Da[C7]a al enemigo cuando se usa en batalla." eob
+
+l_0xc56ddd:
+    "@Al ser equipado, incrementa tu Suerte." eob
+
+l_0xc56df3:
+    call(data_13.l_0xc5d4c1) eob
+
+l_0xc56df9:
+    call(data_13.l_0xc5d4f1) eob
+
+l_0xc56dff:
+    "@[B9]No, no quiero ning[C4]n vendaje de momia!" next
+    "@[B9]Ninguna solicitaci[C3]n permitida por favor!" end
+
+l_0xc56e2c:
+    "@No te hab[C2]a visto por aqu[C2]." next
+    "@[B8]Qu[C1] es lo que quieres?{pause(20)}  No tengo nada que podr[C2]as querer." end
+
+l_0xc56e5b:
+    call(data_47.l_0xc900dd) eob
+
+l_0xc56e61:
+    call(data_47.l_0xc90077) eob
+
+l_0xc56e67:
+    "@[B8]Has venido desde Toto por barco?" next
+    "@Hay un monstruo aterrador en el mar..." next
+    "@...[B8]Lo derrotaste?{pause(20)}  [B8]O escapaste?" next
+    "@De cualquier forma,{pause(15)} [B9]eres fant[C0]stico!" end
+
+l_0xc56eca:
+    "@Las serpientes son tan desagradables, pero tan lindas..." next
+    "@Oh, no s[C1] lo que estoy diciendo." end
+
+l_0xc56efd:
+    "@[B8]Deber[C2]a tener una serpiente en casa?" next
+    "@Quiz[C0] deber[C2]a <preguntasle> a un experto." end
+
+l_0xc56f32:
+    "@Las serpientes venenosas cuestan m[C0]s." next
+    "[19 10 01]@[B8]Porqu[C1] un joven " call(l_0xc56f6d) " como t[C4] necesitar[C2]a una?" end
+
+l_0xc56f6d:
+    "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc56f7b)}]hombre" eob
+
+l_0xc56f7b:
+    "mujer" eob
+
+l_0xc56f80:
+    "@[B9]La [1C 05 8D] puede almacenar serpientes vivas!{pause(20)}  [B9]Hay serpientes en el saco!" next
+    "@[B9]Por favor, es un art[C2]culo muy [C4]til!" next
+    "@[B8]Debe usted comprar uno?{pause(20)}  Se lo ofrezco humildemente..." next
+    "[19 02]S[C2]" eob
+
+l_0xc56fe7:
+    "[19 02]No" eob
+
+l_0xc56fec:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc5701f)} {e(l_0xc56ffb)}]" goto(l_0xc56ffb)
+
+l_0xc56ffb:
+    "@Le tienes miedo a las serpientes,{pause(15)} [B8]no es as[C2]?  Heh heh heh." end
+
+l_0xc5701f:
+    "[1D 03 FF][1B 02 {e(l_0xc570f2)}]@Ser[C2]an 290 d[C3]lares, amable [19 10 01]" call(data_37.l_0xc7e6b3) "." linebreak
+    "{open_wallet}[19 02]S[C2]" eob
+
+l_0xc5704e:
+    "[19 02]No" eob
+
+l_0xc57053:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc57067)} {e(l_0xc56ffb)}]" goto(l_0xc56ffb)
+
+l_0xc57067:
+    "[1D 14 22 01 00 00][1B 03 {e(l_0xc570db)}][1D 03 FF][1D 0E 00 8D]{sound(118)}[1D 09 62 00]{open_wallet}{sound(120)}@Te dar[C1] un descuento ya que el saco est[C0] agujereado." next
+    "@(El comerciante de sacos de serpiente baj[C3] el precio de 290 d[C3]lares a 98 d[C3]lares.){wait}" end
+
+l_0xc570db:
+    "@Sin dinero, no puedo vender a ti..." end
+
+l_0xc570f2:
+    "@Ya que tienes muchos art[C2]culos,{pause(15)} humildemente mantendr[C1] est[C0] importante [1C 05 8D]." end
+
+l_0xc5711a:
+    call(data_13.l_0xc5d4cd) eob
+
+l_0xc57120:
+    call(data_13.l_0xc5d4df) eob
+
+l_0xc57126:
+    "@Compr[C1] una <[1C 05 A2].>" next
+    "@[B1]sto te ayudar[C0] bastante" next
+    "@mientras busco humildemente por Trufas m[C0]gicas en la Profunda Oscuridad." next
+    "@T[C4] tambi[C1]n puedes aprender a usar la [1C 05 A2] con el comando <Usar> en <Bienes.>" next
+    "@As[C2] que t[C4] tranquilo." end
+
+l_0xc571b9:
+    "[06 49 00 {e(l_0xc5725a)}]@Oh, tienes la marca de mala suerte en tu cara..." next
+    "@No... No te preocupes..." next
+    "@Si quieres saber, humildemente te dir[C1]." next
+    "@<Deber[C0]s volver aqu[C2]..." next
+    "@Despu[C1]s de encontrar una situaci[C3]n peligrosa.>" next
+    "@Sin embargo, puede que est[C1] equivocado, y si es as[C2]... mil perdones." end
+
+l_0xc5725a:
+    "@[B9]Oh!" next
+    "@Tienes la marca de mala suerte en tu cara..." next
+    "@Aunque, puede que est[C1] equivocado, ya que no has lavado tu cara [C4]ltimamente." end
+
+l_0xc572a0:
+    "@En la pir[C0]mide hay un tesoro oculto." next
+    "@Mi esposo lo estuvo buscando." next
+    "@Antes de encontrarlo... resbalo con una c[C0]scara de pl[C0]tano." next
+    "@...As[C2] que se rindi[C3] en su b[C4]squeda." end
+
+l_0xc5730d:
+    "@La tribu Tenda sol[C2]a vivir aqu[C2]." next
+    "@Se fueron a la parte de atr[C0]s de la Profunda Oscuridad ya que eran muy inocentes." next
+    "@Me pregunto si a[C4]n est[C0]n con vida." end
+
+l_0xc57361:
+    "@Si vas a ir a la Pir[C0]mide, prep[C0]rate bien," next
+    "@y estate listo para lo que pueda ocurrir." end
+
+l_0xc57399:
+    call(data_20.l_0xc6500f) eob
+
+l_0xc5739f:
+    "{window_open(1)}@Bien hecho." next
+    "@[B9]Lo lograste![03]{window_closeall}" call(data_49.l_0xc915f4) "{sound(37)}{pause(90)}{window_open(1)}@Finalmente nos conocemos, Pr[C2]ncipe [1C 01 4A].[03]{window_closeall}" eob
+

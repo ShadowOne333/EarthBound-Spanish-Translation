@@ -1,0 +1,573 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import ebpp
+import Item_Articles
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc9f786:
+    "{pause(30)} rez[C3] por los ni[C7]os, aunque nunca los hab[C2]a conocido.{pause(150)}{window_closeall}" eob
+
+l_0xc9f7af:
+    "#" goto(data_59.l_0xc9f750)
+
+l_0xc9f7b5:
+    "#" goto(data_59.l_0xc9f780)
+
+l_0xc9f7bb:
+    newline
+    "{pause(60)}{window_open(1)}@{counter(1)}" goto(l_0xc9f7c4)
+
+l_0xc9f7c4:
+    "[19 28 02][1B 02 {e(l_0xc9f7eb)}]{swap}[1D 21 63][18 07 28 00 00 00 00][1B 02 {e(l_0xc9f7fe)}][1C 11 00][1C 03 00]" goto(l_0xc9f7e5)
+
+l_0xc9f7e5:
+    "{inc}" goto(l_0xc9f7c4)
+
+l_0xc9f7eb:
+    "{pause(30)} sigui[C3] rezando.{pause(150)}{window_closeall}" eob
+
+l_0xc9f7fe:
+    "#" goto(l_0xc9f7e5)
+
+l_0xc9f804:
+    newline
+    "{pause(60)}{window_open(1)}@{counter(1)}" goto(l_0xc9f80d)
+
+l_0xc9f80d:
+    "[19 28 02][1B 02 {e(l_0xc9f834)}]{swap}[1D 21 63][18 07 14 00 00 00 00][1B 02 {e(l_0xc9f847)}][1C 11 00][1C 03 00]" goto(l_0xc9f82e)
+
+l_0xc9f82e:
+    "{inc}" goto(l_0xc9f80d)
+
+l_0xc9f834:
+    "{pause(30)} sigui[C3] rezando.{pause(150)}{window_closeall}" eob
+
+l_0xc9f847:
+    "#" goto(l_0xc9f82e)
+
+l_0xc9f84d:
+    newline
+    "{pause(60)}{window_open(1)}@" call(data_37.l_0xc7e77d) " sigui[C3] rezando.{pause(150)}{window_closeall}" eob
+
+l_0xc9f86a:
+    newline
+    "@Las defensas de Giygas" linebreak
+    "  se volvieron inestables.{sound(90)}{pause(70)}{sound(90)}{pause(65)}{sound(90)}{pause(74)}{sound(90)}" eob
+
+l_0xc9f897:
+    newline
+    "@[B9]{user}[19 1F]{swap} puso" linebreak
+    "  {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00] en su nariz!{sound(115)}" next
+    "@{user} busc[C3] el olor" linebreak
+    "  de la Trufa M[C0]gica." next
+    "[1F D1][1B 02 {e(l_0xc9f970)}]{store_registers}{result_is(1)}[1B 03 {e(l_0xc9f946)}]{load_registers}{result_is(10)}[1B 03 {e(l_0xc9f936)}]{load_registers}" newline
+    "@(Debe estar un poco m[C0]s delante [1F C0 09 {e(data_32.l_0xc77eff)} {e(l_0xc9f990)} {e(l_0xc9f995)} {e(l_0xc9f99e)} {e(l_0xc9f9a4)} {e(l_0xc9f9ad)} {e(l_0xc9f9b2)} {e(l_0xc9f9bd)} {e(l_0xc9f9c4)}]" end
+
+l_0xc9f936:
+    newline
+    "@([B9]Debe ser justo aqu[C2]!)" end
+
+l_0xc9f946:
+    newline
+    "@(Est[C0] por aqu[C2] en alg[C4]n lado, pero no puedes determinar su ubicaci[C3]n exacta.)" end
+
+l_0xc9f970:
+    newline
+    "@(La Trufa no parece estar por aqu[C2].)" end
+
+l_0xc9f990:
+    "arriba.)" eob
+
+l_0xc9f995:
+    "arriba y derecha.)" eob
+
+l_0xc9f99e:
+    "derecha.)" eob
+
+l_0xc9f9a4:
+    "abajo y derecha.)" eob
+
+l_0xc9f9ad:
+    "abajo.)" eob
+
+l_0xc9f9b2:
+    "abajo e izquierda.)" eob
+
+l_0xc9f9bd:
+    "izquierda.)" eob
+
+l_0xc9f9c4:
+    "arriba e izquierda.)" eob
+
+l_0xc9f9cf:
+    newline
+    "@Gracias a la Mariposa M[C0]gica, te pudiste relajar totalmente.{wait}{window_closeall}" eob
+
+l_0xc9f9f3:
+    "[06 FB 02 {e(l_0xc9fab9)}][06 49 00 {e(l_0xc9fab9)}][06 74 01 {e(data_35.l_0xc7c6f1)}]" call(data_36.l_0xc7dd8d) "[1B 03 {e(l_0xc9fa74)}][06 BE 01 {e(l_0xc9fa74)}][06 86 02 {e(l_0xc9fa74)}][06 87 02 {e(l_0xc9fa74)}][06 88 02 {e(l_0xc9fa74)}]" newline
+    "@[B9]{user}[19 1F]{swap} us[C3]" linebreak
+    "  {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00]!" next
+    "@Un cliente se acerca en est[C0] direcci[C3]n.{wait}{window_closeall}[1D 21 03][09 03 {e(l_0xc9fb43)} {e(l_0xc9fb4d)} {e(l_0xc9fb57)}][1F D3 04]{set(flag 446)}{set(flag 754)}" eob
+
+l_0xc9fa74:
+    newline
+    "@[B9]{user}[19 1F]{swap} us[C3]" linebreak
+    "  {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00]!" next
+    "@[B9]Espera!  Alguien ya se est[C0] acercando en est[C0] direcci[C3]n." next
+    "@Espera a que lleguen aqu[C2] primero." end
+
+l_0xc9fab9:
+    "@Por mucho tiempo, este Letrero de <En Venta> ha sido [C4]til..." next
+    "@Ahora, est[C0] viejo, su mensaje se ha vuelto ilegible por el paso del tiempo." next
+    "@Ha perdido su eficacia." next
+    "@gracias, letrero." linebreak
+    "  Adi[C3]s, letrero." end
+
+l_0xc9fb43:
+    "[1F D3 05]{set(flag 646)}{set(flag 754)}" eob
+
+l_0xc9fb4d:
+    "[1F D3 06]{set(flag 647)}{set(flag 754)}" eob
+
+l_0xc9fb57:
+    "[1F D3 07]{set(flag 648)}{set(flag 754)}" eob
+
+l_0xc9fb61:
+    newline
+    "@Este libro debe ser una lectura requerida para cualquier persona t[C2]mida y callada.[03]" eob
+
+l_0xc9fb8b:
+    newline
+    "@Te sentiste triste y vac[C2]o.[03]" eob
+
+l_0xc9fb9f:
+    newline
+    "@(Si obtuviste este mensaje, quiere decir que hay algo mal.)[03]" eob
+
+l_0xc9fbc4:
+    newline
+    "@{user}[19 1F]{swap} abri[C3]" linebreak
+    "  {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00]." next
+    "@El enemigo puede que no note que est[C0]s presente.[03]" eob
+
+l_0xc9fbf2:
+    newline
+    "@Para usar esto, ve a un cajero autom[C0]tico e inserta la tarjeta.[03]" eob
+
+l_0xc9fc16:
+    newline
+    "@Est[C0] es un tipo de trampa usada para capturar zombies.[03]" eob
+
+l_0xc9fc32:
+    newline
+    "@Podr[C2]a ser [C4]til en un lugar oscuro.[03]" eob
+
+l_0xc9fc48:
+    newline
+    "@{user}[19 1F]{swap} puso {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00] sobre el suelo.{sound(115)}{pause(1)}" next
+    "{set(flag 124)}[1D 01 FF AE]" eob
+
+l_0xc9fc6f:
+    newline
+    "@[B9]{user}[19 1F]{swap} us[C3] {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00]!{sound(95)}{pause(1)}{wait}{window_closeall}[1D 01 FF AF]{set(flag 288)}[1F 1E CF 04 06]" call(data_50.l_0xc935b1) "){set(flag 508)}" eob
+
+l_0xc9fc9e:
+    "@(Por alguna raz[C3]n," next
+    "@algo que parece un largo borrador de acero est[C0] en el camino.)" end
+
+l_0xc9fcd5:
+    call(data_36.l_0xc7dd2c) "{result_is(210)}[1B 02 {e(data_35.l_0xc7c6f1)}]{load_registers}" call(data_36.l_0xc7dd37) newline
+    "@([B9]Por alguna raz[C3]n,{pause(15)} la estatua de acero desapareci[C3] en un instante!){wait}{window_closeall}{pause(1)}{sound(33)}[1F 1E 9F 02 0A]{set(flag 299)}" eob
+
+l_0xc9fd2e:
+    newline
+    "[19 10 02][1B 03 {e(l_0xc9fd5a)}][19 10 01][1D 0D 00 02 02][1B 03 {e(l_0xc9fd60)}]@{user} mont[C3] una bicicleta.[1F F0]" eob
+
+l_0xc9fd5a:
+    call(data_35.l_0xc7c802) eob
+
+l_0xc9fd60:
+    "@Si no te sientes bien, no deber[C2]as montar una bicicleta." end
+
+l_0xc9fd82:
+    newline
+    "@[B9]{user}[19 1F]{swap} us[C3] {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00]!" next
+    "@Ahora, " call(data_36.l_0xc7e602) " puede calcular la longitud de las cosas f[C0]cilmente.[03]" eob
+
+l_0xc9fdbb:
+    newline
+    "@[B9]{user}[19 1F]{swap} us[C3] {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00]!" next
+    "@Ahora, puede calcular el [C0]ngulo de varias cosas f[C0]cilmente.[03]" eob
+
+l_0xc9fdfb:
+    newline
+    "{sound(101)}@Ver polluelos te hace feliz.{sound(101)}[03]" eob
+
+l_0xc9fe1b:
+    newline
+    "{sound(104)}{pause(10)}{sound(104)}@Un pollo huy[C3] tan r[C0]pido como pudo.[03]" eob
+
+l_0xc9fe41:
+    newline
+    " La Caja de Teleportaci[C3]n empez[C3] a gemir.{sound(99)}" next
+    "[1C 13 30 00] La Caja de Teleportaci[C3]n se rompi[C3] en pedazos con una fuerte explosi[C3]n.{sound(99)}[1C 13 23 00]" end
+
+l_0xc9fe9d:
+    newline
+    " La Caja de Teleportaci[C3]n empez[C3] a gemir.{sound(99)}" next
+    "[1C 13 30 00] La Caja de Teleportaci[C3]n no funcion[C3] muy bien...{sound(5)}" end
+
+l_0xc9fee3:
+    newline
+    " La Caja de Teleportaci[C3]n no puede ser usada aqu[C2]." end
+
+l_0xc9fefd:
+    newline
+    "[19 19 00 00]{swap}@{user}{swap} toc[C3] {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00] con su frente y reuni[C3] sus pensamientos.[03][1F 41 09]" eob
+
+l_0xe10000:
+    "[ 09 ][ 09 ][ 01 0C ]Has viajado muy lejos desde tu[ 09 ][ 01 0C ]casa...[ 09 ][ 09 ][ 09 ][ 01 0C ][B8]Recuerdas como tu largo y[ 09 ][ 01 0C ]sinuoso viaje comenz[C3] con[ 09 ][ 01 0C ]alguien tocando a tu puerta?[ 09 ][ 01 0C ]Era Porky, la peor persona de[ 09 ][ 01 0C ]tu vecindario, quien toc[C3][ 09 ][ 01 0C ]en la puerta esa noche fat[C2]dica,[ 09 ][ 09 ][ 09 ][ 01 0C ]En tu viaje, has caminado,[ 09 ][ 01 0C ]pensado y peleado.  A[C4]n a trav[C1]s[ 09 ][ 01 0C ] de todo esto, no has perdido tu[ 09 ][ 01 0C ]valor. Has crecido firmemente[ 09 ][ 01 0C ]m[C0]s fuerte, aunque ya has[ 09 ][ 01 0C ]experimentado el dolor de la pelea[ 09 ][ 01 0C ]muchas veces.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 0C ]Ya no est[C0]s s[C3]lo en tu gran[ 09 ][ 01 0C ]aventura, [ 08 02 ] quien es [ 09 ][ 01 0C ]constante, amable e incluso bonita, [ 09 ][ 01 0C ]est[C0] siempre a tu lado.[ 09 ][ 01 0C ][ 08 03 ] est[C0] contigo tambi[C1]n.[ 09 ][ 01 0C ]Aunque [C1]l es t[C2]mido, [C1]l vino de[ 09 ][ 01 0C ]una tierra distante a ayudarte.[ 09 ][ 01 0C ][ 08 01 ], como t[C4] ciertamente[ 09 ][ 01 0C ]ya sabes por ahora, no eres un [ 09 ][ 01 0C ]joven regular...  Tienes un[ 09 ][ 01 0C ]asombroso destino que cumplir.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 0C ]El viaje a partir de este punto ser[C0][ 09 ][ 01 0C ]largo, y ser[C0] a[C4]n m[C0]s[ 09 ][ 01 0C ]dif[C2]cil que cualquier cosa[ 09 ][ 01 0C ]hasta este punto.  Y a[C4]n, yo[ 09 ][ 01 0C ]s[C1] que estar[C0]s bien.  Cuando[ 09 ][ 01 0C ]el bien lucha contra el mal, [B8]qu[C1] lado[ 09 ][ 01 0C ]crees que gana?  [B8]Tienes[ 09 ][ 01 0C ]f[C1] en que el bien triunfar[C0]?[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 0C ]Una cosa que nunca debes perder es[ 09 ][ 01 0C ]valor.  Si t[C4] crees en la[ 09 ][ 01 0C ]meta por la que luchas, ser[C0]s[ 09 ][ 01 0C ]valiente.  Hay muchos[ 09 ][ 01 0C ]tiempos arduos por delante, pero[ 09 ][ 01 0C ]debes mantener tu sentido del humor[ 09 ][ 01 0C ]y trabajar a trav[C1]s de situaciones[ 09 ][ 01 0C ]dif[C2]ciles y divertirte.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 0C ]Cuando termines esta taza[ 09 ][ 01 0C ]de caf[C1], tu aventura comenzar[C0][ 09 ][ 01 0C ]de nuevo.  Ahora, debes pasar[ 09 ][ 01 0C ]a trav[C1]s del vasto desierto y[ 09 ][ 01 0C ]proceder a la gran ciudad de[ 09 ][ 01 0C ]Fourside.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 0C ][ 08 01 ]...[ 09 ][ 01 0C ]           [ 08 02 ]...[ 09 ][ 01 0C ]                      [ 08 03 ]...[ 09 ][ 09 ][ 09 ][ 01 0C ]Les deseo suerte...[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 00 ]"
+
+l_0xe10652:
+    "[ 09 ][ 09 ][ 01 0C ]Como una gran tapicer[C2]a, hilos[ 09 ][ 01 0C ]verticales y horizontales[ 09 ][ 01 0C ]se encuentran y se entrelazan,[ 09 ][ 01 0C ]creando una enorme, hermosa[ 09 ][ 01 0C ]imagen.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 0C ]Puede que maldijeras este[ 09 ][ 01 0C ]viaje sin fin.  Has conocido[ 09 ][ 01 0C ]da[C7]os y derrotas, pero t[C4] has[ 09 ][ 01 0C ]luchado para llegar a este lugar.[ 09 ][ 01 0C ]Tu sabidur[C2]a innata y[ 09 ][ 01 0C ]valor han ayudado a traerte[ 09 ][ 01 0C ]aqu[C2].  Has confiado en tus [ 09 ][ 01 0C ]amigos, y como grupo, se han[ 09 ][ 01 0C ]apoyado uno al otro.  [B8]Te has[ 09 ][ 01 0C ]detenido a considerar cu[C0]nto[ 09 ][ 01 0C ]ha crecido tu poder?[ 09 ][ 01 0C ]Ahora, puedes derrotar enemigos[ 09 ][ 01 0C ]en Onett y Twoson con un s[C3]lo[ 09 ][ 01 0C ]golpe.  Y como ya lo sabes,[ 09 ][ 01 0C ]no puedes dar marcha atr[C0]s.[ 09 ][ 01 0C ]Giygas, el archienemigo del universo,[ 09 ][ 01 0C ]est[C0] creciendo asustado de ti y de[ 09 ][ 01 0C ]tu poder.  Est[C0] buscando formas[ 09 ][ 01 0C ]de acabar con tu viaje.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 0C ]Desde aqu[C2], el desaf[C2]o crece[ 09 ][ 01 0C ]y tu aventura te llevar[C0][ 09 ][ 01 0C ]m[C0]s all[C0] de lo que hayas[ 09 ][ 01 0C ]imaginado.  Te est[C0]s acercando a[ 09 ][ 01 0C ]Giygas.  Recuerda, cuando tu[ 09 ][ 01 0C ]sufras dificultades, tu[ 09 ][ 01 0C ]enemigo tambi[C1]n las sufre.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 0C ]A[C4]n as[C2], [B8]D[B3]NDE fue Porky,[ 09 ][ 01 0C ]de todos modos?  Cuando esta taza[ 09 ][ 01 0C ]de t[C1] acabe, tu aventura va a[ 09 ][ 01 0C ]continuar.  Tu destino te jala a[ 09 ][ 01 0C ]la direcci[C3]n correcta.  Cree en ti[ 09 ][ 01 0C ]mismo y sigue adelante.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 02 ][B9][ 08 01 ]![ 09 ][ 01 02 ]           [B9][ 08 02 ]![ 09 ][ 01 02 ]                      [B9][ 08 03 ]![ 09 ][ 01 02 ]                                 [B9][ 08 04 ]![ 09 ][ 09 ][ 09 ][ 01 0C ]Les deseo suerte...[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 00 ]"
+
+l_0xe10b86:
+    "[ 02 0C ][ 01 32 ]El a[C7]o es 199X[ 09 ][ 00 ]"
+
+l_0xe10b9c:
+    "[ 02 0C ][ 01 0C ]Onett, un pueblo en Eagleland[ 09 ][ 00 ]"
+
+l_0xe10bc2:
+    "[ 02 0C ][ 01 3D ]Casa de [ 08 01 ][ 09 ][ 00 ]"
+
+l_0xe10bd2:
+    "[ 02 0C ][ 01 00 ]Winters, un peque[C7]o pa[C2]s al norte[ 09 ][ 00 ]"
+
+l_0xe10bfd:
+    "[ 02 0C ][ 01 15 ]Colegio Interno Snow Wood[ 09 ][ 00 ]"
+
+l_0xe10c1b:
+    "[ 02 0C ][ 01 23 ]Dalaam, en el Lejano Este[ 09 ][ 00 ]"
+
+l_0xe10c38:
+    "[ 02 0B ][ 01 25 ]Palacio de [ 08 04 ][ 09 ][ 01 30 ]Pr[C2]ncipe a la Corona[ 09 ][ 00 ]"
+
+l_0xe10c61:
+    "[ 02 0C ][ 01 30 ]M[C0]s tarde esa noche...[ 09 ][ 00 ]"
+
+l_0xe1413f:
+    "[ 03 02 ][ 02 ][ 85 A1 A5 89 A0 8F ][ 00 ]"	// Equipo
+    "[ 02 ][ 80 80 80 80 80 80 ][ 00 ]"		// Staff underlines
+    "[ 03 06 ][ 01 ][ 40 40 5B 7A 4B 54 6C 44 7B 4B 7A 40 6E 40 54 48 7A 45 44 7B 4B 7A 40 40 ][ 00 ]"	// Productor y director	
+    "[ 02 ][ A3 88 89 87 85 A3 81 A4 8F 40 89 A4 8F 89 ][ 00 ]"	// Shigesato Itoi
+    "[ 03 02 ][ 01 ][ 46 6C 48 49 5A ][ 00 ]"			// Guion
+    "[ 02 ][ A3 88 89 87 85 A3 81 A4 8F 40 89 A4 8F 89 ][ 00 ]"	// Shigesato Itoi
+    "[ 03 02 ][ 01 ][ 4A 6D 6B 48 44 42 ][ 00 ]"		// Musica
+    "[ 02 ][ 8B 85 89 89 83 88 89 40 A3 A5 AA A5 8B 89 ][ 00 ]"	// Keiichi Suzuki
+    "[ 02 ][ 88 89 A2 8F 8B 81 AA A5 40 A4 81 8E 81 8B 81 ][ 00 ]"	// Hirokazu Tanaka
+    "[ 03 06 ][ 01 ][ 5B 7A 4B 6E 45 44 7B 4B ][ 00 ]"		// Proyecto
+    "[ 02 ][ 81 8B 89 88 89 8B 8F 40 8D 89 A5 A2 81 ][ 00 ]"	// Akihiku Miura
+    "[ 03 02 ][ 01 ][ 42 7A 7B 45 ][ 00 ]"			// Arte
+    "[ 02 ][ 8B 8F A5 89 83 88 89 40 8F 8F A9 81 8D 81 ][ 00 ]" // Kouichi Ooyama 
+    "[ 03 02 ][ 01 ][ 6B 4B 5A 48 54 4B ][ 00 ]"		// Sonido
+    "[ 02 ][ 88 89 A2 8F 8B 81 AA A5 40 A4 81 8E 81 8B 81 ][ 00 ]"	// Hirokazu Tanaka
+    "[ 03 02 ][ 01 ][ 5B 7A 4B 46 7A 42 4A 42 ][ 00 ]"		// Programa
+    "[ 02 ][ A3 81 A4 8F A2 A5 40 89 A7 81 A4 81 ][ 00 ]"	// Satoru Iwata
+    "[ 03 06 ][ 01 ][ 44 49 54 48 46 4B ][ 00 ]"		// Codigo
+    "[ 02 ][ A3 81 A4 8F A2 A5 40 89 A7 81 A4 81 ][ 00 ]"	// Satoru Iwata
+    "[ 02 ][ A3 81 A4 8F A3 88 89 40 8D 89 A4 A3 A5 88 81 A2 81 ][ 00 ]"	// Satoshi Mitsuhara
+    "[ 02 ][ A9 8F A3 88 89 8D 89 40 A4 81 8B 81 88 81 A3 88 89 ][ 00 ]"	// Yoshimi Taahashi
+    "[ 02 ][ A3 85 89 8A 89 40 8F A4 8F 87 A5 A2 8F ][ 00 ]"		// Seiji Otoguro
+    "[ 02 ][ 82 8F A5 40 8E 81 8B 81 8A 89 8D 81 ][ 00 ]"	// Bou Nakajima
+    "[ 02 ][ A3 85 89 8B 81 40 81 82 85 ][ 00 ]"		// Seika Abe
+    "[ 02 ][ A9 8F A3 88 89 8B 89 40 A3 A5 AA A5 8B 89 ][ 00 ]"	// Yoshiki Suzuki
+    "[ 02 ][ 8A A5 8E 40 A9 81 8D 81 AA 81 8B 89 ][ 00 ]"	// Jun Yamazaki 
+    "[ 02 ][ A4 8F A3 88 89 A9 A5 8B 89 40 A5 85 8E 8F ][ 00 ]"	// Toshiyuki Ueno
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 A3 81 A3 81 8B 89 ][ 00 ]"	// Takashi Sasaki
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 A3 81 8B A5 8D 81 ][ 00 ]"	// Takashi Sakuma
+    "[ 02 ][ 8B 81 AA A5 8F 40 A3 81 A4 8F ][ 00 ]"		// Kazuo Sato
+    "[ 02 ][ 8B 8F A5 8A 89 40 8D 81 8C A4 81 ][ 00 ]"		// Kouji Malta
+    "[ 03 02 ][ 01 ][ 44 49 54 48 46 4B 40 54 45 40 6B 4B 5A 48 54 4B ][ 00 ]"	// Codigo de sonido
+    "[ 02 ][ 88 89 A2 8F 8B 81 AA A5 40 A4 81 8E 81 8B 81 ][ 00 ]"	// Hirokazu Tanaka
+    "[ 03 02 ][ 01 ][ 4A 4B 7B 4B 7A 40 54 45 59 40 58 6C 45 46 4B ][ 00 ]"	// Motor del juego
+    "[ 02 ][ 8D 81 8B 8F A4 8F 40 8B 81 8E 81 89 ][ 00 ]"	// Makoto Kanai
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 A3 81 8B A5 8D 81 ][ 00 ]"	// Takashi Sakuma
+    "[ 03 06 ][ 01 ][ 42 7A 7B 45 40 46 7A 7E 55 48 44 4B ][ 00 ]"	// Arte grafico
+    "[ 02 ][ 8B 8F A5 89 83 88 89 40 8F 8F A9 81 8D 81 ][ 00 ]"	// Kouichi Ooyama
+    "[ 02 ][ 88 89 A2 8F A9 A5 8B 89 40 A3 81 8B 89 A9 81 8D 81 ][ 00 ]"	// Hiroyuki Sakiyama
+    "[ 02 ][ 8B 8F A5 89 83 88 89 40 A9 81 8D 81 84 81 ][ 00 ]"	// Kouichi Yamada
+    "[ 02 ][ 8D 81 8B 89 8F 40 8B 81 A4 81 8F 8B 81 ][ 00 ]"	// Makio Kataoka
+    "[ 02 ][ A4 85 A4 A3 A5 A9 81 40 8E 8F A4 8F A9 81 ][ 00 ]"	// Tetsuya Notoya
+    "[ 02 ][ A9 81 A3 A5 8E 8F A2 89 40 A9 81 8E 81 87 89 A3 81 A7 81 ][ 00 ]"	// Yasunori Yanagisawa
+    "[ 03 02 ][ 01 ][ 45 55 45 44 7B 4B 6B 40 45 6B 5B 45 44 48 42 59 45 6B ][ 00 ]"	// Efectos especiales
+    "[ 02 ][ A4 A3 A5 8E 85 8B 81 AA 40 89 A3 88 89 88 81 A2 81 ][ 00 ]"	// Tsunekaz Ishihara
+    "[ 03 02 ][ 01 ][ 55 6C 45 5A 7B 45 6B ][ 00 ]"		// Fuentes
+    "[ 02 ][ 81 8B 89 88 89 8B 8F 40 8D 89 A5 A2 81 ][ 00 ]"	// Akihiko Miura
+    "[ 02 ][ 8B 8F A5 89 83 88 89 40 8F 8F A9 81 8D 81 ][ 00 ]"	// Kouichi Ooyama
+    "[ 03 02 ][ 01 ][ 55 6C 45 5A 7B 45 40 54 45 59 40 6B 7A AD 6B 42 7B 6C 7A 5A ][ 00 ]"	// Fuente del Sr. Saturn
+    "[ 02 ][ A3 88 89 87 85 A3 81 A4 8F 40 89 A4 8F 89 ][ 00 ]"	// Shigesato Itoi
+    "[ 03 06 ][ 01 ][ 58 45 55 45 40 54 45 40 46 7A 7E 55 48 44 4B 6B ][ 00 ]"	// Jefe de Graficos
+    "[ 02 ][ A9 81 A3 A5 8E 8F A2 89 40 A9 81 8E 81 87 89 A3 81 A7 81 ][ 00 ]"	// Yasunori Yaganisawa
+    "[ 03 02 ][ 01 ][ 58 45 55 45 6B 40 54 45 40 46 6C 48 49 5A ][ 00 ]"	// Jefes de Guion
+    "[ 02 ][ 8D 81 A3 81 A9 A5 8B 89 40 8D 89 A5 A2 81 ][ 00 ]"	// Masayuki Miura 
+    "[ 02 ][ 88 89 A4 8F A3 88 89 40 8D 81 A4 A3 A5 89 ][ 00 ]"	// Hitoshi Matsui
+    "[ 03 06 ][ 01 ][ 44 4B 4A 5B 4B 6B 48 7B 4B 7A 40 54 45 40 4A 6D 6B 48 44 42 40 42 54 48 44 48 4B 5A 42 59 ][ 00 ]"	// Compositor musica adicional
+    "[ 02 ][ 88 89 A2 8F A3 88 89 40 8B 81 8E 81 AA A5 ][ 00 ]"	// Hiroshi Kanazu
+    "[ 02 ][ A4 8F A3 88 89 A9 A5 8B 89 40 A5 85 8E 8F ][ 00 ]"	// Toshiyuki Ueno
+    "[ 03 02 ][ 01 ][ 6B 4B 5A 48 54 4B ][ 00 ]"	// Sonido
+    "[ 02 ][ A4 8F A3 88 89 A9 A5 8B 89 40 A5 85 8E 8F ][ 00 ]"	// Toshiyuki Ueno
+    "[ 02 ][ 8B 8F AA A5 85 40 89 A3 88 89 8B 81 A7 81 ][ 00 ]"	// Kozue Ishikawa
+    "[ 03 06 ][ 01 ][ 42 6B 48 6B 7B 45 5A 7B 45 6B 40 54 45 40 5B 7A 4B 46 7A 42 4A 42 ][ 00 ]"	// Asistentes de programa
+    "[ 02 ][ 89 8B A5 88 8F 40 88 81 87 89 A9 81 ][ 00 ]"	// Ikuho Hagiya
+    "[ 02 ][ 8B 81 A4 A3 A5 A9 8F A3 88 89 40 89 A2 89 85 ][ 00 ]"	// Katsuyoshi Irie
+    "[ 03 02 ][ 01 ][ 42 6B 48 6B 7B 45 5A 7B 45 6B 40 54 45 40 5B 7A 4B 6E 45 44 7B 4B ][ 00 ]"	// Asistentes de Proyecto
+    "[ 02 ][ 8B 8F A5 89 83 88 89 40 8F 8F A9 81 8D 81 ][ 00 ]"	// Kouichi Ooyama
+    "[ 02 ][ A4 81 8B 85 88 89 8B 8F 40 8D 81 A3 A5 84 81 ][ 00 ]"	// Takehiko Masuda
+    "[ 02 ][ 83 88 89 81 8B 89 40 A9 8F A3 88 89 AA 81 A7 81 ][ 00 ]"	// Chiaki Yashisawa
+    "[ 02 ][ 8D 81 A3 81 A9 A5 8B 89 40 8D 89 A5 A2 81 ][ 00 ]"	// Masayuki Miura
+    "[ 02 ][ 81 8B 89 88 89 A4 8F 40 A4 8F 84 81 ][ 00 ]"	// Akihito Toda
+    "[ 02 ][ 88 89 A4 8F A3 88 89 40 8D 81 A4 A3 A5 89 ][ 00 ]"	// Hitoshi Matsui
+    "[ 02 ][ 8B 81 A4 A3 A5 A9 8F A3 88 89 40 89 A2 89 85 ][ 00 ]"	// Katsuyoshi Irie
+    "[ 03 02 ][ 01 ][ 42 6B 48 6B 7B 45 5A 7B 45 6B 40 54 45 40 46 6C 48 49 5A ][ 00 ]"	// Asistentes de guion
+    "[ 02 ][ 8D 81 A3 81 A9 A5 8B 89 40 8D 89 A5 A2 81 ][ 00 ]"	// Masayuki Miura
+    "[ 02 ][ 81 8B 89 88 89 A4 8F 40 A4 8F 84 81 ][ 00 ]"	// Akihito Toda
+    "[ 02 ][ 88 89 A2 8F A9 A5 8B 89 40 8A 89 8E 8E 81 89 ][ 00 ]"	// Hiroyuki Jinnai
+    "[ 03 02 ][ 01 ][ 7B 7A 42 54 6C 44 44 48 49 5A 40 48 5A 46 59 45 6B 42 ][ 00 ]"	// Traduccion inglesa
+    "[ 02 ][ 8D 81 A2 83 A5 A3 40 8C 89 8E 84 82 8C 8F 8D ][ 00 ]"	// Marcus Lindblom
+    "[ 02 ][ 84 81 8E 40 8F A7 A3 85 8E ][ 00 ]"		// Dan Owsen
+    "[ 03 02 ][ 01 ][ 7B 7A 42 54 6C 44 44 48 49 5A 40 45 6B 5B 42 7D 4B 59 42 ][ 00 ]" // Traduccion espanola
+    "[ 02 ][ A3 88 81 84 8F A7 40 8F 8E 85 40 63 63 63 ][ 00 ]"	// Shadow One 333
+    "[ 03 02 ][ 01 ][ 54 48 7A 45 44 7B 4B 7A 40 54 45 40 7B 7A 42 54 6C 44 44 48 49 5A ][ 00 ]"	// Director de traduccion
+    "[ 02 ][ A3 88 81 84 8F A7 40 8F 8E 85 40 63 63 63 ][ 00 ]"	// Shadow One 333
+    "[ 03 06 ][ 01 ][ 58 45 55 45 6B 40 54 45 40 54 45 5B 6C 7A 42 44 48 49 5A ][ 00 ]"	// Jefes de depuracion
+    "[ 02 ][ A4 81 8B A5 8D 89 40 81 8B 81 82 81 8E 85 ][ 00 ]"	// Takumi Akabane
+    "[ 02 ][ 88 89 A4 8F A3 88 89 40 8D 81 A4 A3 A5 89 ][ 00 ]"	// Hitoshi Matsui
+    "[ 03 06 ][ 01 ][ 54 45 5B 6C 7A 42 44 48 49 5A 40 54 45 40 5A 4B 42 ][ 00 ]"	// Depuracion de NOA
+    "[ 02 ][ A3 85 81 8E 40 8F 47 83 8F 8E 8E 8F A2 ][ 00 ]"	// Sean O'Connor
+    "[ 02 ][ 8D 89 83 88 81 85 8C 40 8B 85 8C 82 81 A5 87 88 ][ 00 ]"	// Michael Kelbaugh
+    "[ 03 06 ][ 01 ][ 54 45 5B 6C 7A 42 44 48 49 5A 40 54 45 40 42 5B 45 ][ 00 ]"	// Depuracion de APE
+    "[ 02 ][ A4 81 8B 81 88 89 A2 8F 40 8E 81 87 81 89 ][ 00 ]"	// Takahiro Nagai
+    "[ 02 ][ 8A A5 8E 89 83 88 89 40 81 8B 81 8D 81 ][ 00 ]"	// Junichi Akama
+    "[ 02 ][ 81 8B 89 A2 81 40 8D 81 A4 A3 A5 8D 8F A4 8F ][ 00 ]"	// Akira Matsumoto
+    "[ 03 06 ][ 01 ][ 54 45 5B 6C 7A 42 44 48 49 5A 40 54 45 40 5A 48 5A 7B 45 5A 54 4B ][ 00 ]"	// Depuracion de Nintendo
+    "[ 02 ][ A4 8F 88 A2 A5 40 88 81 A3 88 89 8D 8F A4 8F ][ 00 ]"	// Tohru Hashimoto
+    "[ 02 ][ A4 81 A4 A3 A5 A9 81 40 88 89 A3 88 89 84 81 ][ 00 ]"	// Tatsuya Hishida
+    "[ 03 02 ][ 01 ][ 46 7A 6C 5B 4B 40 54 45 40 5B 7A 6C 45 52 42 6B 40 54 45 40 5A 48 5A 7B 45 5A 54 4B ][ 00 ]"	// Grupo de pruebas de Nintendo
+    "[ 02 ][ 8B 81 AA A5 88 89 84 85 40 8F 88 87 8F 85 ][ 00 ]"	// Kazuhide Ohgoe
+    "[ 02 ][ 81 A4 A3 A5 A3 88 89 40 8D 89 A9 81 8B 85 ][ 00 ]"	// Atsushi Miyake
+    "[ 02 ][ 88 81 8A 89 8D 85 40 8E 81 8B 81 8D A5 A2 81 ][ 00 ]"	// Hajime Nakamura
+    "[ 02 ][ 8D 81 8F 40 88 81 8D 81 8D 8F A4 8F ][ 00 ]"	// Mao Hamamoto
+    "[ 02 ][ 8D 81 A9 A5 8D 89 40 A4 81 84 81 ][ 00 ]"	// Mayumi Tada
+    "[ 02 ][ 8D 81 8B 8F A4 8F 40 8B 85 84 8F A5 89 8E ][ 00 ]"	// Makoto Kedouin
+    "[ 02 ][ 8B 89 8D 89 8B 8F 40 A4 A3 A5 83 88 89 84 81 ][ 00 ]"	// Kimiko Tsuchida
+    "[ 02 ][ A3 81 A9 81 8B 81 40 8B 8F 8D A5 A2 81 ][ 00 ]"	// Sayaka Komura
+    "[ 03 02 ][ 01 ][ 4A 42 5B 42 6B ][ 00 ]"			// Mapas
+    "[ 02 ][ 8D 81 A0 A0 85 A2 40 8B 8F 8A 89 8D 81 ][ 00 ]"	// Mapper Kojima
+    "[ 02 ][ 8B 81 A4 A3 A5 A9 8F A3 88 89 40 89 A2 89 85 ][ 00 ]"	// Katsuyoshi Irie
+    "[ 03 06 ][ 01 ][ 7C 4B 44 45 6B ][ 00 ]"			// Voces
+    "[ 02 ][ A3 88 89 87 85 A3 81 A4 8F 40 8F 8B 6F 40 89 A4 8F 89 ][ 00 ]"	// Shigesato OK? Itoi
+    "[ 02 ][ A9 A5 8B 81 A2 89 40 A7 88 89 A3 A4 8C 85 40 A3 81 89 A4 8F ][ 00 ]"	// Yukari Whistle Saito
+    "[ 02 ][ 88 89 A2 8F 8B 81 AA A5 40 82 85 8C 83 88 40 8B 8F A9 81 8E 8F ][ 00 ]"	// Hirokazu Belch Koyano 
+    "[ 02 ][ 85 A4 A3 A5 8B 8F 40 A6 85 8E A5 A3 40 8B 81 A7 81 8E 8F ][ 00 ]"	// Etsuko Venus Kawano
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 8D A5 40 A7 81 A4 81 8E 81 82 85 ][ 00 ]"	// Takashi Mu Watanabe
+    "[ 03 02 ][ 01 ][ 46 6C 48 7B 42 7A 7A 42 40 54 45 40 48 5A 7B 7A 4B 40 ][ 00 ]"	// Guitarra de Intro
+    "[ 02 ][ 8D 4E 84 4E A3 85 85 87 85 A2 ][ 00 ]"	// M.D. Seeger
+    "[ 03 06 ][ 01 ][ 6B 4B 5B 4B 7A 7B 45 ][ 00 ]"	// Soporte
+    "[ 02 ][ 88 89 A2 8F 8E 8F 82 A5 40 8B 81 8B A5 89 ][ 00 ]"	// Hironoby Kakui
+    "[ 02 ][ A3 88 89 87 85 8B 89 40 A9 81 8D 81 A3 88 89 A2 8F ][ 00 ]"	// Shigeki Yamashiro
+    "[ 03 06 ][ 01 ][ 58 45 55 45 6B 40 54 45 40 5B 7A 4B 54 6C 44 44 48 49 5A ][ 00 ]"	// Jefes de Produccion
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 8B 81 A7 81 87 A5 83 88 89 ][ 00 ]"	// Takashi Kawagushi
+    "[ 02 ][ 8B 85 89 AA 8F 40 8B 81 A4 8F ][ 00 ]"		// Keizo Kato
+    "[ 02 ][ 89 8B A5 8F 40 88 A9 81 8B A5 A4 81 ][ 00 ]"	// Ikuo Hyakuta
+    "[ 02 ][ A9 A5 8B 81 A2 89 40 A3 81 89 A4 8F ][ 00 ]"	// Yukari Saito
+    "[ 03 02 ][ 01 ][ 44 4B 4B 7A 54 48 5A 42 44 48 49 5A ][ 00 ]"	// Coordinacion
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 A7 81 A4 81 8E 81 82 85 ][ 00 ]"	// Takashi Watanabe
+    "[ 02 ][ A2 A9 8F 40 8B 81 87 81 A7 81 ][ 00 ]"		// Ryo Kagawa
+    "[ 02 ][ 88 89 A2 8F A9 A5 8B 89 40 8A 89 8E 8E 81 89 ][ 00 ]"	// Hiroyuki Jinnai
+    "[ 02 ][ 85 A4 A3 A5 8B 8F 40 8B 81 A7 81 8E 8F ][ 00 ]"	// Etsuko Kawano
+    "[ 02 ][ 8B 81 AA A5 A9 A5 8B 89 40 A9 81 8D 81 8D 8F A4 8F ][ 00 ]"	// Kazuyuki Yamamoto
+    "[ 02 ][ 81 A4 A3 A5 8B 8F 40 8B 81 A7 81 88 81 A2 81 ][ 00 ]"	// Atsuko Kawahara
+    "[ 03 06 ][ 01 ][ 5B 7A 4B 54 6C 44 44 48 49 5A 40 54 45 40 6B 4B 5A 48 54 4B ][ 00 ]" //Produccion de Sonido
+    "[ 02 ][ 81 8B 89 8F 40 8F 88 8D 8F A2 89 ][ 00 ]"		// Akio Ohmori
+    "[ 02 ][ A2 89 A4 A3 A5 8F 40 8B 81 8D 89 8D A5 A2 81 ][ 00 ]"	// Ritsuo Kamimura
+    "[ 03 06 ][ 01 ][ 42 46 7A 42 54 45 44 48 4A 48 45 5A 7B 4B 6B ][ 00 ]" // Agradecimientos
+    "[ 02 ][ 8B 85 8E 8A 89 40 81 8E 84 8F ][ 00 ]"		// Kenji Ando
+    "[ 02 ][ 8D 89 A9 A5 8B 89 40 8B A5 A2 85 ][ 00 ]"		// Miyuki Kure
+    "[ 02 ][ A4 81 8B 81 A9 A5 8B 89 40 8F 8E 8F 84 85 A2 81 ][ 00 ]"	// Takayuki Onodera
+    "[ 02 ][ 86 A5 8B 81 A3 88 89 40 8F 8D 8F A2 89 A4 81 ][ 00 ]"	// Fukashi Omorita
+    "[ 02 ][ A9 A5 8B 89 8F 40 A4 81 8B 81 88 81 A3 88 89 ][ 00 ]"	// Yukio Takahashi
+    "[ 02 ][ 8B 81 AA A5 88 89 8B 8F 40 81 8D 85 8D 89 A9 81 ][ 00 ]"	// Kazuhiko Amemiya
+    "[ 02 ][ A9 81 A3 A5 88 89 A2 8F 40 8B A5 8D 81 87 81 89 ][ 00 ]"	// Yasuhiro Kumagai
+    "[ 02 ][ A9 8F A3 88 89 8F 40 88 8F 8E 87 8F ][ 00 ]"		// Yoshio Hongo
+    "[ 02 ][ 8E 81 8F 8B 8F 40 8B 81 8E 81 AA 81 A7 81 ][ 00 ]"		// Naoko Kanazawa
+    "[ 02 ][ 82 85 8E 89 8D 81 A2 A5 40 89 A4 8F 88 ][ 00 ]"		// Benimaru Itoh
+    "[ 02 ][ 8D 8F A4 8F 88 89 A2 8F 40 89 A3 88 89 89 ][ 00 ]"		// Motohiro Ishii
+    "[ 02 ][ 88 89 A2 8F 8B 81 AA A5 40 8B 8F A9 81 8E 8F ][ 00 ]"	// Hirokazu Koyano
+    "[ 02 ][ 8D 81 A3 81 8F 40 A4 8F A4 A4 8F A2 89 ][ 00 ]"		// Masao Tottori
+    "[ 02 ][ 8E 8F 82 A5 A9 81 A3 A5 40 8D 81 8B 89 8E 8F ][ 00 ]"	// Nobuyasu Makino
+    "[ 02 ][ 88 89 A2 8F 8D 89 40 A4 81 8D 81 87 81 A7 81 ][ 00 ]"	// Hiromi Tamagawa
+    "[ 02 ][ 8E 81 8E 83 A9 40 A9 8F A3 88 89 A4 81 8B 85 ][ 00 ]"	// Nancy Yoshitake
+    "[ 03 02 ][ 02 ][ A9 40 81 40 8D A5 83 88 8F A3 40 8F A4 A2 8F A3 ][ 00 ]"	// Y a muchos otros
+    "[ 03 06 ][ 01 ][ 59 4B 6B 40 5B 7A 4B 54 6C 44 7B 4B 7A 45 6B ][ 00 ]"	// Los productores
+    "[ 01 ][ 6A 6C 48 45 7A 45 5A 40 42 46 7A 42 54 45 44 45 7A 40 42 ][ 00 ]"	// quieren agradecer a
+    "[ 02 ][ 89 A3 88 85 8C 40 81 A2 A4 A6 89 A3 89 8F 8E ][ 00 ]"	// Ishel Artvision
+    "[ 02 ][ 8D 8F 8F 8E A2 89 84 85 A2 A3 40 8F 86 86 89 83 85 ][ 00 ]"// Moonriders Office
+    "[ 02 ][ A3 85 84 89 83 40 89 8E 83 4E ][ 00 ]"			// Sedic Inc.
+    "[ 02 ][ A3 85 A4 81 40 83 8F 4E 4C 8C A4 84 4E ][ 00 ]"		// Seta Co., LTD.
+    "[ 02 ][ 8C A5 83 8B A9 40 8E 89 83 85 ][ 00 ]"			// Lucky Nice
+    "[ 02 ][ 8F 8B A5 82 8F 40 84 85 A3 89 87 8E 40 A3 A4 A5 84 89 8F ][ 00 ]"	// Okubo Design Studio
+    "[ 02 ][ 8F 8E 40 81 A3 A3 8F 83 89 81 A4 85 A3 ][ 00 ]"		// On Associates
+    "[ 02 ][ A3 81 89 40 8B 8F A5 82 8F A5 ][ 00 ]"			// Sai Koubou
+    "[ 02 ][ 81 A3 88 A5 A2 81 40 8F 86 86 89 83 85 ][ 00 ]"		// Ashura Office
+    "[ 02 ][ A3 88 8F 87 81 8B A5 8B 81 8E ][ 00 ]"			// Shogakukan
+    "[ 02 ][ A3 88 89 8E 83 88 8F 40 A3 88 81 ][ 00 ]"			// Shincho Sha
+    "[ 03 06 ][ 01 ][ 58 45 55 45 40 44 4B 4B 7A 54 48 5A 42 54 4B 7A ][ 00 ]"	// Jefe Coordinador
+    "[ 02 ][ 8D 81 A2 83 A5 A3 40 8C 89 8E 84 82 8C 8F 8D ][ 00 ]"	// Marcus Lindblom
+    "[ 03 06 ][ 01 ][ 5B 7A 4B 54 6C 44 7B 4B 7A 40 54 45 40 59 AB 5A 45 42 ][ 00 ]"		// Productor de linea
+    "[ 02 ][ A4 A3 A5 8E 85 8B 81 AA 40 89 A3 88 89 88 81 A2 81 ][ 00 ]"	// Tsunekaz Ishihara
+    "[ 03 06 ][ 01 ][ 44 4B 5B 7A 4B 54 6C 44 7B 4B 7A ][ 00 ]"		// Coproductor
+    "[ 02 ][ A3 81 A4 8F A2 A5 40 89 A7 81 A4 81 ][ 00 ]"		// Satoru Iwata
+    "[ 03 06 ][ 01 ][ 5B 7A 4B 54 6C 44 7B 4B 7A 40 54 45 40 5A 4B 42 ][ 00 ]"		// Productor de NOA
+    "[ 02 ][ 8D 89 8B 85 40 86 A5 8B A5 84 81 ][ 00 ]"			// Mike Fukuda
+    "[ 03 06 ][ 01 ][ 6B 6C 5B 45 7A 7C 48 6B 4B 7A ][ 00 ]"		// Supervisor
+    "[ 02 ][ A3 88 89 87 85 A2 A5 40 8D 89 A9 81 8D 8F A4 8F ][ 00 ]"	// Shigeru Miyamoto
+    "[ 03 06 ][ 01 ][ 5B 7A 4B 54 6C 44 7B 4B 7A 45 6B 40 45 58 45 44 6C 7B 48 7C 4B 6B ][ 00 ]"	// Productores Ejecutivos
+    "[ 02 ][ 88 89 A2 8F A3 88 89 40 A9 81 8D 81 A5 83 88 89 ][ 00 ]"	// Hiroshi Yamauchi
+    "[ 02 ][ 8D 89 8E 8F A2 A5 40 81 A2 81 8B 81 A7 81 ][ 00 ]"		// Minoru Arakawa
+    "[ 03 06 ][ 01 ][ 5B 7A 45 6B 45 5A 7B 42 54 4B 40 5B 4B 7A ][ 00 ]"	// Presentado por
+    "[ 02 ][ 8E 89 8E A4 85 8E 84 8F ][ 00 ]"				// Nintendo
+    "[ 03 02 ][ 01 ][ 45 5A 40 42 6B 4B 44 48 42 44 48 49 5A 40 44 4B 5A ][ 00 ]"	// En asociacion con
+    "[ 02 ][ 81 A0 85 40 89 8E 83 4E ][ 00 ]"				// APE Inc.
+    "[ 03 02 ][ 01 ][ 6E ][ 00 ]"					// Y
+    "[ 02 ][ 88 81 8C 40 8C 81 82 8F A2 81 A4 8F A2 A9 4C 89 8E 83 4E ][ 00 ]"	// HAL Laboratory, Inc.
+    "[ 03 0C ][ 01 ][ 6E AD AD AD ][ 00 ]"				// Y...
+    "[ 01 ][ 40 ][ 00 ]"						// (Espacio)
+    "[ 03 0E ][ 01 ][ 58 6C 46 42 54 4B 7A ][ 00 ]"			// Jugador
+    "[ 04 ][ 03 0D ][ FF ]"						// (Nombre del Jugador)...?
+
+l_0xef4e20:
+    call(data_05.l_0xc568c9) " cada enemigo cerca de 50 PV de da[C7]o." eob
+
+l_0xef4e38:
+    call(data_05.l_0xc568c9) " cada enemigo cerca de 180 PV de da[C7]o." eob
+
+l_0xef4e51:
+    call(data_05.l_0xc568c9) " cada enemigo cerca de 320 PV de da[C7]o." eob
+
+l_0xef4e6a:
+    call(data_05.l_0xc568c9) " cada enemigo cerca de 640 PV de da[C7]o." eob
+
+l_0xef4e83:
+    call(data_05.l_0xc56913) " cerca de 80 PV de da[C7]o a cada uno." eob
+
+l_0xef4e99:
+    call(data_05.l_0xc56913) " cerca de 160 PV de da[C7]o a cada uno." eob
+
+l_0xef4eb0:
+    call(data_05.l_0xc56913) " cerca de 240 PV de da[C7]o a cada uno." eob
+
+l_0xef4ec7:
+    call(data_05.l_0xc56913) " cerca de 320 PV de da[C7]o a cada uno." eob
+
+l_0xef4ede:
+    call(data_05.l_0xc56935) " inflingiendo cerca de 180 PV de da[C7]o." linebreak
+    call(data_05.l_0xc56955) newline
+    call(data_05.l_0xc56b3e) eob
+
+l_0xef4f06:
+    call(data_05.l_0xc56935) " inflingiendo cerca de 360 PV de da[C7]o." linebreak
+    call(data_05.l_0xc56955) newline
+    call(data_05.l_0xc56b3e) eob
+
+l_0xef4f2e:
+    call(data_05.l_0xc56935) " inflingiendo cerca de 540 PV de da[C7]o." linebreak
+    call(data_05.l_0xc56955) newline
+    call(data_05.l_0xc56b3e) eob
+
+l_0xef4f56:
+    call(data_05.l_0xc56935) " inflingiendo cerca de 720 puntos de da[C7]o." linebreak
+    call(data_05.l_0xc56955) linebreak
+    call(data_05.l_0xc56b3e) eob
+
+l_0xef4f7e:
+    "@El enemigo es golpeado por un trueno para infligir cerca de 120 PV de da[C7]o." linebreak
+    call(data_05.l_0xc5696c) eob
+
+l_0xef4fa6:
+    "@El enemigo es golpeado por un trueno y recibe cerca de 120 PV de da[C7]o en 2 veces separadas." linebreak
+    call(data_05.l_0xc5696c) eob
+
+l_0xef4fdc:
+    "@El enemigo es golpeado por un trueno y recibe cerca de 200 PV de da[C7]o en 3 veces separadas." linebreak
+    call(data_05.l_0xc5696c) eob
+
+l_0xef5013:
+    "@El enemigo es golpeado por un trueno y recibe cerca de 200 PV de da[C7]o en 4 veces separadas." linebreak
+    call(data_05.l_0xc5696c) eob
+
+l_0xef5049:
+    call(data_05.l_0xc569a9) call(data_05.l_0xc569ca) ", y en algunas circunstancias, sentirse extra[C7]o." eob
+
+l_0xef506b:
+    call(data_05.l_0xc569a9) call(data_05.l_0xc569ca) ", y en algunas circunstancias, puede hacer que el enemigo se sienta extra[C7]o, entumecido, o incluso ser destruido." eob
+
+l_0xef50af:
+    call(data_05.l_0xc569a9) call(data_05.l_0xc569ca) "." linebreak
+    "@Destruye a un enemigo con un s[C3]lo ataque frecuentemente." eob
+
+l_0xef50e1:
+    "@Genera rayos gloriosos que tienen una alta probabilidad de destruir a todos los enemigos en escena con un s[C3]lo ataque." eob
+
+l_0xef5131:
+    call(data_05.l_0xc569df) newline
+    "@Inflige cerca de 360 puntos de da[C7]o a cada enemigo." eob
+
+l_0xef5152:
+    call(data_05.l_0xc569df) newline
+    "@Inflige cerca de 720 puntos de da[C7]o a cada enemigo." eob
+
+l_0xef5173:
+    "@Restaura 100 PV a una persona." eob
+
+l_0xef5189:
+    "@Restaura 300 PV a una persona." eob
+
+l_0xef519f:
+    "@Restaura completamente los PV de una persona." eob
+
+l_0xef51bb:
+    "@Restaura 400 PV a todos." eob
+
+l_0xef51cf:
+    "@Cura condiciones de resfr[C2]o, insolaci[C3]n o siesta." eob
+
+l_0xef51f0:
+    "@Adem[C0]s de los efectos de Curar [8B], cura envenenamientos, n[C0]usea, sentirse extra[C7]o y llanto incontrolable." eob
+
+l_0xef5239:
+    "@Adem[C0]s de los efectos de Curar [8C], cura el estar diamonizado y par[C0]lisis." linebreak
+    "@Tambi[C1]n revive a un amigo inconsciente, aunque sus PV no est[C1]n al m[C0]ximo." eob
+
+l_0xef52a5:
+    "@Adem[C0]s de los efectos de Curar [8D], revive a un amigo inconsciente, y pone al m[C0]ximo los PV de la persona revivida." eob
+
+l_0xef5301:
+    "@Protege a una persona con un escudo de luz." linebreak
+    "@Reduce el da[C7]o causado por un enemigo en un 50%." linebreak
+    "@Usar un escudo diferente cancelar[C0] estos efectos." eob
+
+l_0xef5361:
+    "@Protege a todos con un escudos de luz." linebreak
+    "@Reduce el da[C7]o causado por un enemigo en un 50%." linebreak
+    "@Usar un escudo diferente cancelar[C0] estos efectos." eob
+
+l_0xef53c0:
+    "@Protege a una persona con un escudo de poder." linebreak
+    "@Corta el da[C7]o a la mitad y un poco del da[C7]o bloqueado se regresa al enemigo." linebreak
+    "@Usar un escudo diferente cancelar[C0] estos efectos." eob

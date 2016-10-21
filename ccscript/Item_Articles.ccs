@@ -1,0 +1,664 @@
+import asm65816
+
+import ebpp
+import ebpp_mem
+import ebpp_std
+
+Dei_Text:
+	"Unos [00]"
+Del_Text:
+	"Del [00]"
+Della_Text:
+	"Della [00]"
+Delle_Text:
+	"Unas [00]"
+Dello_Text:
+	"Dello [00]"
+I_Text:
+	"Los [00]"
+Il_Text:
+	"El [00]"
+LApost_Text:
+	"El [00]"
+La_Text:
+	"La [00]"
+Le_Text:
+	"Las [00]"
+Li_Text:
+	"Li [00]"
+Lo_Text:
+	"Lo [00]"
+Un_Text:
+	"Un [00]"
+UnApost_Text:
+	"El [00]"
+Una_Text:
+	"Una [00]"
+Uno_Text:
+	"Uno [00]"
+
+dei_Text:
+	"unos [00]"
+del_Text:
+	"del [00]"
+della_Text:
+	"della [00]"
+delle_Text:
+	"unas [00]"
+dello_Text:
+	"dello [00]"
+i_Text:
+	"los [00]"
+il_Text:
+	"el [00]"
+lApost_Text:
+	"el [00]"
+la_Text:
+	"la [00]"
+le_Text:
+	"las [00]"
+li_Text:
+	"li [00]"
+lo_Text:
+	"lo [00]"
+un_Text:
+	"un [00]"
+unApost_Text:
+	"el [00]"
+una_Text:
+	"una [00]"
+uno_Text:
+	"uno [00]"
+
+ROM[0xC16582] = { // ROM[0xC16582]
+	JSR(0x03DC)
+	RTL
+}
+
+PrintCapDefArticle_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	TXA
+	JSL(0xC16582)//get_result_register
+	LDA_d(0x06)
+	ASL
+	TAX
+	LDA_xl(ArticlePronoun_Table)
+	AND_i(0x0007)
+//
+	BNE(13)
+	ASMLoadAddress0E(I_Text)
+	BRA_a(PrintCapDefArticle_PrintText)
+//
+	CMP_i(0x0001)
+	BNE(13)
+	ASMLoadAddress0E(Il_Text)
+	BRA_a(PrintCapDefArticle_PrintText)
+//
+	CMP_i(0x0002)
+	BNE(13)
+	ASMLoadAddress0E(LApost_Text)
+	BRA_a(PrintCapDefArticle_PrintText)
+//
+	CMP_i(0x0003)
+	BNE(13)
+	ASMLoadAddress0E(La_Text)
+	BRA_a(PrintCapDefArticle_PrintText)
+//
+	CMP_i(0x0004)
+	BNE(13)
+	ASMLoadAddress0E(Le_Text)
+	BRA_a(PrintCapDefArticle_PrintText)
+//
+	ASMLoadAddress0E(Lo_Text)
+//
+PrintCapDefArticle_PrintText:
+	LDA_i(0)//Size?
+	JSL		(0xC4487C)		// $C4/487C is a truncating text-printer
+	PLD
+	RTL
+
+PrintLowDefArticle_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	TXA
+	JSL(0xC16582)//get_result_register
+	LDA_d(0x06)
+	ASL
+	TAX
+	LDA_xl(ArticlePronoun_Table)
+	AND_i(0x0007)
+//
+	BNE(13)
+	ASMLoadAddress0E(i_Text)
+	BRA_a(PrintLowDefArticle_PrintText)
+//
+	CMP_i(0x0001)
+	BNE(13)
+	ASMLoadAddress0E(il_Text)
+	BRA_a(PrintLowDefArticle_PrintText)
+//
+	CMP_i(0x0002)
+	BNE(13)
+	ASMLoadAddress0E(lApost_Text)
+	BRA_a(PrintLowDefArticle_PrintText)
+//
+	CMP_i(0x0003)
+	BNE(13)
+	ASMLoadAddress0E(la_Text)
+	BRA_a(PrintLowDefArticle_PrintText)
+//
+	CMP_i(0x0004)
+	BNE(13)
+	ASMLoadAddress0E(le_Text)
+	BRA_a(PrintLowDefArticle_PrintText)
+//
+	ASMLoadAddress0E(lo_Text)
+//
+PrintLowDefArticle_PrintText:
+	LDA_i(0)//Size?
+	JSL		(0xC4487C)		// $C4/487C is a truncating text-printer
+	PLD
+	RTL
+
+PrintCapPronoun_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	TXA
+	JSL(0xC16582)//get_result_register
+	LDA_d(0x06)
+	ASL
+	TAX
+	LDA_xl(ArticlePronoun_Table)
+	AND_i(0x00C0)
+//
+	BNE(13)
+	ASMLoadAddress0E(La_Text)
+	BRA_a(PrintCapPronoun_PrintText)
+//
+	CMP_i(0x0040)
+	BNE(13)
+	ASMLoadAddress0E(Le_Text)
+	BRA_a(PrintCapPronoun_PrintText)
+//
+	CMP_i(0x0080)
+	BNE(13)
+	ASMLoadAddress0E(Li_Text)
+	BRA_a(PrintCapPronoun_PrintText)
+//
+	ASMLoadAddress0E(Lo_Text)
+//
+PrintCapPronoun_PrintText:
+	LDA_i(0)//Size?
+	JSL		(0xC4487C)		// $C4/487C is a truncating text-printer
+	PLD
+	RTL
+
+PrintLowPronoun_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	TXA
+	JSL(0xC16582)//get_result_register
+	LDA_d(0x06)
+	ASL
+	TAX
+	LDA_xl(ArticlePronoun_Table)
+	AND_i(0x00C0)
+//
+	BNE(13)
+	ASMLoadAddress0E(la_Text)
+	BRA_a(PrintLowPronoun_PrintText)
+//
+	CMP_i(0x40)
+	BNE(13)
+	ASMLoadAddress0E(le_Text)
+	BRA_a(PrintLowPronoun_PrintText)
+//
+	CMP_i(0x80)
+	BNE(13)
+	ASMLoadAddress0E(li_Text)
+	BRA_a(PrintLowPronoun_PrintText)
+//
+	ASMLoadAddress0E(lo_Text)
+//
+PrintLowPronoun_PrintText:
+	LDA_i(0)//Size?
+	JSL		(0xC4487C)		// $C4/487C is a truncating text-printer
+	PLD
+	RTL
+
+PrintCapIndefArticle_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	TXA
+	JSL(0xC16582)//get_result_register
+	LDA_d(0x06)
+	ASL
+	TAX
+	LDA_xl(ArticlePronoun_Table)
+	AND_i(0x0F00)
+//
+	BNE(13)
+	ASMLoadAddress0E(Dei_Text)
+	BRA_a(PrintCapIndefArticle_PrintText)
+//
+	CMP_i(0x0100)
+	BNE(13)
+	ASMLoadAddress0E(Del_Text)
+	BRA_a(PrintCapIndefArticle_PrintText)
+//
+	CMP_i(0x0200)
+	BNE(13)
+	ASMLoadAddress0E(Della_Text)
+	BRA_a(PrintCapIndefArticle_PrintText)
+//
+	CMP_i(0x0300)
+	BNE(13)
+	ASMLoadAddress0E(Delle_Text)
+	BRA_a(PrintCapIndefArticle_PrintText)
+//
+	CMP_i(0x0400)
+	BNE(13)
+	ASMLoadAddress0E(Dello_Text)
+	BRA_a(PrintCapIndefArticle_PrintText)
+//
+	CMP_i(0x0500)
+	BNE(13)
+	ASMLoadAddress0E(Un_Text)
+	BRA_a(PrintCapIndefArticle_PrintText)
+//
+	CMP_i(0x0600)
+	BNE(13)
+	ASMLoadAddress0E(UnApost_Text)
+	BRA_a(PrintCapIndefArticle_PrintText)
+//
+	CMP_i(0x0700)
+	BNE(13)
+	ASMLoadAddress0E(Una_Text)
+	BRA_a(PrintCapIndefArticle_PrintText)
+//
+	ASMLoadAddress0E(Uno_Text)
+//
+PrintCapIndefArticle_PrintText:
+	LDA_i(0)//Size?
+	JSL		(0xC4487C)		// $C4/487C is a truncating text-printer
+	PLD
+	RTL
+
+PrintLowIndefArticle_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	TXA
+	JSL(0xC16582)//get_result_register
+	LDA_d(0x06)
+	ASL
+	TAX
+	LDA_xl(ArticlePronoun_Table)
+	AND_i(0x0F00)
+//
+	BNE(13)
+	ASMLoadAddress0E(dei_Text)
+	BRA_a(PrintLowIndefArticle_PrintText)
+//
+	CMP_i(0x0100)
+	BNE(13)
+	ASMLoadAddress0E(del_Text)
+	BRA_a(PrintLowIndefArticle_PrintText)
+//
+	CMP_i(0x0200)
+	BNE(13)
+	ASMLoadAddress0E(della_Text)
+	BRA_a(PrintLowIndefArticle_PrintText)
+//
+	CMP_i(0x0300)
+	BNE(13)
+	ASMLoadAddress0E(delle_Text)
+	BRA_a(PrintLowIndefArticle_PrintText)
+//
+	CMP_i(0x0400)
+	BNE(13)
+	ASMLoadAddress0E(dello_Text)
+	BRA_a(PrintLowIndefArticle_PrintText)
+//
+	CMP_i(0x0500)
+	BNE(13)
+	ASMLoadAddress0E(un_Text)
+	BRA_a(PrintLowIndefArticle_PrintText)
+//
+	CMP_i(0x0600)
+	BNE(13)
+	ASMLoadAddress0E(unApost_Text)
+	BRA_a(PrintLowIndefArticle_PrintText)
+//
+	CMP_i(0x0700)
+	BNE(13)
+	ASMLoadAddress0E(una_Text)
+	BRA_a(PrintLowIndefArticle_PrintText)
+//
+	ASMLoadAddress0E(uno_Text)
+//
+PrintLowIndefArticle_PrintText:
+	LDA_i(0)//Size?
+	JSL		(0xC4487C)		// $C4/487C is a truncating text-printer
+	PLD
+	RTL
+
+
+/*
+
+{asmcall_long(PrintCapDefArticle_ASM)}[1C 05 00] prints an Uppercase definite article
+{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00] prints an Uppercase indefinite article
+{asmcall_long(PrintCapPronoun_ASM)}[1C 05 00] prints an Uppercase pronoun
+{asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00] prints a Lowercase definite article
+{asmcall_long(PrintLowIndefArticle_ASM)}[1C 05 00] prints a Lowercase indefinite article
+{asmcall_long(PrintLowPronoun_ASM)}[1C 05 00] prints a Lowercase pronoun
+
+{asmcall_long(PrintLowIndefArticle_ASM)}[1C 05 00][1B 00]
+[1B 05][1B 01]{asmcall_long(PrintLowPronoun_ASM)}[1B 06]
+
+-DEFINITE ARTICLES-
+0x0000 = Los
+0x0001 = El
+0x0002 = L'	//Delete
+0x0003 = La
+0x0004 = Las
+0x0005 = Lo	//Delete
+
+-PRONOUNS-
+Add one of these values to get the desired pronoun.
++0x0000 = La
++0x0040 = Las
++0x0080 = Los
++0x00C0 = Lo
+
+-INDEFINITE ARTICLES-
+Add one of these values to get the desired article.
++0x0000 = Unos
++0x0100 = Del	//Delete
++0x0200 = Della	//Delete
++0x0300 = Unas
++0x0400 = Dello	//Delete
++0x0500 = Un
++0x0600 = Un’	//Delete
++0x0700 = Una
++0x0800 = Uno	//Delete
+
+El = 0x05C1
+Los = 0x0080
+La = 0x0703
+Las = 0x0344
+*/
+
+ArticlePronoun_Table:
+short 0x05C1//Null
+short 0x0703//Medalla Franklin
+short 0x05C1//Oso de Peluche
+short 0x05C1//Super Peluche
+short 0x0703//Maquina rota
+short 0x05C1//Aparato roto
+short 0x0703//Pistola rota
+short 0x05C1//Atomizador roto
+short 0x05C1//Laser roto
+short 0x05C1//Hierro roto
+short 0x0703//Tuberia roto
+short 0x05C1//Canon roto
+short 0x05C1//Tubo rota
+short 0x0703//Bazuca rota
+short 0x0703//Trompeta rota
+short 0x0703//Harmonica rota
+short 0x0703//Antena rota
+short 0x05C1//Bate agrietado
+short 0x05C1//Bate Tee-ball
+short 0x05C1//Bate para baldios
+short 0x05C1//Bate de liga menor
+short 0x05C1//Bate Sr. Beisbol
+short 0x05C1//Bate de liga mayor
+short 0x05C1//Bate de fama
+short 0x05C1//Bate de Magicant
+short 0x05C1//Bate legendario
+short 0x05C1//Bate Gutsy
+short 0x05C1//Bate Casey
+short 0x0703//Sarten
+short 0x0703//Sarten grueso
+short 0x0703//Sarten lujo
+short 0x0703//Sarten del Chef
+short 0x0703//Sarten frances
+short 0x0703//Sarten Magico
+short 0x0703//Sarten sagrado
+short 0x0703//Espada de reyes
+short 0x0501//Arma de juguete
+short 0x0501//Arma paralizante
+short 0x0703//Pistola de aire
+short 0x0703//Magnum de aire
+short 0x0703//Pistola zip
+short 0x0501//Arma laser
+short 0x05C1//Hiper Rayo
+short 0x05C1//Rayo triturador
+short 0x05C1//Rayo espectro
+short 0x05C1//Rayo mortal
+short 0x05C1//Rayo mas malo
+short 0x05C1//Rayo lunar
+short 0x05C1//Rayo Gaia
+short 0x05C1//Yo-yo
+short 0x0703//Resortera
+short 0x0703//Resortera bionica
+short 0x05C1//Yo-yo de trucos
+short 0x05C1//Yo-yo de combate
+short 0x05C1//Amuleto de viaje
+short 0x05C1//Gran amuleto
+short 0x05C1//Amuleto cristal
+short 0x0703//Pata de conejo
+short 0x05C1//Colgante flama
+short 0x05C1//Colgante lluvia
+short 0x05C1//Colgante noche
+short 0x05C1//Colgante de mar
+short 0x05C1//Colgante estrella
+short 0x0703//Capa de reyes
+short 0x0703//Pulsera barata
+short 0x0703//Pulsera de cobre
+short 0x0703//Pulsera de plata
+short 0x0703//Pulsera de oro
+short 0x0703//Banda platino
+short 0x0703//Banda diamante
+short 0x0703//Pulsera de hada
+short 0x0703//Pulsera de angel
+short 0x0703//Pulsera de Diosa
+short 0x0703//Pulsera de reyes
+short 0x05C1//Gorro de beisbol
+short 0x05C1//Gorro Holmes
+short 0x05C1//Gorro Sr. Beisbol
+short 0x05C1//Gorro Duro
+short 0x05C1//Liston
+short 0x05C1//Liston rojo
+short 0x05C1//Liston de Diosa
+short 0x0703//Moneda sueno
+short 0x0703//Moneda defensa
+short 0x0703//Moneda suerte
+short 0x0703//Moneda talsiman
+short 0x0703//Moneda brillante
+short 0x0703//Moneda recuerdo
+short 0x0703//Diadema de reyes
+short 0x0703//Galleta
+short 0x0344//Papas fritas
+short 0x0703//Hamburguesa
+short 0x05C1//Huevo cocido
+short 0x05C1//Huevo fresco
+short 0x05C1//Almuerzo picnic
+short 0x0703//Pasta di Summers
+short 0x0703//Pizza
+short 0x05C1//Especial del chef
+short 0x0703//Pizza grande
+short 0x05C1//Caramelo PSI
+short 0x0703//Trufa magica
+short 0x05C1//Almuerzo cerebral
+short 0x05C1//Dulce de roca
+short 0x05C1//Croissant
+short 0x05C1//Bolillo
+short 0x05C1//Paquete de chile
+short 0x0703//Miel de mosca
+short 0x05C1//Jugo de frutas
+short 0x05C1//Té helado real
+short 0x0703//Bebida proteinica
+short 0x0703//Sopa de Kraken
+short 0x0703//Botella de agua
+short 0x05C1//Remedio para resfrio
+short 0x05C1//Vial de suero
+short 0x0703//Capsula CI
+short 0x0703//Capsula agallas
+short 0x0703//Capsula Velocidad
+short 0x0703//Capsula vital
+short 0x0703//Capsula suerte
+short 0x05C1//Paquete de ketchup
+short 0x05C1//Paquete de azucar
+short 0x0703//Lata de cocoa
+short 0x05C1//Carton de crema
+short 0x0703//Rama de perejil
+short 0x0703//Salsa picante
+short 0x05C1//Paquete de sal
+short 0x05C1//Pase VIP
+short 0x0703//Jarra de delisalsa
+short 0x0703//Toalla mojada
+short 0x0703//Hierba refrescante
+short 0x0703//Hierba secreta
+short 0x05C1//Cuerno de vida
+short 0x0703//Unidad Anti-PSI
+short 0x05C1//Mata-escudo
+short 0x05C1//Bazuca
+short 0x05C1//Bazuca pesanta
+short 0x05C1//Chupa-Vida
+short 0x05C1//Chupa-Vida Gloton
+short 0x05C1//Rocio Xterminador
+short 0x05C1//Generador de baba
+short 0x05C1//Dispensador yogurt
+short 0x0703//Regla
+short 0x0703//Bolsa de serpientes
+short 0x0703//Venda de momia
+short 0x05C1//Protactor
+short 0x05C1//Cohete de botella
+short 0x05C1//Gran Coh. botella
+short 0x05C1//Multi-cohete
+short 0x0703//Bomba
+short 0x0703//Super Bomba
+short 0x05C1//Insecticida
+short 0x05C1//Promotor de oxido
+short 0x05C1//Promotor de oxico DX
+short 0x0344//Calcetas de Pettenela
+short 0x05C1//Escarabajo ciervo
+short 0x05C1//Cepillo de dientes
+short 0x0703//Correa de bolsa
+short 0x0703//Maldicion del faraon
+short 0x05C1//Rocio defensivo
+short 0x0703//Carta de mama
+short 0x0703//Pildora agallas
+short 0x0703//Bolsa de Dragonita
+short 0x05C1//Rocio defensivo
+short 0x0703//Nariz de cerdito
+short 0x05C1//Cartel <En venta>
+short 0x05C1//Libro de Timidez
+short 0x0703//Foto postal
+short 0x05C1//Platano rey
+short 0x0703//Carta de Tony
+short 0x05C1//Polluelo
+short 0x0703//Gallina
+short 0x0703//Llave a la choza
+short 0x0703//Llave a la cabania
+short 0x0703//Maquina de llave mala
+short 0x0080//Bienes temporales
+short 0x05C1//Papel para zombies
+short 0x05C1//Ojo de Halcon
+short 0x0703//Bicicleta
+short 0x0703//Tarjeta de Credito
+short 0x05C1//Boleto de entrada
+short 0x0703//Carta de ninios
+short 0x05C1//Fajo de billetes
+short 0x05C1//Telefono receptor
+short 0x05C1//Diamante
+short 0x05C1//Platano firmado
+short 0x05C1//Borra lapiz
+short 0x0703//Copia del jeroglifico
+short 0x0703//Meteotita
+short 0x0080//Lentes de contacto
+short 0x05C1//Curita a manita
+short 0x05C1//Yogurt de trucha
+short 0x05C1//Platano
+short 0x0703//Barra energetica
+short 0x0703//Llave a la torre
+short 0x05C1//Pieza meteorito
+short 0x05C1//Colgante tierra
+short 0x05C1//Neutralizador
+short 0x0703//Piedra de Sonido
+short 0x05C1//Raton de salida
+short 0x05C1//Gelato de Resort
+short 0x0703//Serpiente
+short 0x0703//Vibora
+short 0x0703//Piedra mental
+short 0x05C1//Mapa del pueblo
+short 0x05C1//Video relajante
+short 0x0703//Sumana
+short 0x0703//Llave de casillero
+short 0x05C1//Articulo inutil
+short 0x0703//Tarta magica
+short 0x05C1//Rubi pequenio
+short 0x05C1//Amor de mono
+short 0x05C1//Borra borrador
+short 0x05C1//Tendakraut
+short 0x05C1//Bate T-Rex
+short 0x05C1//Bate de liga mayor
+short 0x05C1//Bate supremo
+short 0x05C1//Rayo doble
+short 0x0703//Banda platino
+short 0x0703//Banda diamante
+short 0x05C1//Liston defensa
+short 0x05C1//Liston talisman
+short 0x05C1//Liston Saturn
+short 0x0703//Moneda silenciosa
+short 0x0703//Moneda amuleto
+short 0x0703//Taza de fideos
+short 0x05C1//Emparedado salto
+short 0x05C1//Emparedado salto DX
+short 0x05C1//Emparedado suerte
+short 0x05C1//Emparedado suerte
+short 0x05C1//Emparedado suerte
+short 0x05C1//Emparedado suerte
+short 0x05C1//Emparedado suerte
+short 0x05C1//Emparedado suerte
+short 0x0703//Taza de café
+short 0x0703//Hamburguesa doble
+short 0x05C1//Queso de mani
+short 0x0703//Jalea de cerdito
+short 0x05C1//Tazon de arroz
+short 0x0703//Croqueta de frijol
+short 0x0703//Sopa Molokhia
+short 0x05C1//Rollo natural
+short 0x05C1//Kabob
+short 0x05C1//Yogurt natural
+short 0x0703//Carne seca
+short 0x0703//Hamburguesa Mammut
+short 0x0703//Carne seca picosa 
+short 0x0703//Carne seca de lujo
+short 0x0703//Botella de agua DX
+short 0x05C1//Pudin magico
+short 0x0703//Sarten anti-adherente
+short 0x0703//Moneda Saturn
+short 0x05C1//Meteonio
+short 0x0703//Paleta
+short 0x0703//Taza de fideos de vida
+short 0x0703//Zanahora

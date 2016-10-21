@@ -1,0 +1,406 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import ebpp
+import Item_Articles
+import Enemy_Articles
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc573dc:
+    "{window_open(1)}@Las estrellas predijeron que te encontrar[C2]a aqu[C2]..." next
+    "@Es momento de que te transmita la <t[C1]cnica para hacer llover estrellas.>" next
+    "@Por un tiempo, debes vivir lejos de tus amigos y vivir conmigo." next
+    "@[B8]Entiendes?" next
+    "@...S[C3]lo hay una respuesta." next
+    "@Debo detenerte aqu[C2] a[C4]n si no lo quieres as[C2]." next
+    "@Qu[C1]date conmigo por un tiempo, [B9][B8]lo entiendes?![03]{window_closeall}{pause(30)}" goto(data_50.l_0xc9329b)
+
+l_0xc5749a:
+    "{window_open(1)}@Depende de los esfuerzos de [1C 02 04]." next
+    "@Eso determinar[C0] el reencuentro del grupo." next
+    "@Sean fieles, [B9]y esperen a que el momento llegue!{wait}{window_closeall}" eob
+
+l_0xc574f6:
+    "[06 50 01 {e(l_0xc575f8)}]@Hago esto como pasatiempo.{pause(20)}  [B8]No es genial?" next
+    "@Recientemente hice un amigo.{pause(20)}  Sol[C2]a ser un Creador de Calabozos." next
+    "@Y ahora es el <Hombre Calabozo.>" next
+    "@[B8]Te gustar[C2]a conocerlo?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc57570:
+    "[19 02]No" eob
+
+l_0xc57575:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc5759d)} {e(l_0xc57584)}]" goto(l_0xc57584)
+
+l_0xc57584:
+    "@Entiendo,{pause(15)} es un sujeto muy extra[C7]o." end
+
+l_0xc5759d:
+    "@Muy bien entonces te dar[C1] la llave para que puedas entrar a [C1]l." next
+    "@Oh no... [B9]no la tengo!" next
+    "@Deb[C2] perderla en alg[C4]n lugar." next
+    "@Lo siento, no me preocupo sobre cosas peque[C7]as." end
+
+l_0xc575f8:
+    "@Me qued[C1] aqu[C2] durante todo el tiempo que no estuviste." next
+    "@Pero ahora no s[C1] porqu[C1] lo hice." end
+
+l_0xc5762c:
+    "[06 50 01 {e(l_0xc576e0)}]@No estoy seguro si fue el <Hombre Calabozo>, pero..." next
+    "@hay una torre de aspecto extra[C7]o al noroeste." next
+    "@...Esta llave que encontr[C1] hace un momento quiz[C0] deber[C2]a abrir la torre." next
+    "@Puedes tenerla, no la necesito.[1D 03 FF][1B 02 {e(l_0xc57718)}][03][1D 0E 00 C0][1B 05]" call(data_36.l_0xc7dcb6) "{set(flag 336)}{wait}{window_closeall}{isset(flag 691)}[1B 02 {e(data_55.l_0xc9992f)}]{pause(60)}" call(data_24.l_0xc692f7) eob
+
+l_0xc576e0:
+    "@No estoy seguro si fue el <Hombre Calabozo>..." next
+    "@Hay una torre de aspecto extra[C7]o al noroeste." end
+
+l_0xc57718:
+    next
+    "@...Pero parece que llevas demasiadas cosas." end
+
+l_0xc57730:
+    "[06 5E 02 {e(l_0xc57753)}]@(Parece que puedes entrar, pero est[C0] cerrado.)" end
+
+l_0xc57753:
+    "{window_closeall}{pause(1)}[1F 21 9F]" call(data_57.l_0xc9b112) eob
+
+l_0xc57760:
+    "{store_registers}[06 5E 02 {e(l_0xc577c5)}]{load_registers}" call(data_36.l_0xc7dd2c) "{result_is(192)}[1B 02 {e(l_0xc577b2)}]{load_registers}" call(data_36.l_0xc7dd37) newline
+    "@(La llave funcion[C3] para abrir la puerta." next
+    "@Puedes entrar.){wait}{wait}{set(flag 606)}{sound(119)}{window_closeall}[1F 21 9F]" call(data_57.l_0xc9b112) eob
+
+l_0xc577b2:
+    "@([B9]La llave no encaja!)" end
+
+l_0xc577c5:
+    "@(La puerta ya est[C0] abierta.)" end
+
+l_0xc577d8:
+    "[06 DA 00 {e(l_0xc57911)}]@Un lugar espantoso llamado Profunda Oscuridad est[C0] al otro lado del r[C2]o." next
+    "@Los monstruos son muy fuertes y puedes perder tu salud" next
+    "@s[C3]lo por vagar en el pantano." next
+    "@[B8]Quieres cruzar el r[C2]o,{pause(15)} aunque sabes que es una idea est[C4]pida?" next
+    "[19 02]S[C2]" eob
+
+l_0xc57864:
+    "[19 02]No" eob
+
+l_0xc57869:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc578b3)} {e(l_0xc57878)}]" goto(l_0xc57878)
+
+l_0xc57878:
+    "@Fue est[C4]pido de m[C2] el preguntar." next
+    "@Veamos juntos el atardecer sobre la Profunda Oscuridad desde aqu[C2]." end
+
+l_0xc578b3:
+    "@El pantano no tiene fondo." next
+    "@Aunque est[C1]s nadando, ser[C0]s arrastrado hacia adentro." next
+    "@Es una historia diferente si tienes un submarino.{wait}{set(flag 151)}{set(flag 762)}" eob
+
+l_0xc57911:
+    "@[B8]Regresaste de explorar la Profunda Oscuridad?" next
+    "@No puedo creer que regresaras con vida." end
+
+l_0xc57947:
+    "[06 DA 00 {e(l_0xc57955)}][06 97 00 {e(l_0xc57a26)}]" goto(l_0xc57955)
+
+l_0xc57955:
+    "@[B9]Bienvenido![03]{window_closeall}" call(data_49.l_0xc915f4) "{sound(37)}{pause(90)}{window_open(1)}[06 DA 00 {e(l_0xc57ad9)}]@Cu[C0]nto tiempo sin verte." next
+    "@Sr. [1C 02 03], nos conocimos en Winters hace mucho tiempo." next
+    "@Soy Brickroad." next
+    "@El Dr. Andonuts finalmente me hizo Hombre Calabozo." next
+    "@Si quieres, ir[C1] con ustedes por un tiempo." next
+    "@El <Agujero de Regreso> est[C0] por all[C0]." next
+    "@Salta en ese hoyo y camina hacia afuera.{wait}{set(flag 24)}{set(flag 445)}[1F 66 01 09 81 33 C9 00]{set(flag 507)}" eob
+
+l_0xc57a26:
+    "@Hay un viejo submarino en la parte trasera del calabozo." next
+    "@Puede ser usado para cruzar el r[C2]o." next
+    "@Hay una <Salida del Adi[C3]s> ...por all[C0]." next
+    "@Te llevar[C1] hacia el submarino." next
+    "@No cometas un error sobre cual salida tomar." next
+    "@[B9]Necesitas tomar la <Salida del Adi[C3]s!>{pause(20)}  [B9]Espero verte de nuevo!" end
+
+l_0xc57ad9:
+    "@No s[C1] c[C3]mo, pero mi calabozo casero te ayud[C3] a salir." next
+    "@Me alegra.{wait}{window_closeall}" eob
+
+l_0xc57b04:
+    "[06 DA 00 {e(l_0xc57b3e)}]@<Salida del Adi[C3]s>" next
+    "@Alg[C4]n d[C2]a, deber[C2]as entrar con valor." next
+    "@                      ...Brickroad." end
+
+l_0xc57b3e:
+    "@Este camino est[C0] cerrado." next
+    "@                      ...Brickroad.{wait}" linebreak
+    eob
+
+l_0xc57b5c:
+    call(l_0xc57bdc) call(data_48.l_0xc90f7d) call(l_0xc57c10) call(data_49.l_0xc915d6) call(data_49.l_0xc91582) "[1F 21 38]{unset(flag 383)}" eob
+
+l_0xc57b7c:
+    call(l_0xc57bdc) call(data_48.l_0xc90f7d) call(l_0xc57c10) call(data_49.l_0xc915d6) call(data_49.l_0xc91582) "[1F 21 37]{unset(flag 383)}" eob
+
+l_0xc57b9c:
+    call(l_0xc57bdc) call(data_48.l_0xc90f7d) call(l_0xc57c10) call(data_49.l_0xc915d6) call(data_49.l_0xc91582) "[1F 21 39]{unset(flag 383)}" eob
+
+l_0xc57bbc:
+    call(l_0xc57bdc) call(data_48.l_0xc90f7d) call(l_0xc57c10) call(data_49.l_0xc915d6) call(data_49.l_0xc91582) "[1F 21 3A]{unset(flag 383)}" eob
+
+l_0xc57bdc:
+    "@<Banco de las Buenas Noches.>" next
+    "@Puedes relajar y recuperar tu salud y esp[C2]ritus.{wait}" end
+
+l_0xc57c10:
+    "{window_open(1)}@La salud de " call(data_37.l_0xc7e6d7) " fue restaurada.{wait}{window_closeall}" eob
+
+l_0xc57c2c:
+    "{counter(3)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc57c6f)}]@([1C 02 03] revis[C3] el submarino roto.)" next
+    "@[B9]S[C2]!{pause(20)}  A[C4]n puede funcionar.{wait}{window_closeall}" goto(data_50.l_0xc934ed)
+
+l_0xc57c6f:
+    "@(Nadie puede reparar el submarino excepto [1C 02 03].)" end
+
+l_0xc57c96:
+    "@Oh, cuidado con donde caminas.  Est[C0] sucio." next
+    "@Un ni[C7]o gordito hizo de las suyas aqu[C2] en alg[C4]n lugar..." end
+
+l_0xc57cd4:
+    "@(El mal olor de Porky flota en el aire...)" end
+
+l_0xc57cf3:
+    "@Necesitas poder leer jerogl[C2]ficos para resolver el miesterio de la Pir[C0]mide." next
+    "@...Yo no pude resolverlo, aunque lo le[C2]." next
+    "@[B8]No le[C2]ste el jerogl[C2]fico en el museo de Summers?" next
+    "[19 02]S[C2]" eob
+
+l_0xc57d71:
+    "[19 02]No" eob
+
+l_0xc57d76:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc57da9)} {e(l_0xc57d85)}]" goto(l_0xc57d85)
+
+l_0xc57d85:
+    "@Bueno, eso quiere decir que debes regresar, leerlo y volver aqu[C2]." end
+
+l_0xc57da9:
+    "@Entonces, deber[C2]as poder resolver el misterio de alguna forma." end
+
+l_0xc57dc6:
+    "@Tienda de Hassan" next
+    "@(Se aceptan $ d[C3]lares.)" end
+
+l_0xc57dea:
+    "@Ese rostro es m[C2]o." next
+    "@(Si[C1]ntete libre de hablar con [C1]l.)" next
+    "@                      ...Brickroad." end
+
+l_0xc57e1c:
+    "@[B9][1C 02 01]!{pause(20)}  [B8]Est[C0]s sorprendido?" next
+    "@Soy yo, Porky." next
+    "@[B9]Yo, Porky, ayudo s[C3]lo a los fuertes y capaces!" next
+    "@[B9]Se ven bastante pat[C1]ticos!" next
+    "@La Manzana de la Iluminaci[C3]n predijo que llegar[C2]an aqu[C2]." next
+    "@...Pero no dejar[C1] que lo que predijo la Manzana de la Iluminaci[C3]n tome lugar." next
+    "@Ser[C0]n derrotados por Giygas." next
+    "@[B9]Giygas se volver[C0] m[C0]s poderoso y a[C4]n m[C0]s aterrador!" next
+    "@[B8]Por qu[C1]?" next
+    "@Por m[C2]." next
+    "@Fui guiado por Giygas, y ahora estoy aqu[C2]." next
+    "@La Manzana de la Iluminaci[C3]n jam[C0]s predijo esto." next
+    "@Amo Giygas.{pause(20)}  No,{pause(15)} Giygas ya no es el portador de la maldad." next
+    "@[B1]l se ha convertido en la encarnaci[C3]n de la maldad..." next
+    "@que no puede controlar por s[C2] mismo." next
+    "@Es la maldad misma.[03]" eob
+
+l_0xc58000:
+    "{window_open(1)}" newline
+    "@[B8]Qu[C1] quieres hacer?{wait}[18 02]{open_hp}{open_wallet}{window_open(2)}[19 02]Editar equipo" eob
+
+l_0xc58023:
+    "[19 02]Inventario" eob
+
+l_0xc5802d:
+    "[19 02]Estado Especial" eob
+
+l_0xc58039:
+    "[19 02]Mover a [C0]rea" eob
+
+l_0xc5803f:
+    "[19 02]Dinero" eob
+
+l_0xc5804a:
+    "[19 02]Nivel" eob
+
+l_0xc58053:
+    "[19 02]Texto sin usar" eob //Unused Script
+
+l_0xc58060:
+    "[19 02]Eventos" eob
+
+l_0xc58067:
+    "[19 02]Pistas" eob
+
+l_0xc5806e:
+    "[19 02]Sonido" eob
+
+l_0xc58075:
+    "[19 02]Descripciones" eob
+
+l_0xc5807c:
+    "[19 02]Teleportar" eob
+
+l_0xc58084:
+    "[19 02]Pistas en mapa" eob
+
+enemy_spawn:
+    "[19 02]Enemigos" eob
+
+l_0xc5808c:
+    "[1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}{clearline}" newline
+    "[1B 06][09 0E {e(l_0xc58103)} {e(l_0xc58262)} {e(data_07.l_0xc58718)} {e(data_08.l_0xc588cd)} {e(data_08.l_0xc58afb)} {e(data_08.l_0xc58a36)} {e(data_08.l_0xc58c88)} {e(data_09.l_0xc59895)} {e(data_08.l_0xc58e13)} {e(data_08.l_0xc58d09)} {e(data_10.l_0xc5a57f)} {e(data_09.l_0xc58e73)} {e(l_0xc580da)} {e(data_08.l_0xc58dbf)} ]@Modo debug apagado." end
+
+l_0xc580da:
+    newline
+    "@La tienda de pistas ha sido marcada en tu mapa." next
+    "{set(flag 681)}{set(flag 682)}{set(flag 683)}{set(flag 684)}{set(flag 685)}{set(flag 686)}" goto(l_0xc58000)
+
+l_0xc58103:
+    newline
+    "@[b8]Qu[C1] quieres hacer?" linebreak
+    "[19 02]A[C7]adir" eob
+
+l_0xc58115:
+    "[19 02]Remover" eob
+
+l_0xc5811b:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc5812f)} {e(l_0xc581ee)}]" goto(l_0xc58000)
+
+l_0xc5812f:
+    newline
+    "{open_hp}@Selecciona el miembro de tu equipo.{wait}" linebreak
+    goto(l_0xc58148)
+
+l_0xc58148:
+    "{window_open(8)}[19 02]Ness" eob
+
+l_0xc58150:
+    "[19 02]Paula" eob
+
+l_0xc58156:
+    "[19 02]Jeff" eob
+
+l_0xc5815c:
+    "[19 02]Poo" eob
+
+l_0xc58161:
+    "[19 02]Porky" eob
+
+l_0xc58168:
+    "[19 02]Picky" eob
+
+l_0xc5816f:
+    "[19 02]King" eob
+
+l_0xc58174:
+    "[19 02]Tony" eob
+
+l_0xc5817a:
+    "[19 02]Mono burbuja" eob
+
+l_0xc58185:
+    "[19 02]H. Calabozo" eob
+
+l_0xc5818f:
+    "[19 02]H. Volador 1" eob
+
+l_0xc5819a:
+    "[19 02]H. Volador 2" eob
+
+l_0xc581a5:
+    "[19 02]H. Volador 3" eob
+
+l_0xc581b0:
+    "[19 02]H. Volador 4" eob
+
+l_0xc581bb:
+    "[19 02]H. Volador 5" eob
+
+l_0xc581c6:
+    "[1C 0C 03][11][1B 05][19 04]{window_closetop}{window_switch(1)}[1B 06][1B 02 {e(l_0xc581e7)}]{swap}[1F 11 00]{open_hp}" goto(l_0xc58148)
+
+l_0xc581e7:
+    "{window_closetop}" goto(l_0xc58000)
+
+l_0xc581ee:
+    "[19 10 02][1B 02 {e(l_0xc58250)}]@[B8]Cu[C0]l miembro de tu equipo quieres remover?{wait}" linebreak
+    goto(l_0xc58214)
+
+l_0xc58214:
+    "[19 10 02][1B 02 {e(l_0xc5824b)}]  [1F 52 01][1B 02 {e(l_0xc5824b)}]{clearline}{swap}[19 10 00][1B 02 {e(l_0xc58214)}]{swap}[1F 12 00]@[1C 02 00] fue removid{asmcall_long(PrintGenderedVerbTarget)}.{wait}" linebreak
+    goto(l_0xc58214)
+
+l_0xc5824b:
+    goto(l_0xc58000)
+
+l_0xc58250:
+    "@[B9]No puedes tener un equipo de cero!" next
+    "@El juego se trabar[C0] si lo haces.{wait}" goto(l_0xc58103)
+
+l_0xc58262:
+    newline //For Inventory debug
+    "@Selecciona tu opci[C3]n.{wait}[18 02]{open_hp}{open_wallet}{window_open(7)}[19 02]A[C7]adir art." eob
+
+l_0xc58284:
+    "[19 02]Art. importantes" eob
+
+l_0xc5828f:
+    "[19 02]Max emparedados" eob
+
+l_0xc58299:
+    "[19 02]Limpiar inv." eob
+
+l_0xc582a3:
+    "[19 02]Max almac[C1]n" eob
+
+l_0xc582b0:
+    "[19 02]Limpiar alm." eob
+
+l_0xc582bb:
+    "[19 02]Armas supremas" eob
+
+l_0xc582c5:
+    "[1C 0C 01][11][1B 05]{window_closetop}[19 04]{window_switch(1)}" newline
+    "[1B 06][09 07 {e(l_0xc582f8)} {e(data_07.l_0xc58369)} {e(data_07.l_0xc58539)} {e(data_07.l_0xc58568)} {e(data_07.l_0xc585dc)} {e(data_07.l_0xc58614)} {e(data_07.l_0xc5863c)}]" goto(l_0xc58000)
+
+l_0xc582f8:
+    "@Ingresa el ID del art[C2]culo:" linebreak
+    "   [1F 52 03]{clearline}[1B 02 {e(l_0xc58364)}]{swap}[1D 03 FF][1B 02 {e(l_0xc58358)}]{store_registers}@[1C 05 00]?" linebreak
+    "  [B8]A qui[C1]n?{wait}" call(data_15.l_0xc5e52e) linebreak
+    "[1B 02 {e(l_0xc582f8)}][1D 0E 00 00]" newline
+    //"@GtZRNN KWEMST." next
+    "@Art[C2]culo a[C7]adido a tu inventario." next
+    goto(l_0xc582f8)
+
+l_0xc58358:
+    "@Inventario lleno." linebreak
+    "@No se pueden agregar m[C0]s art[C2]culos.{wait}" goto(l_0xc58364)
+
+l_0xc58364:
+    goto(l_0xc58000)
+
+l_0xc58369:
+    "[18 02]{window_open(12)}[19 02]LLava e la choza" eob
+
+l_0xc58378:
+    "[19 02]Tel[C1]fono receptor" eob
+
+l_0xc58382:
+    "[19 02]Borra l[C0]piz" eob
