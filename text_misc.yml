@@ -1,0 +1,126 @@
+Ailments:
+  Ailment 01: Inconsciente
+  Ailment 02: Diamonizado
+  Ailment 03: Paralizado
+  Ailment 04: N[C0]usea
+  Ailment 05: Envenenado
+  Ailment 06: Insolaci[C3]n
+  Ailment 07: Llorando
+  Ailment 08: Honguizado
+  Ailment 09: Pose[C2]do
+  Ailment 10: Nost[C0]lgico
+Battle Menu:
+  Auto Fight: Auto Pelea
+  Bash: Golpear
+  Defend: Defender
+  Do Nothing: Hacer nada
+  Goods: Bienes
+  Mirror: Espejo
+  PSI: PSI
+  Pray: Orar
+  Run Away: Huir
+  Shoot: Disparar
+  Spy: Espiar
+Equip Menu:
+  Arms: '   Brazos'
+  Arms Window Title: Brazos
+  Body: '   Cuerpo'
+  Body Window Title: Cuerpo
+  Defense: Defensa
+  No Equip: (Nada)
+  Offense: Ofensa
+  Other: '      Otro'
+  Other Window Title: Otros
+  To: A
+  Unequip: Nada
+  Weapon: '     Arma'
+  Weapon Window Title: Armas
+Item Menu:
+  Drop: Tirar
+  Give: Dar
+  Help: Ayuda
+  Use: Usar
+Menu Action Targets:
+  Where: "[B8]D[C3]nde?"
+  Where 2: "[B8]D[C3]nde?"
+  Which: "[B8]Cu[C0]l?"
+  Who: "[B8]Qui[C1]n?"
+  Whom: "[B8]Qui[C1]n?"
+Other:
+  Lumine Hall Text: Soy ....  Ha sido un largo camino para llegar aqu[C2]...  Pronto, estar[C1]...  Pronto, estar[C1]...  [B8]Qu[C1] pasar[C0] con nosotros?  [B8]Q... qu[C1] est[C0] pasando?  Mis pensamientos est[C0]n siendo escritos en la pared...  [B8]o acaso... ?
+  Player Name Prompt: Registra tu nombre
+Out of Battle Menu:
+  Check: Revisar
+  Equip: Equipo
+  Goods: Bienes
+  PSI: PSI
+  Status: Estado
+  Talk to: Hablar
+PSI Menu:
+  PP Cost: '     PP'
+  Row Back: Fila Trasera
+  Row Front: Fila Frontal
+  Row To: 'A '
+  To all enemies: A todo enemigo
+  To all of us: A nosotros
+  To all of us 2: A nosotros
+  To enemy: A un enemigo
+  To one enemy: A un enemigo
+  To one enemy 2: A un enemigo
+  To one of us: A uno de nos.
+  To one of us 2: A un amigo
+  To row of foes: A fila de enem.
+  himself: s[C2] mismo
+PSI Types:
+  Assist: Apoyo
+  Offense: Ofensa
+  Other: Otro
+  Recover: Reponer
+Starting Text:
+  Ask Name 1: Por favor, n[C3]mbralo.
+  Ask Name 2: N[C3]mbrala, tambi[C1]n.
+  Ask Name 3: Nombra a tu amigo.
+  Ask Name 4: Nombra a tu otro amigo.
+  Ask Name Food: "[B8]Tu comida favorita?"
+  Ask Name PSI: "[B8]Cu[C0]l es tu cosa favorita?"
+  Ask Name Pet: Nombra a tu mascota.
+  Confirm All: "[B8]Est[C0] seguro?"
+  Confirm All No: Nope
+  Confirm All Yes: Sip
+  Confirm Delete: "[B8]Seguro que quieres borrar?"
+  Confirm Delete No: 'No'
+  Confirm Delete Yes: 'S[C2]'
+  Confirm Food: 'Comida fav.:'
+  Confirm PSI: 'Cosa favorita:'
+  Continue: Continuar
+  Copy: Copiar
+  Copy to where?: "[B8]A d[C3]nde?"
+  Delete: Borrar
+  Select Sound: Configuraci[C3]n de sonido
+  Select Sound Mono: Mono
+  Select Sound Stereo: Stereo
+  Select Speed: Velocidad del texto
+  Select Style: "[B8]Qu[C1] estilo de ventana  prefieres?"
+  Set Up: Configurar
+  Start New Game: Juego Nuevo
+  Text Speed: 'Vel. Texto:'
+  Text Speed Fast: R[C0]pido
+  Text Speed Medium: Medio
+  Text Speed Slow: Lento
+Status Window:
+  Defense: 'Defense:'
+  Exp. for next level: Exp. for next level.
+  Experience Points: 'Experience Points:'
+  Guts: 'Guts:'
+  Hit Points: 'Hit Points:'
+  IQ: 'IQ:'
+  Level: 'Nivel:'
+  Luck: 'Luck:'
+  Offense: 'Offense:'
+  PSI Prompt: '@Presione Bot[C3]n -A- para info. PSI'
+  Psychic Points: 'Psychic Points:'
+  Speed: 'Speed:'
+  Vitality: 'Vitality:'
+Window Titles:
+  Escargo Express Window Title: Bienes Gds.
+  Phone Window Title: Llama
