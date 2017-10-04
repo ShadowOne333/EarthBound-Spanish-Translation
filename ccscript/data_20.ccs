@@ -14,7 +14,7 @@ l_0xc646bb:
     "[19 02]Guardar" eob
 
 l_0xc646c3:
-    "[19 02]Sacar" eob
+    "[19 02]Retirar" eob
 
 l_0xc646cf:
     "[1C 07 02][11]{clearline}[09 02 {e(l_0xc6474f)} {e(l_0xc6483c)}][06 49 00 {e(l_0xc646fa)}]@Bueno, [B9]cu[C2]date y hablamos luego!" end
@@ -60,7 +60,7 @@ l_0xc64823:
 l_0xc6483c:
     "{counter(1)}[19 14][1B 02 {e(l_0xc648e3)}][1D 03 FF][1B 02 {e(l_0xc648fc)}]" newline
     "@[B8]Qu[C1] te gusta[C2]a" linebreak
-    "  sacar?[03]{open_hp}[18 02]" goto(l_0xc64865)
+    "  retirar?[03]{open_hp}[18 02]" goto(l_0xc64865)
 
 l_0xc64865:
     "[1A 07]" newline
