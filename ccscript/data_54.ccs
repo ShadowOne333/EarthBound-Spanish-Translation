@@ -73,7 +73,7 @@ l_0xc97b0c:
 
 l_0xc97b12:
     "@[B9]No me hagas nada!" linebreak
-    "  Yo soy... [B9]Yo soy Monotoli![03][1F 1E 73 05 09]{pause(120)}{set(flag 631)}" eob
+    "  Yo no... [B9]Yo no soy Monotoli![03][1F 1E 73 05 09]{pause(120)}{set(flag 631)}" eob
 
 l_0xc97b35:
     "@[B9]Bienvenido a Moonside!" linebreak

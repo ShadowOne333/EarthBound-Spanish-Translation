@@ -96,7 +96,7 @@ l_0xc8df51:
     "@Ahora me pregunto c[C3]mo lo podr[C0]s hacer elevarse de nuevo..." end
 
 l_0xc8df8a:
-    "@Me quiero quedar,{pause(15)} pero si no puedes ...[B9]hasta pronto!" next
+    "@Quiero que te quedes,{pause(15)} pero si no puedes ...[B9]hasta pronto!" next
     "@Gracias por cada peque[C7]a cosa." end
 
 l_0xc8dfbb:
