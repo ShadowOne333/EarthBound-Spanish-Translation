@@ -4,7 +4,7 @@
  * Generated using CCScriptWriter.
  */
 
-import ebpp
+import ebs
 import Item_Articles
 
 command e(label) "{long label}"
@@ -214,7 +214,7 @@ l_0xc51d45:
 
 l_0xc51d5b:
     "@Puedo comprar " linebreak
-    "  [1C 05 00]" linebreak
+    "  {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00]" linebreak
     "  por {swap}$[1C 0A 00 00 00 00]." next
     eob
 

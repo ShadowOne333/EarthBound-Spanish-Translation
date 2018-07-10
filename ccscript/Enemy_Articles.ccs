@@ -2,7 +2,7 @@ import asm65816
 
 import Item_Articles
 
-import ebpp
+import ebs
 import ebpp_std
 import ebpp_mem
 

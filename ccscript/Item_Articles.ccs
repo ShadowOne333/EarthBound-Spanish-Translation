@@ -1,6 +1,6 @@
 import asm65816
 
-import ebpp
+import ebs
 import ebpp_mem
 import ebpp_std
 

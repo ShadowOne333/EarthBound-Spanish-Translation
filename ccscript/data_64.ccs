@@ -4,7 +4,7 @@
  * Generated using CCScriptWriter.
  */
 
-import ebpp
+import ebs
 import Item_Articles
 import Enemy_Articles
 

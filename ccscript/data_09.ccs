@@ -175,7 +175,7 @@ l_0xc599f4:
     "{window_closeall}{counter(11)}" call(data_10.l_0xc5a4ec) "[1F 11 05][1F 11 06][1F 21 74]" eob
 
 l_0xc59a15:
-    "@Beat Captain Strong.{wait}" linebreak
+    "@Derrota al Capit[C0]n Fuerte.{wait}" linebreak
     "{window_closeall}{counter(13)}" call(data_10.l_0xc5a4ec) "{set(flag 190)}{set(flag 182)}{set(flag 450)}{set(flag 449)}{set(flag 39)}[1F 21 75]" eob
 
 l_0xc59a40:

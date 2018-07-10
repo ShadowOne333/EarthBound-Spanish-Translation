@@ -4,7 +4,7 @@
  * Generated using CCScriptWriter.
  */
 
-import ebpp
+import ebs
 import Enemy_Articles
 
 command e(label) "{long label}"
