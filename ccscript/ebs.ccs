@@ -1,3 +1,11 @@
+/*
+ *	EB# :: CCScript library
+ *
+ *	version 1.000
+ */
+
+/* DISASSEMBLY (Hardware compatible) */
+
 import asm65816
 
 //IMPORTANT NOTE: 0x00F8C2-0x00F95D must be set in used_ranges.yml.
@@ -1453,11 +1461,6 @@ l_0xEE9E20:
 	RTS		//0xEE9E54
 
 
-/*
- *	EB# :: CCScript library
- *
- *	version 1.000
- */
 	
 /* EB# CONTROL CODES */
 
@@ -1538,6 +1541,8 @@ command ltc(x, l, r)			{ "[1B 55 {byte x} {byte l} {long r}]" }
 // # MISCELLANEOUS
 // author's note: [1B 60-63] is listed below, under movement-related stuff.
 command window_title(w, p)		{ "[1B 64 {byte p} {byte w}]" }
+command newtalk(window, name)		{ window_closeall window_open(window) title(window, name) }
+command changetalk(window, name)	{ window_clear title(window, name) } 	//newline window_closeall window_open(window)`
 command memset(p, v, r)			{ "[1B 65 {byte p} {byte v} {byte r}]" }
 command memcpy(f, t, r)			{ "[1B 66 {byte f} {byte t} {byte r}]" }
 
@@ -1556,6 +1561,7 @@ command peek(r) {
 	pull(r)
 	push(r)
 }
+
 
 /* GENERIC DEFINES */
 
@@ -2062,4 +2068,3 @@ command demo_end {
 	mov_jslasm(0xC46E46)			// "[42 46 6E C4]"
 	mov_halt						// "[09]"
 }
-
