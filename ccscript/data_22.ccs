@@ -50,7 +50,7 @@ l_0xc66d3e:
     "@[B8]Y ahora quieres ir a echar un vistazo?{pause(15)}  ...oh{pause(15)} ...bueno." next
     "@Te escabullir[C0]s de tu habitaci[C3]n de todos modos," next
     "@aunque te dijera que no lo hicieras." next
-    "@Al menos v[C2]stete antes de irte, No vayas en pijama.[03]{window_closeall}{pause(1)}{set(flag 471)}{unset(flag 749)}[1F 21 C4]" eob
+    "@Al menos v[C2]stete antes de irte, no vayas en pijama.[03]{window_closeall}{pause(1)}{set(flag 471)}{unset(flag 749)}[1F 21 C4]" eob
 
 l_0xc66df2:
     "@[B9]Ten cuidado!{pause(20)}  Vuelve a casa tan pronto como puedas." end
