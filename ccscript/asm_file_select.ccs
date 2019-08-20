@@ -32,6 +32,8 @@ ROM[0xC1F326] = ASMLoadAddress0E (level)
 level:
 "Nivel:[00]"
 
-/*Copy where?" Animation Data */
+/* "Copy to where?" Animation Data */
+ROM[0xC1F208] = ASMLoadAddress0E (CopyToWhere)
 
-ROM[0xC4C0B0] = "[B8 71 50 94 C3 9E 94 95 6F 00 00]"
+CopyToWhere:
+"[B8]A d[C3]nde?[00]"
