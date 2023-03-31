@@ -285,7 +285,7 @@ l_0xc95ba0:
 
 l_0xc95c0e:
     "[06 55 00 {e(l_0xc960d7)}][06 0C 00 {e(l_0xc95f0a)}][06 0D 00 {e(l_0xc95df9)}][06 42 00 {e(l_0xc95dc6)}]@[B9]Wah ha ha ha ha!{pause(20)}" linebreak
-    "  [B9]Porqu[C1] no hablamos despu[C1]s de discutir![03]" call(data_23.l_0xc6846b) "[1B 03 {e(data_23.l_0xc683de)}]{window_open(1)}@S[C2], soy Everdred, jefe del Parque Ladr[C3]n." next
+    "  [B9]Porqu[C1] no hablamos despu[C1]s de discutir![03]" call(data_23.l_0xc6846b) "[1B 03 {e(data_23.l_0xc683de)}]{window_open(1)}@S[C2], soy Pavoroso, jefe del Parque Ladr[C3]n." next
     "@Cuando salt[C1] del techo,{pause(15)} me torc[C2] el tobillo." next
     "@De todos modos, perd[C2] y nada cambiar[C0] eso." next
     "@Ya sabes,{pause(15)} eres bastante fuerte." next
@@ -324,7 +324,7 @@ l_0xc95f0a:
     "@Son 10,000 d[C3]lares." next
     "@Usa el dinero de cualquier forma que quieras.{pause(20)}  No puedes rechazar mi generosidad.{pause(20)}  S[C3]lo ac[C1]ptalo." next
     "@Ahora planeo buscar la malvada Estatua Mani Mani" next
-    "@que Lier X. Agerado desenterr[C3] en Onett." next
+    "@que Mentel X. Agerado desenterr[C3] en Onett." next
     "@Te ver[C1] en otro momento, en otro espacio.[03][1D 03 FF][1B 02 {e(l_0xc9605d)}][1D 0E 00 B4]" call(data_36.l_0xc7dcb6) "{set(flag 85)}" end
 
 l_0xc9605d:

@@ -114,8 +114,8 @@ l_0xc57947:
 l_0xc57955:
     "@[B9]Bienvenido![03]{window_closeall}" call(data_49.l_0xc915f4) "{sound(37)}{pause(90)}{window_open(1)}[06 DA 00 {e(l_0xc57ad9)}]@Cu[C0]nto tiempo sin verte." next
     "@Sr. [1C 02 03], nos conocimos en Winters hace mucho tiempo." next
-    "@Soy Brickroad." next
-    "@El Dr. Andonuts finalmente me hizo Hombre Calabozo." next
+    "@Soy Empedrado." next
+    "@El Dr. Andona finalmente me hizo Hombre Calabozo." next
     "@Si quieres, ir[C1] con ustedes por un tiempo." next
     "@El <Agujero de Regreso> est[C0] por all[C0]." next
     "@Salta en ese hoyo y camina hacia afuera.{wait}{set(flag 24)}{set(flag 445)}[1F 66 01 09 81 33 C9 00]{set(flag 507)}" eob
@@ -135,11 +135,11 @@ l_0xc57ad9:
 l_0xc57b04:
     "[06 DA 00 {e(l_0xc57b3e)}]@<Salida del Adi[C3]s>" next
     "@Alg[C4]n d[C2]a, deber[C2]as entrar con valor." next
-    "@                      ...Brickroad." end
+    "@                      ...Empedrado." end
 
 l_0xc57b3e:
     "@Este camino est[C0] cerrado." next
-    "@                      ...Brickroad.{wait}" linebreak
+    "@                      ...Empedrado.{wait}" linebreak
     eob
 
 l_0xc57b5c:
@@ -200,7 +200,7 @@ l_0xc57dc6:
 l_0xc57dea:
     "@Ese rostro es m[C2]o." next
     "@(Si[C1]ntete libre de hablar con [C1]l.)" next
-    "@                      ...Brickroad." end
+    "@                      ...Empedrado." end
 
 l_0xc57e1c:
     "@[B9][1C 02 01]!{pause(20)}  [B8]Est[C0]s sorprendido?" next

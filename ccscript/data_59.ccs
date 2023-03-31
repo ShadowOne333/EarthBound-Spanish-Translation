@@ -77,7 +77,7 @@ l_0xc9e041:
     "{pause(30)}" linebreak
     "@2. <Pasos de Lilliput> en el Valle de los Muertos Agradecidos cerca de Twoson." next
     "{pause(30)}" linebreak
-    "@3. <Pozo Lechoso> en las Cataratas Pomelo en la Aldea Saturn." next
+    "@3. <Pozo Lechoso> en las Cataratas Pomelo en la Aldea Saturno." next
     "{pause(30)}" linebreak
     "@4. <C[C2]rculo Lluvioso> que lo encontr[C3] [1C 02 03] en Winters." next
     "{pause(30)}" linebreak
@@ -484,7 +484,7 @@ l_0xc9f60d:
     "@y empez[C3] a rezar seriamente por la seguridad de [1C 01 08] y sus amigos.){pause(150)}{window_closeall}" eob
 
 l_0xc9f66f:
-    "{window_open(1)}@(Todos los Srs. Saturn sintieron at[C3]nitamente un nuevo{prompt}" linebreak
+    "{window_open(1)}@(Todos los Sres. Saturno sintieron at[C3]nitamente un nuevo{prompt}" linebreak
     "@sentimiento que jam[C0]s hab[C2]an sentido,{prompt}" linebreak
     "@y todos empezaron a rezar por la seguridad de [1C 01 08] y sus amigos.){pause(150)}{window_closeall}" eob
 

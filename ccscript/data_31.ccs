@@ -320,7 +320,7 @@ l_0xc766c5:
 
 l_0xc7678a:
     "@[B9]Saludos!{pause(20)}  Eres el chico que vive al lado." next
-    "@Escuch[C1] que tu familia est[C0] en deuda.{pause(20)}  La Sra. Minch me lo dijo." next
+    "@Escuch[C1] que tu familia est[C0] en deuda.{pause(20)}  La Sra. Picado me lo dijo." next
     "@Bueno, todos los d[C2]as se aprende algo.{pause(20)}  Tendr[C0]s que duplicar tus esfuerzos." end
 
 l_0xc76804:

@@ -54,7 +54,7 @@ l_0xc99de1:
     "{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc99e48)}]" goto(l_0xc99e1b)
 
 l_0xc99e1b:
-    "@Everdred te est[C0] buscando." next
+    "@Pavoroso te est[C0] buscando." next
     "@Tiene algo para ti.{wait}{window_closeall}[1F F1 43 01 82 02]{pause(60)}{unset(flag 611)}[1F 41 06]" eob
 
 l_0xc99e48:

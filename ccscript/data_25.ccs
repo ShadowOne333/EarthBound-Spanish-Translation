@@ -56,7 +56,7 @@ l_0xc6aa2f:
     "[06 58 00 {e(l_0xc6ad29)}][06 5D 02 {e(l_0xc6abd5)}][06 5C 02 {e(l_0xc6ad29)}]@Oh,{pause(15)} [1C 02 03] y Tony.{pause(20)}  Me asustaron." next
     "@[B8]Est[C0]n buscando un refrigerio nocturno?" next
     "@Estoy teniendo problemas con mi proyecto." next
-    "@Si tan s[C3]lo el padre de [1C 02 03], el Sr. Andonuts, estuviera aqu[C2]," next
+    "@Si tan s[C3]lo el padre de [1C 02 03], el Sr. Andona, estuviera aqu[C2]," next
     "@[C1]l me podr[C2]a proveer de una gran ayuda." next
     "@Escuch[C1] que es una persona asombrosa." next
     "@[B1]l fue el primer l[C2]der de nuestro Club de Ultra Ciencia..." next
@@ -73,7 +73,7 @@ l_0xc6abd5:
     "@Pens[C1] que ese podr[C2]a ser el caso.{pause(15)}  As[C2] que acabo de inventar{pause(10)} la..." next
     "@<M[C0]quina que Abre Puertas, especialmente cuando tienes una llave ligeramente mala.>" next
     "@Lamento el inconveniente.[03][1D 03 FF][1B 02 {e(l_0xc6acda)}][1D 0E 00 AC]" call(data_36.l_0xc7dcb6) next
-    "{set(flag 88)}@Si t[C4] eres el hijo del Sr. Andonuts," next
+    "{set(flag 88)}@Si t[C4] eres el hijo del Sr. Andona," next
     "@deber[C2]as poder reparar herramientas peque[C7]as y hacerlas [C4]tiles." next
     "@S[C3]lo intenta mantener una actitud positiva.{wait}{window_closeall}" eob
 
@@ -176,7 +176,7 @@ l_0xc6b161:
     "@[B8]Crees que el rapto de Sebasti[C0]n aparecer[C0] en el peri[C3]dico de ma[C7]ana?" end
 
 l_0xc6b18d:
-    "[06 0E 00 {e(l_0xc6b4bb)}][06 7F 00 {e(l_0xc6b492)}]@El Sr. Brickroad, el creador de calabozos te refiri[C3], [B8]cierto?" next
+    "[06 0E 00 {e(l_0xc6b4bb)}][06 7F 00 {e(l_0xc6b492)}]@El Sr. Empedrado, el creador de calabozos te refiri[C3], [B8]cierto?" next
     "@Y no s[C3]lo eso...  [B8]Qu[C1]?{pause(15)}  [B8]Qui[C1]n?{pause(15)}  [B8]Mi hijo?{pause(20)}  Oh... Yo... no... no puedo creerlo..." next
     "@Eres [1C 02 03], mi hijo.{pause(15)}  Han sido quiz[C0]s 10 a[C7]os desde la [C4]ltima vez que te v[C2]." next
     "@Me alegra mucho que seas un chico tan sano." next
@@ -368,9 +368,9 @@ l_0xc6bc80:
     goto(l_0xc6bc9b)
 
 l_0xc6bc9b:
-    "@Mi nombre es Brickroad, el desarrollador del calabozo." next
+    "@Mi nombre es Empedrado, el desarrollador del calabozo." next
     "@He dedicado mi vida a la creaci[C3]n de calabozos." next
-    "@Bueno, combinando mis habilidades con la inteligencia del Dr. Andonuts," next
+    "@Bueno, combinando mis habilidades con la inteligencia del Dr. Andona," next
     "@Puedo convertirme en el <Hombre Calabozo,>" next
     "@la primera combinaci[C3]n de humano y calabozo" linebreak
     "  en la historia." next
@@ -410,8 +410,8 @@ l_0xc6bef9:
 
 l_0xc6bf0c:
     "@Esperaba que hubiese cerca de una probabilidad de siete porciento de que me rescataran." next
-    "@Pero conocer al Sr. Saturn aqu[C2] result[C3] ser muy beneficioso." next
-    "@Tambi[C1]n pude conocer al Dr. Andonuts...{pause(20)}  Nos vemos." next
+    "@Pero conocer al Sr. Saturno aqu[C2] result[C3] ser muy beneficioso." next
+    "@Tambi[C1]n pude conocer al Dr. Andona...{pause(20)}  Nos vemos." next
     "{pause(60)}" linebreak
     "{pause(60)}" linebreak
     "@[B8]Qu[C1]?" next

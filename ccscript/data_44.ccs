@@ -121,7 +121,7 @@ l_0xc8905c:
     goto(l_0xc89078)
 
 l_0xc89078:
-    "@Soy George,{pause(15)} el hermano de Gerardo Montague." next
+    "@Soy Jorge,{pause(15)} el hermano de Gerardo Montano." next
     "@Gerardo est[C0] en su mina," next
     "@pero no ha encontrado ning[C4]n tesoro enterrado a[C4]n." next
     "@Aunque,{pause(15)} encontramos un Diamante." next

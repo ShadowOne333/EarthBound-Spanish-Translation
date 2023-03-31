@@ -263,14 +263,14 @@ l_0xc7794c:
     call(l_0xc77c50) "@T[C4]...{pause(20)} Yo...{pause(20)} [B8]a d[C3]nde debemos ir?" next
     call(l_0xc77c50) "@Lo sabes dentro de lo profundo de los alcances de tu mente." next
     call(l_0xc77c50) "@...S{pause(15)} ...Sat...{pause(20)}" linebreak
-    "  ...Saturn" next
+    "  ...Saturno" next
     "@....." next
-    call(l_0xc77c50) "@Aldea Saturn...{pause(20)} s[C2]..." next
-    call(l_0xc77c50) "@Ve a la aldea donde los Srs. Saturn viven." next
+    call(l_0xc77c50) "@Aldea Saturno...{pause(20)} s[C2]..." next
+    call(l_0xc77c50) "@Ve a la aldea donde los Sres. Saturno viven." next
     call(l_0xc77c50) "@...Obtendr[C0]s algo nuevo ah[C2]." next
     call(l_0xc77c50) "@Pronto, Magicant no ser[C0] m[C0]s.{pause(20)}  [B9]Debemos ser r[C0]pidos![03]" call(l_0xc77c50) "{window_closetop}{pause(120)}{window_open(1)}@([1C 02 01] realmente escuch[C3] su propia voz." next
-    "@[B9]Ve a la Aldea Saturn!" next
-    "@[B9]Ve a la Aldea Saturn ahora!){wait}{window_closetop}[1F 07 03]" call(l_0xc77c50) "{pause(60)}" goto(data_36.l_0xc7dfbe)
+    "@[B9]Ve a la Aldea Saturno!" next
+    "@[B9]Ve a la Aldea Saturno ahora!){wait}{window_closetop}[1F 07 03]" call(l_0xc77c50) "{pause(60)}" goto(data_36.l_0xc7dfbe)
 
 l_0xc77c4f:
     eob

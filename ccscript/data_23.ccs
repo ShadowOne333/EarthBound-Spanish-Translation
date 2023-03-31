@@ -120,7 +120,7 @@ l_0xc684a6:
     "{window_closeall}{pause(1)}{music(124)}[1F 15 6A 00 C2 02 01][1F 61][1F 07 02][1F 61]{window_open(1)}[1D 05 02 01][1B 03 {e(l_0xc684ce)}]" goto(l_0xc684ce)
 
 l_0xc684ce:
-    "@El rayo de Carpainter fue regresado por la Medalla Franklin.[03]{window_closeall}[1F 23 C6 01]" eob
+    "@El rayo de Carpintor fue regresado por la Medalla Franklin.[03]{window_closeall}[1F 23 C6 01]" eob
 
 l_0xc68500:
     "{window_closeall}[1F 23 B2 01]" eob

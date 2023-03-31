@@ -22,8 +22,8 @@ l_0xc91cc1:
     "@Espera un segundo o dos...[03]{window_closeall}{pause(30)}[1F EA 03 00][1F 61]{music(179)}[1F F1 E2 01 10 01][1F 61][1F E6 E2 01][1F 07 02]{pause(60)}{music_resume}{window_open(1)}@[B9]Listo!" next
     "@[B9]Ya debe estar!" next
     "@Ahora, si se eleva,{pause(15)} el Caminante del Cielo podr[C0] ir de vuelta a Winters." next
-    "@Con la ayuda del Dr. Andonuts,{pause(15)} puedo modificar la m[C0]quina para volar a Summers." next
-    "@...Si pap[C0], digo, el Sr. Andonuts," next
+    "@Con la ayuda del Dr. Andona,{pause(15)} puedo modificar la m[C0]quina para volar a Summers." next
+    "@...Si pap[C0], digo, el Sr. Andona," next
     "@no est[C0] disponible, tendr[C1] que arregl[C0]rmelas yo solo." next
     "@De cualquier forma, regresemos al laboratorio en Winters." next
     "@...Eso es todo...{pause(20)}" linebreak
@@ -182,7 +182,7 @@ l_0xc92955:
 l_0xc92958:
     "{window_open(1)}@[B9]Pr[C2]ncipe [1C 02 04]!" next
     "@[B9]Haz completado tu entrenamiento!" next
-    "@[B9]Tu Maestro, Yi-Si-Qi, debe estar complacido!{pause(20)}  Ap[C4]rate,{pause(15)} ahora,{pause(15)} y regresa al palacio.[03]{window_closeall}" eob
+    "@[B9]Tu Maestro, Yi-Su-Chi, debe estar complacido!{pause(20)}  Ap[C4]rate,{pause(15)} ahora,{pause(15)} y regresa al palacio.[03]{window_closeall}" eob
 
 l_0xc929ae:
     "{window_open(1)}" call(data_58.l_0xc9d523) "{window_closeall}[1F 1E 4F 04 06]{sound(99)}[1F 15 A9 00 9B 02 06][1F 61]" eob

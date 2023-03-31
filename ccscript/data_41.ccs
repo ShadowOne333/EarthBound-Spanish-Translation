@@ -207,7 +207,7 @@ l_0xc84b3f:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Chica desaparecida a[C4]n no es encontrada>" end
 
 l_0xc84b5e:
-    call(l_0xc84a6e) call(l_0xc84a8a) "@<Respecto al Sr. Carpainter" linebreak
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Respecto al Sr. Carpintor" linebreak
     "  Seguidor afirma que el Feliz-Felicismo est[C0] mal" next
     "@Seguidor afirma demencia temporal...>" end
 
@@ -234,7 +234,7 @@ l_0xc84cfa:
     "@en el centro de Fourside>" end
 
 l_0xc84d38:
-    call(l_0xc84a6e) call(l_0xc84a8a) "@<Everdred, jefe del crimen del Parque Ladr[C3]n, desaparecido>" end
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Pavoroso, jefe del crimen del Parque Ladr[C3]n, desaparecido>" end
 
 l_0xc84d6b:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Ventas para debut de los Hermanos Fugitivos se agotan en minutos>" end

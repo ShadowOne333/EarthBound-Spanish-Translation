@@ -352,7 +352,7 @@ l_0xc66175:
     "@Te sugiero que recolectes m[C0]s informaci[C3]n por tu cuenta." next
     "@La entrada al camino que lleva a Paso Gigante est[C0]" next
     "@detr[C0]s de la choza de los artistas en gira." next
-    "@Pirkle,{pause(15)} el Alcalde de Onett,{pause(15)} tiene la llave a la choza." next
+    "@Portuno,{pause(15)} el Alcalde de Onett,{pause(15)} tiene la llave a la choza." next
     "@[1C 02 01],{pause(15)} [B9]te has vuelto m[C0]s fuerte que yo!{pause(20)}" next
     "@Tu aventura apenas comienza...{wait}{set(flag 64)}{set(flag 697)}{set(flag 363)}{set(flag 364)}{unset(flag 365)}{set(flag 2)}" eob
 

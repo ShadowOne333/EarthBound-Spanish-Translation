@@ -1,0 +1,188 @@
+0:	# Picky Minch
+  begin: 0
+  misc: false
+  size: 4
+1:	# Lardna Minch
+  begin: 4
+  misc: false
+  size: 4
+2:	# Aloysious Minch
+  begin: 8
+  misc: false
+  size: 4
+3:	# Pokey Minch
+  begin: 12
+  misc: false
+  size: 4
+4:	# Buzz Buzz
+  begin: 16
+  misc: false
+  size: 3
+5:	# Lier X. Agerate -> Mentel X. Agerado
+  begin: 19
+  misc: false
+  size: 5
+6:	# Frank Fly -> Frank Mosca
+  begin: 24
+  misc: false
+  size: 4
+7:	# The Sharks -> Los Tiburones
+  begin: 28
+  misc: false
+  size: 4
+8:	# B.H. Pirkle -> C.P. Portuno (Cabeza Pelona Portuno)
+  begin: 32
+  misc: false
+  size: 4
+9:	# Captain Strong -> Capitan Fuerte
+  begin: 36
+  misc: false
+  size: 4
+10:	# Onett police force -> Policia de Onett
+  begin: 40
+  misc: false
+  size: 4
+11:	# (Blank)
+  begin: 44	# 41
+  misc: false
+  size: 5
+12:	# (Blank)
+  begin: 44	# 46
+  misc: false
+  size: 5
+13:	# Apple kid -> Nino Manzana
+  begin: 49	# 51
+  misc: false
+  size: 4
+14:	# Mouse -> Raton
+  begin: 53	# 54
+  misc: false
+  size: 2
+15:	# Orange kid -> Nino Naranja
+  begin: 55	# 56
+  misc: false
+  size: 4
+16:	# Sr. Everdred -> Sr. Pavoroso
+  begin: 59
+  misc: false
+  size: 4
+17:	# Runaway Five -> Hnos. Fugitivos
+  begin: 63
+  misc: false
+  size: 4
+18:	# Happy Happyists -> Felices Felicistas
+  begin: 67
+  misc: false
+  size: 5
+19:	# Carpainter -> Carpintor
+  begin: 72
+  misc: false
+  size: 3
+20:	# Bubble Monkey -> Mono Burbuja
+  begin: 75
+  misc: false
+  size: 4
+21:	# Tony
+  begin: 79
+  misc: false
+  size: 2
+22:	# Maxwell
+  begin: 81
+  misc: false
+  size: 3
+23:	# Tessie
+  begin: 84
+  misc: false
+  size: 2
+24:	# Tessi-Watching Club -> Club de Estudio de Tessie
+  begin: 86
+  misc: false
+  size: 8
+25:	# Brickroad -> Empedrado
+  begin: 94	# 92
+  misc: false
+  size: 3
+26:	# Dr. Andonuts -> Dr. Andona
+  begin: 97	# 95
+  misc: false
+  size: 3
+27:	# Sr. Saturno (Normal font)
+  begin: 100	# 99
+  misc: false
+  size: 3
+28:	# Master Belch -> Maestro Eructo
+  begin: 103	# 102
+  misc: false
+  size: 5
+29:	# George Montague -> Jorge Montano
+  begin: 108	# 106
+  misc: false
+  size: 4
+30:	# Gerardo Montague -> Gerardo Montano
+  begin: 112	# 111
+  misc: false
+  size: 5
+31:	# Talah Rama
+  begin: 117	# 116
+  misc: false
+  size: 3
+32:	# Geldegarde Monotoli
+  begin: 120
+  misc: false
+  size: 6
+33:	# Venus
+  begin: 126
+  misc: false
+  size: 2
+34:	# Star Master -> Maestro Estrella
+  begin: 128
+  misc: false
+  size: 5
+35:	# (Blank)
+  begin: 133	# 132
+  misc: false
+  size: 6
+36:	# Dungeon Man -> Hombre Calabozo
+  begin: 139	# 138
+  misc: false
+  size: 4
+37:	# Noble warrior -> Noble guerrero
+  begin: 143	# 142
+  misc: false
+  size: 4
+38:	# Tenda tribesmen -> Tribu Tenda
+  begin: 147	 #146
+  misc: false
+  size: 3
+39:	# Flying Men -> Hombres Voladores
+  begin: 150	# 149
+  misc: false
+  size: 6
+40:	# Dad -> Papa
+  begin: 156	# 154
+  misc: false
+  size: 2
+41:	# Tracy
+  begin: 158	# 155
+  misc: false
+  size: 2
+42:	# (Diamond)
+  begin: 160	# 157
+  misc: false
+  size: 1
+43:	# Mom -> Mama
+  begin: 161	# 158
+  misc: false
+  size: 2
+44:	# CAST (Misc. font) -> Elenco
+  begin: 0
+  misc: true
+  size: 3
+45:	# __ (Misc. font) -> ___
+  begin: 3
+  misc: true
+  size: 3
+46:	# Sr. Saturno (Misc. font)
+  begin: 8
+  misc: true
+  size: 6

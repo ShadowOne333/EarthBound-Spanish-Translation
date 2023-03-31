@@ -382,7 +382,7 @@ l_0xc5c32a:
 l_0xc5c39e:
     "@Si quieres recuperarte por completo, hay una aldea llena de..." next
     "@gente interesante... justo adelante.  Ve ah[C2] y toma un descanso." next
-    "@He escuchado que el nombre de esta aldea es Valle Saturn," next
+    "@He escuchado que el nombre de esta aldea es Valle Saturno," next
     "@pero no puede ser encontrado en ning[C4]n mapa." next
     "@Me gusta ayudar a aquellos en problemas." next
     "@...aunque les cobro por mis problemas." end
@@ -391,7 +391,7 @@ l_0xc5c456:
     "@Por favor, ven de nuevo.  ... Ah, acabo de recordar..." next
     "@Hay una aldea con mucha... gente interesante... justo adelante." next
     "@Deber[C2]as ir ah[C2] y visitarlos." next
-    "@He escuchado que el nombre de la aldea es Valle Saturn," next
+    "@He escuchado que el nombre de la aldea es Valle Saturno," next
     "@pero no puede ser encontrado en ning[C4]n mapa." end
 
 l_0xc5c4e3:

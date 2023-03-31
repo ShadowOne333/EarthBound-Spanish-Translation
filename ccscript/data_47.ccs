@@ -429,7 +429,7 @@ l_0xc901a8:
 l_0xc901bb:
     newline
     "{font_saturn}[06 02 00 {e(l_0xc9029f)}]@Yo" linebreak
-    "  Dr. Saturn." linebreak
+    "  Dr. Saturno." linebreak
     "  [B9]Zoom!" next
     "@y puedo" linebreak
     "  reparar" linebreak

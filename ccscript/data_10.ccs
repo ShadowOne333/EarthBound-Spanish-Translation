@@ -67,7 +67,7 @@ l_0xc5a3ea:
     "{window_closeall}{counter(65)}" call(l_0xc5a4ec) call(l_0xc5a526) "{set(flag 372)}" call(data_34.l_0xc7bc56) "[1F E8 FF]" eob
 
 l_0xc5a414:
-    "@Rezo de la Aldea Saturn.{wait}" linebreak
+    "@Rezo de la Aldea Saturno.{wait}" linebreak
     "{window_closeall}{counter(65)}" call(l_0xc5a4ec) call(l_0xc5a526) "{set(flag 372)}" call(data_34.l_0xc7bc96) "[1F E8 FF]" eob
 
 l_0xc5a43e:

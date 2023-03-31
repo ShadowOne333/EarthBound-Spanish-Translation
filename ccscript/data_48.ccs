@@ -60,7 +60,7 @@ l_0xc9052e:
     "  Eres un caso perdido." end
 
 l_0xc90554:
-    "@[B8]Est[C0]s preparado para mostrarle verdadero respeto al Sr. Carpainter ahora?" next
+    "@[B8]Est[C0]s preparado para mostrarle verdadero respeto al Sr. Carpintor ahora?" next
     "@Azul... azul...{wait}{unset(flag 383)}" eob
 
 l_0xc9058d:

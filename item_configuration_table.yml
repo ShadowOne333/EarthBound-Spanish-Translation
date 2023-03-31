@@ -2648,7 +2648,7 @@
   Cost: 3980
   Help Text Pointer: data_04.l_0xc55f84
   Misc Flags: 2
-  Name: List[C3]n Saturn
+  Name: List[C3]n Saturno
   Type: 28
 221:
   Action: 240
@@ -2996,7 +2996,7 @@
   Cost: 1000
   Help Text Pointer: data_05.l_0xc56804
   Misc Flags: 15
-  Name: Moneda Saturn
+  Name: Moneda Saturno
   Type: 28
 250:
   Action: 1

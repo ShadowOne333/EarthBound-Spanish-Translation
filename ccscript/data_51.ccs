@@ -237,12 +237,12 @@ l_0xc94288:
     "@No hay forma de meterlo con tus otras cosas si no tienes m[C0]s espacio..." end
 
 l_0xc942c7:
-    "[06 0C 00 {e(l_0xc94359)}][06 0D 00 {e(l_0xc94359)}]@El jefe del Parque Ladr[C3]n es Everdred." next
+    "[06 0C 00 {e(l_0xc94359)}][06 0D 00 {e(l_0xc94359)}]@El jefe del Parque Ladr[C3]n es Pavoroso." next
     "@[B1]l est[C0] vinculado con los robos y secuestros en el [C0]rea." next
     "@Es un sujeto aterrador." end
 
 l_0xc9432b:
-    "@Everdred est[C0] preguntando por ti.{pause(20)}  Tiene un regalo que darte.{pause(20)}  Por favor..." end
+    "@Pavoroso est[C0] preguntando por ti.{pause(20)}  Tiene un regalo que darte.{pause(20)}  Por favor..." end
 
 l_0xc94359:
     "{isset(flag 85)}[1B 02 {e(l_0xc9432b)}]{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc943bd)}]@Escuch[C1] que la chica secuestrada fue salvada." next
@@ -299,18 +299,18 @@ l_0xc94594:
     "@(Aldea Feliz-Feliz adelante.)" end
 
 l_0xc945a9:
-    "[06 91 00 {e(l_0xc945f4)}]@Claro,{pause(15)} Everdred no es una buena persona," next
+    "[06 91 00 {e(l_0xc945f4)}]@Claro,{pause(15)} Pavoroso no es una buena persona," next
     "@pero de hecho es de buen coraz[C3]n para ser un jefe del crimen." end
 
 l_0xc945f4:
-    "@[B8]Qu[C1]?{pause(15)}  [B8]Everdred est[C0] muerto?{pause(20)}  [B9]Eso es basura!{pause(15)}  No lo creo." end
+    "@[B8]Qu[C1]?{pause(15)}  [B8]Pavoroso est[C0] muerto?{pause(20)}  [B9]Eso es basura!{pause(15)}  No lo creo." end
 
 l_0xc9461f:
-    "[06 91 00 {e(l_0xc9466c)}]@Everdred siempre vigilaba el Parque Ladr[C3]n." next
+    "[06 91 00 {e(l_0xc9466c)}]@Pavoroso siempre vigilaba el Parque Ladr[C3]n." next
     "@Por eso no ten[C2]amos que sobornar a ning[C4]n polic[C2]a corrupto." end
 
 l_0xc9466c:
-    "@Aunque Everdred se haya ido,{pause(15)} [C1]l nos vigilar[C0]" next
+    "@Aunque Pavoroso se haya ido,{pause(15)} [C1]l nos vigilar[C0]" next
     "@desde... donde quiera que [C1] est[C1]." end
 
 l_0xc946b1:

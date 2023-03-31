@@ -253,7 +253,7 @@ l_0xc9b87f:
     "[1F 61]{window_open(1)}@No dejabas de decir algo...[03]{window_closeall}{pause(30)}" eob
 
 l_0xc9b898:
-    "[1F 61]{window_open(1)}@...[B8]Aldea Saturn?{pause(30)}" linebreak
+    "[1F 61]{window_open(1)}@...[B8]Aldea Saturno?{pause(30)}" linebreak
     "  [B8]Qu[C1] nos habr[C0]n preparado?" next
     "@Ya que, tenemos que teletransportarnos...[03]{window_closeall}{pause(30)}" eob
 
@@ -297,7 +297,7 @@ l_0xc9ba78:
     "@te permita ir a Onett por el pedazo de meteorito." next
     "@Ahora mismo, Onett est[C0] en sus manos mal[C1]ficas." next
     "@Aunque,{pause(5)} debes ir,{pause(15)} as[C2] que tomen toda la precauci[C3]n posible." next
-    "@Los Srs. Saturn han estrenado un poco de sus inventos en la tienda." next
+    "@Los Sres. Saturno han estrenado un poco de sus inventos en la tienda." next
     "@Por favor visitenla antes de marcharse." next
     "@...Me pregunto c[C3]mo estar[C0] Onett actualmente...{wait}{window_closeall}{set(flag 132)}{set(flag 632)}{set(flag 468)}{unset(flag 108)}{unset(flag 633)}{unset(flag 422)}{unset(flag 517)}{isset(flag 99)}[1B 02 {e(data_55.l_0xc9992f)}]{unset(flag 746)}" eob
 
@@ -312,7 +312,7 @@ l_0xc9bc48:
 
 l_0xc9bca1:
     "[06 1D 01 {e(l_0xc9bd69)}]{window_open(1)}@El <Distorsionador de Fase 3> ha sido completado." next
-    "@Pudimos terminar r[C0]pido por las incre[C2]bles habilidades cient[C2]ficas de los Srs. Saturn..." next
+    "@Pudimos terminar r[C0]pido por las incre[C2]bles habilidades cient[C2]ficas de los Sres. Saturno..." next
     "@Giygas est[C0] atacando exactamente en ese sitio," next
     "@pero lo est[C0] haciendo desde un pasado muy lejano.[03]{window_closeall}" eob
 

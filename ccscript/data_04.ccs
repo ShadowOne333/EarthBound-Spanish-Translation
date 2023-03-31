@@ -537,7 +537,7 @@ l_0xc55f84:
     " <[1C 05 DC]>" next
     call(data_05.l_0xc56c6d) next
     "@Al ser equipado, se incrementa la Suerte." next
-    "@Es el mismo que el Sr. Saturn utiliza en su cabeza.{wait}" linebreak
+    "@Es el mismo que el Sr. Saturno utiliza en su cabeza.{wait}" linebreak
     eob
 
 l_0xc55fcc:

@@ -24,7 +24,7 @@ l_0xc98e33:
     "@Dicen que alguien llamado Porky rob[C3] toda la comida del puesto." end
 
 l_0xc98e5e:
-    "@De una forma diferente a la de antes, el Sr. Carpainter se a vuelto un muy buen hombre." end
+    "@De una forma diferente a la de antes, el Sr. Carpintor se a vuelto un muy buen hombre." end
 
 l_0xc98e8d:
     "[06 44 00 {e(l_0xc98e9a)}]" call(data_20.l_0xc64eca) eob
@@ -34,7 +34,7 @@ l_0xc98e9a:
     "@El puesto de comida se retira del negocio debido a razones personales.)" end
 
 l_0xc98ede:
-    "[06 49 00 {e(data_54.l_0xc98940)}][06 44 00 {e(l_0xc98f27)}]@Un d[C2]a, el Sr. Carpainter recibi[C3] una revelaci[C3]n." next
+    "[06 49 00 {e(data_54.l_0xc98940)}][06 44 00 {e(l_0xc98f27)}]@Un d[C2]a, el Sr. Carpintor recibi[C3] una revelaci[C3]n." next
     "@[B1]l ahora habla con la verdad." end
 
 l_0xc98f27:
@@ -63,7 +63,7 @@ l_0xc99002:
     "@Estaba mal en muchas formas." end
 
 l_0xc99018:
-    "[06 49 00 {e(l_0xc99088)}][06 44 00 {e(l_0xc99061)}]@El Sr. Carpainter se comunica con los dioses," next
+    "[06 49 00 {e(l_0xc99088)}][06 44 00 {e(l_0xc99061)}]@El Sr. Carpintor se comunica con los dioses," next
     "  as[C2] que el puede entregar mensajes de inspiraci[C3]n." end
 
 l_0xc99061:
@@ -74,13 +74,13 @@ l_0xc99088:
 
 l_0xc990b3:
     "[06 49 00 {e(data_54.l_0xc98940)}][06 44 00 {e(l_0xc99104)}]@Puede que malinterpretes lo que tengo que decir," next
-    "@Pero la voz de Carpainter afecta la mente de los dem[C0]s, como un hipnotista." end
+    "@Pero la voz de Carpintor afecta la mente de los dem[C0]s, como un hipnotista." end
 
 l_0xc99104:
     "@Parece que ya no estoy hipnotizado." end
 
 l_0xc99120:
-    "[06 49 00 {e(l_0xc9919b)}][06 44 00 {e(l_0xc99171)}]@Cuando pint[C1] todo de azul, como el Sr. Carpainter dijo," next
+    "[06 49 00 {e(l_0xc9919b)}][06 44 00 {e(l_0xc99171)}]@Cuando pint[C1] todo de azul, como el Sr. Carpintor dijo," next
     "@[B9]mi esposa que se hab[C2]a ido regres[C3] a casa!" end
 
 l_0xc99171:
@@ -111,18 +111,18 @@ l_0xc992d1:
     "@YEres un amigo de los famosos Hermanos Fugitivos." end
 
 l_0xc992fa:
-    "[06 49 00 {e(l_0xc99389)}][06 44 00 {e(l_0xc99362)}]@[B8]Quieres hablar con el Sr. Carpainter directamente?" next
+    "[06 49 00 {e(l_0xc99389)}][06 44 00 {e(l_0xc99362)}]@[B8]Quieres hablar con el Sr. Carpintor directamente?" next
     "@Debes pensar que eres muy importante, [B9]y vaya que tienes muchas agallas!" next
     "@Mereces ser golpeado por un rayo y morir." end
 
 l_0xc99362:
-    "@El Sr. Carpainter estaba muy extra[C7]o.{pause(20)}  Pero tambi[C1]n los dem[C0]s lo estaban." end
+    "@El Sr. Carpintor estaba muy extra[C7]o.{pause(20)}  Pero tambi[C1]n los dem[C0]s lo estaban." end
 
 l_0xc99389:
     "@[B9]Hola!{pause(20)}  Estoy bien.{pause(30)}  T[C4] te ves bien tambi[C1]n." end
 
 l_0xc993a5:
-    "[06 49 00 {e(l_0xc9946f)}][06 44 00 {e(l_0xc99411)}][06 0A 00 {e(l_0xc99438)}][06 7B 00 {e(l_0xc99405)}]@(S[C3]lo soy una simple y vieja vaca,{pause(15)}  pero los mensajes del Sr. Carpainter siempre me mu{pause(5)}u{pause(5)}u{pause(5)}even.){wait}{set(flag 123)}" eob
+    "[06 49 00 {e(l_0xc9946f)}][06 44 00 {e(l_0xc99411)}][06 0A 00 {e(l_0xc99438)}][06 7B 00 {e(l_0xc99405)}]@(S[C3]lo soy una simple y vieja vaca,{pause(15)}  pero los mensajes del Sr. Carpintor siempre me mu{pause(5)}u{pause(5)}u{pause(5)}even.){wait}{set(flag 123)}" eob
 
 l_0xc99405:
     "@([B9]Moo!){wait}{unset(flag 123)}" eob
@@ -131,10 +131,10 @@ l_0xc99411:
     "@(Eso de la vaca azul no era una gran idea despu[C1]s de todo, huh.)" end
 
 l_0xc99438:
-    "@(Te mo{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}viste aqu[C2] porque le diste al Sr. Carpainter una mala mueca.)" end
+    "@(Te mo{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}viste aqu[C2] porque le diste al Sr. Carpintor una mala mueca.)" end
 
 l_0xc9946f:
-    "@(Tengo mu{pause(5)}u{pause(5)}u{pause(5)}u{pause(5)}cho m[C0]s respeto por el Sr. Carpainter que por los dem[C0]s." next
+    "@(Tengo mu{pause(5)}u{pause(5)}u{pause(5)}u{pause(5)}cho m[C0]s respeto por el Sr. Carpintor que por los dem[C0]s." next
     "@Aunque me convierta en el filete de alguien,{pause(15)} A[C4]n as[C2] lo respetar[C1].)" end
 
 l_0xc994cb:

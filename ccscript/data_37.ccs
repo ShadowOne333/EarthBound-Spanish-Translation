@@ -136,10 +136,10 @@ l_0xc7e819:
     "  bien!" next
     "@Hi ho." linebreak
     "  Yo" linebreak
-    "  Sr. Saturn." next
+    "  Sr. Saturno." next
     "@Este lugar," linebreak
     "  todos somos" linebreak
-    "  Sr. Saturn.{wait}{font_normal}" eob
+    "  Sr. Saturno.{wait}{font_normal}" eob
 
 l_0xc7e86c:
     "@[B9]Impresionado!" next
@@ -404,7 +404,7 @@ l_0xc7ef67:
 l_0xc7efa2:
     "@[B9]Excelente, excelente!" linebreak
     "  Todo procede de acuerdo a lo planeado." next
-    "@El Dr. Andonuts, Sr. Saturn y yo hemos trabajado juntos" next
+    "@El Dr. Andona, Sr. Saturno y yo hemos trabajado juntos" next
     "@y finalmente completamos el Distorsionador de Fase." next
     "@El prop[C3]sito del dispositivo es el permitir el viaje instant[C0]neo" next
     "@a trav[C1]s del espacio y el tiempo." next
@@ -422,11 +422,11 @@ l_0xc7f0e2:
     "@Debo intentar entender mejor este rasgo llamado <valent[C2]a.>" end
 
 l_0xc7f165:
-    "[06 49 00 {e(l_0xc7f634)}][06 FD 02 {e(l_0xc7f50b)}][06 86 00 {e(l_0xc7f34c)}][06 84 00 {e(l_0xc7f25b)}]@[B9]Yahah!  Los Srs. Saturn son gente incre[C2]ble." next
+    "[06 49 00 {e(l_0xc7f634)}][06 FD 02 {e(l_0xc7f50b)}][06 86 00 {e(l_0xc7f34c)}][06 84 00 {e(l_0xc7f25b)}]@[B9]Yahah!  Los Sres. Saturno son gente incre[C2]ble." next
     "@Y el Chico Manzana...  [B1]l es un joven de lo m[C0]s excepcional," next
     "@muy diferente de los dem[C0]s chicos." next
     "@...Bueno, de cualquier forma...{pause(20)}  El prototipo del Distorsionador de Fase ha sido robado." next
-    "@Alguien parecido a un cerdo usando ropa tom[C3] a los Srs. Saturn cautivos" next
+    "@Alguien parecido a un cerdo usando ropa tom[C3] a los Sres. Saturno cautivos" next
     "@[B9]y rob[C3] el dispositivo!{wait}{window_closeall}{pause(1)}[1F F1 E5 02 1F 01]" eob
 
 l_0xc7f25b:

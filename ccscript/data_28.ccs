@@ -112,8 +112,8 @@ l_0xc70511:
     "@el l[C2]der de los Tiburones, ser[C2]a de alguna ayuda." call(data_29.l_0xc726cb) eob
 
 l_0xc7058d:
-    "@As[C2] que, ya has conocido a  B. H. Pirkle, el alcalde de Onett?" next
-    "@La Oficina del Alcalde Pirkle est[C0] en el segundo piso de la Alcald[C2]a." call(data_29.l_0xc726cb) eob
+    "@As[C2] que, ya has conocido a  C. P. Portuno, el alcalde de Onett?" next
+    "@La Oficina del Alcalde Portuno est[C0] en el segundo piso de la Alcald[C2]a." call(data_29.l_0xc726cb) eob
 
 l_0xc705e4:
     "@Ve al noroeste." next
@@ -159,12 +159,12 @@ l_0xc708dd:
     "@No puedo darte ninguna pista, pero me quedar[C2] con tu $[1C 0A 00 00 00 00]." call(data_29.l_0xc726cb) eob
 
 l_0xc70943:
-    "@[B8]Has hablado con Everdred en el Parque Ladr[C3]n?" linebreak
+    "@[B8]Has hablado con Pavoroso en el Parque Ladr[C3]n?" linebreak
     call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc709ac)} {e(l_0xc70974)}]" goto(l_0xc70974)
 
 l_0xc70974:
     "@Vaya, vaya, vaya...  Eso no est[C0] bien." next
-    "@De verdad deber[C2]as tomarte un poco de tiempo para conocer a Everdred." call(data_29.l_0xc726cb) eob
+    "@De verdad deber[C2]as tomarte un poco de tiempo para conocer a Pavoroso." call(data_29.l_0xc726cb) eob
 
 l_0xc709ac:
     "@[B8]Qu[C1]?  [B8]Si HABLASTE con [C1]l?  Entonces, [B8]por qu[C1] est[C0]s aqu[C2]?" next
@@ -198,7 +198,7 @@ l_0xc70b59:
     "@[B9]Es s[C3]lo humano, sabes!" call(data_29.l_0xc726cb) eob
 
 l_0xc70bc4:
-    "@Ve a ver a Everdred, el jefe del Parque Ladr[C3]n." next
+    "@Ve a ver a Pavoroso, el jefe del Parque Ladr[C3]n." next
     "@S[C3]lo conf[C2]a en m[C2]... ve a verlo." call(data_29.l_0xc726cb) eob
 
 l_0xc70bff:
@@ -241,23 +241,23 @@ l_0xc70e26:
     "@Esos zombies guardias deben desaparecido ya." call(data_29.l_0xc726cb) eob
 
 l_0xc70e61:
-    "@|[B9]La Aldea Saturn es bastante agradable!" linebreak
+    "@|[B9]La Aldea Saturno es bastante agradable!" linebreak
     "  Deber[C2]as ir" linebreak
     "  al menos una o dos veces|" call(data_29.l_0xc726cb) eob
 
 l_0xc70e95:
-    "@Parece que no sabes que hacer en la Aldea Saturn." next
-    "@El Sr. Saturn en el segundo piso de la cueva deber[C2]a poder decirte" next
+    "@Parece que no sabes que hacer en la Aldea Saturno." next
+    "@El Sr. Saturno en el segundo piso de la cueva deber[C2]a poder decirte" next
     "@la contrase[C7]a para entrar a la base secreta." next
     "@[B9]Eso suena como una informaci[C3]n muy [C4]til!" call(data_29.l_0xc726cb) eob
 
 l_0xc70f16:
-    "@El Sr. Saturn debi[C3] decirte que debes esperar tres minutos enfrente de la cascada." next
+    "@El Sr. Saturno debi[C3] decirte que debes esperar tres minutos enfrente de la cascada." next
     "@[B8]Qu[C1]?  [B8]No sabes d[C3]nde est[C0] la cascada?" next
     "@La cascada realmente se llama las Cataratas Pomelo." next
     "@Despu[C1]s de que salgas del t[C4]nel que empieza en el cementerio de Threed," next
     "@ve al norte." next
-    "@Ciertamente sabr[C0]s sobre la cueva hacia Aldea Saturn que estar[C0] a tu derecha." next
+    "@Ciertamente sabr[C0]s sobre la cueva hacia Aldea Saturno que estar[C0] a tu derecha." next
     "@Pero..." linebreak
     "  No debes entrar a esa cueva." next
     "@Sigue yendo hacia el norte." next
@@ -382,7 +382,7 @@ l_0xc718e0:
     "@Apostar[C2]a que es uno de <Tus Santuarios.>" call(data_29.l_0xc726cb) eob
 
 l_0xc7192c:
-    "@[B8]Recuerdas que el Dr. Andonuts ten[C2]a el Caminante del Cielo?" next
+    "@[B8]Recuerdas que el Dr. Andona ten[C2]a el Caminante del Cielo?" next
     "@[B8]Qu[C1] dices en ir y darle una vuelta?" call(data_29.l_0xc726cb) eob
 
 l_0xc71973:
@@ -458,7 +458,7 @@ l_0xc71ea1:
 l_0xc71efb:
     "[1B 02 {e(l_0xc7244e)}]@Manzana..." next
     "@Winters..." next
-    "@Andonuts..." call(data_29.l_0xc726cb) eob
+    "@Andona..." call(data_29.l_0xc726cb) eob
 
 l_0xc71f21:
     "[1B 02 {e(l_0xc7244e)}]@El Borra L[C0]piz hace que cosas con forma de l[C0]pices desaparezcsn." next
@@ -505,7 +505,7 @@ l_0xc72258:
 l_0xc72296:
     "@Quiz[C0]s ..." linebreak
     "  d[C3]nde deber[C2]as visitar es" next
-    "@la Aldea Saturn..." call(data_29.l_0xc726cb) eob
+    "@la Aldea Saturno..." call(data_29.l_0xc726cb) eob
 
 l_0xc722c1:
     "@Una sustancia muy especial es necesaria para completar el Distorsionador de Fase." next

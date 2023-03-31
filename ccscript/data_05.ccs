@@ -10,14 +10,14 @@ command e(label) "{long label}"
 l_0xc56253:
     newline
     " <[1C 05 EA]>" next
-    "@Una de las comidas favoritas del Sr. Saturn." next
+    "@Una de las comidas favoritas de los Sres. Saturno." next
     "@Est[C0] de rechupete." next
     call(l_0xc56cb5) "100" call(l_0xc56cd6) end
 
 l_0xc5629b:
     newline
     " <[1C 05 EB]>" next
-    "@Una de las comidas favoritas del Sr. Saturn." next
+    "@Una de las comidas favoritas de los Sres. Saturno." next
     "@Sabe bien." next
     call(l_0xc56cb5) "300" call(l_0xc56cd6) end
 

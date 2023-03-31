@@ -326,12 +326,12 @@ l_0xef95a3:
     "@Por eso,{pause(15)} supe que vendr[C2]as a rescatarme." next
     "@Si no hubieras venido,{pause(15)} yo... habr[C2]a empezado a llorar." next
     "@No puedes abrir la puerta." next
-    "@Necesitar[C0]s la llave de Carpainter.  La escondi[C3] lejos." next
-    "@Escuch[C1] que Carpainter puede controlar los rel[C0]mpagos." next
+    "@Necesitar[C0]s la llave de Carpintor.  La escondi[C3] lejos." next
+    "@Escuch[C1] que Carpintor puede controlar los rel[C0]mpagos." next
     "@En ese caso,{pause(15)} deber[C2]as usar esta [1C 05 01], [B8]s[C2]?" next
     "[1D 03 FF][1B 02 {e(l_0xef96d3)}][1D 0E 00 01]" call(data_36.l_0xc7dcb6) next
     "{set(flag 86)}{set(flag 45)}{unset(flag 634)}{unset(flag 635)}@Estar[C1] aqu[C2] hasta que regreses." next
-    "@Regresa y s[C0]came una vez que derrotes a Carpainter." next
+    "@Regresa y s[C0]came una vez que derrotes a Carpintor." next
     "@No te preocupes por m[C2], [B9]y patea traseros como yo s[C1] que s[C3]lo t[C4] puedes hacerlo!{wait}{set(flag 11)}[1F 41 05]" eob
 
 l_0xef96d3:

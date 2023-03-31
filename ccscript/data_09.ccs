@@ -187,7 +187,7 @@ l_0xc59a72:
     "{window_closeall}{counter(22)}" call(data_10.l_0xc5a4ec) "{set(flag 85)}{set(flag 553)}{set(flag 549)}{set(flag 43)}[1F 21 76]" eob
 
 l_0xc59aa4:
-    "@Primer encuentro con Carpainter.{wait}" linebreak
+    "@Primer encuentro con Carpintor.{wait}" linebreak
     "{window_closeall}{counter(20)}" call(data_10.l_0xc5a4ec) "{set(flag 175)}[1F 21 77]" eob
 
 l_0xc59ace:
@@ -215,11 +215,11 @@ l_0xc59bb5:
     "{window_closeall}{counter(32)}" call(data_10.l_0xc5a4ec) "[1F 11 03][1F 12 01][1F 21 7D]" eob
 
 l_0xc59bd7:
-    "@Espect[C0]culo de los Fugitibos en el Teatro Topolla.{wait}" linebreak
+    "@Espect[C0]culo de los Fugitivos en el Teatro Topolla.{wait}" linebreak
     "{window_closeall}{counter(40)}" call(data_10.l_0xc5a4ec) "[1F 11 02][1F 11 03][1F 21 7E]" eob
 
 l_0xc59bfc:
-    "@George Montague te da el Diamante.{wait}" linebreak
+    "@Jorge Montano te da el Diamante.{wait}" linebreak
     "{window_closeall}{counter(40)}" call(data_10.l_0xc5a4ec) "{set(flag 277)}{set(flag 278)}{set(flag 279)}{set(flag 280)}{set(flag 281)}{set(flag 72)}{unset(flag 54)}{set(flag 282)}{set(flag 272)}[1F 11 02][1F 11 03][1F 21 7F]" eob
 
 l_0xc59c39:
@@ -323,11 +323,11 @@ l_0xc59ff1:
     "{window_closeall}{counter(62)}" call(data_10.l_0xc5a4ec) "{set(flag 548)}[1F 21 A7]" eob
 
 l_0xc5a00c:
-    "@Enfrentate a Carpainter con la Medalla Franklin.{wait}" linebreak
+    "@Enfrentate a Carpintor con la Medalla Franklin.{wait}" linebreak
     "{window_closeall}{counter(21)}" call(data_10.l_0xc5a4ec) "[1D 0E 01 01][1F 21 77]" eob
 
 l_0xc5a036:
-    "@Discurso de Everdred.{wait}" linebreak
+    "@Discurso de Pavoroso.{wait}" linebreak
     "{window_closeall}{counter(41)}" call(data_10.l_0xc5a4ec) "{set(flag 139)}{set(flag 60)}[1F 11 03][1D 0E 01 5A][1F 21 A8]" eob
 
 l_0xc5a05b:
@@ -363,5 +363,5 @@ l_0xc5a17d:
     "{window_closeall}{counter(60)}" call(data_10.l_0xc5a4ec) call(data_10.l_0xc5a526) "{set(flag 219)}{set(flag 154)}{set(flag 102)}{set(flag 89)}{set(flag 155)}{set(flag 430)}[1D 0E 01 A4][1F 21 16]" eob
 
 l_0xc5a1ae:
-    "@Aldea Saturn despu[C1]s de la base de Eructo.{wait}" linebreak
+    "@Aldea Saturno despu[C1]s de la base de Eructo.{wait}" linebreak
     "{window_closeall}{counter(35)}" call(data_10.l_0xc5a4ec) "[1F 11 02][1F 11 03][1F 21 8F]" eob

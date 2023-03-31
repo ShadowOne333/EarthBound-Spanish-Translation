@@ -105,7 +105,7 @@ l_0xc6c8d3:
 l_0xc6c8dd:
     "@He cuidado de este lugar mientras te esperaba." next
     "@Ya no necesito quedarme, desde que llegaste..." next
-    "@Me ir[C1] a la Aldea Saturn tan silencioso como un rat[C3]n.{wait}{unset(flag 620)}" eob
+    "@Me ir[C1] a la Aldea Saturno tan silencioso como un rat[C3]n.{wait}{unset(flag 620)}" eob
 
 l_0xc6c942:
     "@[B8]Fue en Winters la [C4]ltima vez que nos vimos?" next
@@ -116,7 +116,7 @@ l_0xc6c970:
     "@(Te he visto antes por un segundo...  Conoces a mi prometido.)" next
     "@Koo kya keke" linebreak
     "  (Mi prometido adora mascar chicle." next
-    "@[B1]l fue a visitar el laboratorio del Dr. Andonuts...{pause(15)} pero no ha regresado a[C4]n.)" next
+    "@[B1]l fue a visitar el laboratorio del Dr. Andona...{pause(15)} pero no ha regresado a[C4]n.)" next
     "@Kye koko kikkya kekra," linebreak
     "  (Quiero ir ah[C2] para poder llevarlo a casa," next
     "@pero sin [C1]l, no puedo cruzar el Lago Tess.)" next
@@ -177,7 +177,7 @@ l_0xc6ce34:
     "@Ahora, deja todo a cargo de nosotros y sigue adelante.{wait}{unset(flag 766)}" eob
 
 l_0xc6cebc:
-    "@[1C 02 03] acaba de llamar.{pause(20)}  [B1]l est[C0] con el Dr. Andonuts." next
+    "@[1C 02 03] acaba de llamar.{pause(20)}  [B1]l est[C0] con el Dr. Andona." next
     "@Puede que ellos dos sean capaces de desarrollar nuevas teor[C2]as cient[C2]ficas." next
     "@Has ayudado a hacer una vida hermosa para todos..." end
 

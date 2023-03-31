@@ -264,7 +264,7 @@ l_0xc7acb8:
     "@Finalmente estamos llegando al fin de nuestra investigaci[C3]n sobre..." next
     "@como cambiar un huevo cocido de vuelta a un huevo crudo." next
     "@Por cierto, el Chico Manzana est[C0] desaparecido." next
-    "@Se fue de aqu[C2] diciendo que iba a ir a ver al Dr. Andonuts en Winters," next
+    "@Se fue de aqu[C2] diciendo que iba a ir a ver al Dr. Andona en Winters," next
     "@y nunca regres[C3]." next
     "@Esperaba pedirle prestado el libro de <Superando la Timidez>," next
     "@pero de repente, desapareci[C3]..." next
@@ -276,7 +276,7 @@ l_0xc7acb8:
 l_0xc7ae41:
     "{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}[19 10 01]{rtoarg}{window_open(1)}@Hola, ha sido un tiempo desde la [C4]ltima vez que hablamos...{pause(15)} soy el Chico Manzana." next
     "@Tenemos un clima hermoso aqu[C2]..." next
-    "@Ahora estoy en el laboratorio del Dr. Andonuts en Winters." next
+    "@Ahora estoy en el laboratorio del Dr. Andona en Winters." next
     "@El doctor no parece andar por aqu[C2] ahora," next
     "@pero estoy trabajando justo ahora en la M[C0]quina Borra Borrador..." next
     "{music(177)}{pause(160)}" linebreak
@@ -293,7 +293,7 @@ l_0xc7af57:
     "@Debemos pelear y derrotar a este ser..." next
     "@Para hacerlo, necesitamos inventar una m[C0]quina llamada <Distorsionador de Fase.>" next
     "@Debo encontrar al cient[C2]fico deambulante," next
-    "@Dr. Andonuts, y hacer el distorsionador.{pause(15)}  As[C2] que, puede que est[C1] ausente por un rato." next
+    "@Dr. Andona, y hacer el distorsionador.{pause(15)}  As[C2] que, puede que est[C1] ausente por un rato." next
     "@Hasta luego... *Click*{wait}{window_closeall}{sound(11)}{unset(flag 42)}{music_resume}{isset(flag 117)}[1B 02 {e(data_55.l_0xc9992f)}][1F 66 01 34 A0 B0 C7 00]" eob
 
 l_0xc7b0a0:

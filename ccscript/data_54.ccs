@@ -282,20 +282,20 @@ l_0xc982f2:
 
 l_0xc9833f:
     "@As[C2] que tu eres ese ni[C7]o que... que..." next
-    "@Fuiste tras del Sr. Carpainter y...{pause(20)} [B9]eres asombroso!" end
+    "@Fuiste tras del Sr. Carpintor y...{pause(20)} [B9]eres asombroso!" end
 
 l_0xc98374:
     "[06 02 00 {e(l_0xc983de)}]@Azul, azul." next
     "@Oh, [B8]te gustar[C2]a ser uno de nosotros?" next
     "@Entonces, deja lo que" linebreak
     "  est[C1]s haciendo" next
-    "@y ve con el gran Sr. Carpainter cuanto antes.[03][1F F1 7A 01 15 01][1F 61]{set(flag 2)}" eob
+    "@y ve con el gran Sr. Carpintor cuanto antes.[03][1F F1 7A 01 15 01][1F 61]{set(flag 2)}" eob
 
 l_0xc983de:
     "@Azul, azul." next
     "@Deja lo que" linebreak
     "  est[C1]s haciendo" next
-    "@y ve con el gran Sr. Carpainter cuanto antes." end
+    "@y ve con el gran Sr. Carpintor cuanto antes." end
 
 l_0xc98424:
     "[06 03 00 {e(l_0xc98465)}]@Azul, azul." next
@@ -445,7 +445,7 @@ l_0xc98b68:
     call(data_13.l_0xc5d30b) eob
 
 l_0xc98b6e:
-    "[06 49 00 {e(l_0xc98940)}][06 44 00 {e(l_0xc98be1)}]@El Sr. Carpainter quiere una chica." next
+    "[06 49 00 {e(l_0xc98940)}][06 44 00 {e(l_0xc98be1)}]@El Sr. Carpintor quiere una chica." next
     "@No, no lo digo en ese sentido." next
     "@Me refiero a que busca una chica quien pueda ser la diosa del Feliz-felicismo." next
     "@Escuch[C1] que ya encontr[C3] una." end

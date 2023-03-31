@@ -15,7 +15,7 @@ l_0xc7f71e:
 
 l_0xc7f7a5:
     "[06 9C 02 {e(l_0xc7f71e)}]@No estoy seguro de qu[C1] pasar[C0], pero presiento un gran problema delante de ti." next
-    "@Yo me quedar[C1] aqu[C2] un rato a ayudar a los Srs. Saturn." next
+    "@Yo me quedar[C1] aqu[C2] un rato a ayudar a los Sres. Saturno." next
     "@Es importante que un hombre disfrute hacer su deber." end
 
 l_0xc7f813:
@@ -73,7 +73,7 @@ l_0xc7f9f8:
     "@Bueno, si ustedes dos se casan alg[C4]n d[C2]a," next
     "@quiz[C0]s yo pueda ser el que les arregle sus aparatos electr[C3]nicos." next
     "@....." next
-    "@Yo me quedar[C1] aqu[C2] un rato m[C0]s para ver si puedo aprender m[C0]s del Dr. Andonuts." next
+    "@Yo me quedar[C1] aqu[C2] un rato m[C0]s para ver si puedo aprender m[C0]s del Dr. Andona." next
     "@Digo,{pause(15)} de mi pap[C0]." next
     "@...As[C2] que... por ahora parece que este es el adi[C3]s,{pause(20)} amigos m[C2]os.{wait}{window_closeall}" eob
 
@@ -298,7 +298,7 @@ l_0xc805ba:
     "@[B9]Ya s[C1], la llamar[C1] Curita a Manita!" next
     "[1D 03 FF][1B 02 {e(l_0xc8082a)}][1D 0E 00 BC]" call(data_36.l_0xc7dccf) "{wait}{set(flag 84)}" newline
     "@[B8]Ya conociste a Pap[C0]?" next
-    "@Lamenta haber sospechado del Sr. Everdred del Parque Ladr[C3]n.{wait}   " eob
+    "@Lamenta haber sospechado del Sr. Pavoroso del Parque Ladr[C3]n.{wait}   " eob
 
 l_0xc80673:
     "@[B8]Eres t[C4], [1C 02 02]?{pause(20)}  Oh,{pause(15)} cre[C2] que ya hab[C2]a regresado,{pause(15)} pero a[C4]n no..." next
@@ -426,7 +426,7 @@ l_0xc80dd8:
 
 l_0xc80e03:
     "{counter(1)}[19 11 02]{rtoarg}@[1C 03 00]{pause(5)} [1C 03 00]{pause(5)} [1C 02 02] a[C4]n no ha llegado." next
-    "@Quiz[C0]s Everdred del Parque Ladr[C3]n podr[C2]a saber algo." next
+    "@Quiz[C0]s Pavoroso del Parque Ladr[C3]n podr[C2]a saber algo." next
     "@[B9]Oh, vaya!{pause(20)}  Ahora s[C2] que estoy preocupado.{wait}{set(flag 321)}" eob
 
 l_0xc80e61:

@@ -57,7 +57,7 @@ l_0xc72709:
     "@[B9]Estoy aqu[C2] para protestar!" end
 
 l_0xc72765:
-    "@Yo trabajo en la Alcald[C2]a,{pause(15)} pero de alguna forma el Alcalde Pirkle me molesta." next
+    "@Yo trabajo en la Alcald[C2]a,{pause(15)} pero de alguna forma el Alcalde Portuno me molesta." next
     "@Mantengamos esto entre t[C4] y yo." end
 
 l_0xc727a8:
@@ -99,7 +99,7 @@ l_0xc72a63:
 
 l_0xc72a76:
     "[06 50 00 {e(l_0xc72ab6)}]@Desde que le diste una paliza a los Tiburones,{pause(15)} eres el habla del pueblo." next
-    "@El Alcalde Pirkle te est[C0] esperando." end
+    "@El Alcalde Portuno te est[C0] esperando." end
 
 l_0xc72ab6:
     "@T[C4] te pareces a alguien que va a hacer algo grande.[06 49 00 {e(l_0xc72ad6)}]" end
@@ -109,7 +109,7 @@ l_0xc72ad6:
     "@[B9]Qu[C1] estaba pensando--{pause(15)} hiciste algo muy grande!" end
 
 l_0xc72af8:
-    "[06 49 00 {e(l_0xc72e08)}][06 50 00 {e(l_0xc72dd0)}]@[B9]Hey{pause(10)} hey{pause(10)} hey!{pause(15)}  Soy el Alcalde B.H. Pirkle.{pause(15)}  Gusto en conocerte." next
+    "[06 49 00 {e(l_0xc72e08)}][06 50 00 {e(l_0xc72dd0)}]@[B9]Hey{pause(10)} hey{pause(10)} hey!{pause(15)}  Soy el Alcalde C.P. Portuno.{pause(15)}  Gusto en conocerte." next
     "@Le diste una paliza a los matones del pueblo," next
     "@los golpeaste a lo grande,{pause(10)} pateaste sus traseros,{pause(10)} arrancaste sus cabezas," next
     "@escupiste en sus ojos,{pause(30)} e hiciste que mojaran sus pantalones." next
@@ -182,7 +182,7 @@ l_0xc72f18:
     "@Dedicar[C1] mi vida *sniff* a la paz de Onett... *boo hoo*" end
 
 l_0xc72f7b:
-    "[06 49 00 {e(l_0xc72fbe)}]@En la siguiente elecci[C3]n, por favor da un discurso apoyando al Alcalde Pirkle." next
+    "[06 49 00 {e(l_0xc72fbe)}]@En la siguiente elecci[C3]n, por favor da un discurso apoyando al Alcalde Portuno." next
     "@Hee hee hee." end
 
 l_0xc72fbe:
@@ -223,7 +223,7 @@ l_0xc73159:
     "@[B8]Por qu[C1] no obtienes una pista de la casa de al lado?" end
 
 l_0xc7316f:
-    "[06 D2 00 {e(l_0xc731bc)}]@El Sr. Lier X. Agerado,{pause(15)} el cazador de tesoros,{pause(15)} finalmente encontr[C3] algo interesante." next
+    "[06 D2 00 {e(l_0xc731bc)}]@El Sr. Mentel X. Agerado,{pause(15)} el cazador de tesoros,{pause(15)} finalmente encontr[C3] algo interesante." next
     "@Escuch[C1] que s[C3]lo te lo mostrar[C0] a ti." end
 
 l_0xc731bc:
@@ -381,7 +381,7 @@ l_0xc73a03:
     "@Primero,{pause(15)} vamos al s[C3]tano." next
     "@[B9]Ah!{pause(15)}  Puedo darme cuenta por tu mirada que no quieres dar la vuelta,{pause(10)} [B8]cierto?" next
     "@Est[C0] bien.{pause(20)}  Despu[C1]s de todo,{pause(15)} no estamos relacionados." next
-    "@Alguien como t[C4] deber[C2]a pasar un tiempo con el so[C7]ador de Gerardo Montague." end
+    "@Alguien como t[C4] deber[C2]a pasar un tiempo con el so[C7]ador de Gerardo Montano." end
 
 l_0xc73ab9:
     "@Est[C0]s siendo vanidoso, [1C 01 08]." next

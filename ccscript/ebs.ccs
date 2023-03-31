@@ -30,6 +30,19 @@ ROM[0xC2165E] = {
 	RTL		//0xC21662
 }
 
+// Chaz's (BlackLeader) findings of the save/load routine to allow 77 more bytes
+// Saves
+ROM[0xEF097E] = LDA_i (0x02BA) // existing 0x023A + next section 0x0080
+ROM[0xEF0985] = LDA_i (0x02BA)
+ROM[0xEF099B] = LDA_i (0xB600) // new memory location (was 0x9C08)
+ROM[0xEF09DA] = LDA_i (0x004D) // new memory size
+
+// Loads
+ROM[0xEF0B2D] = LDA_i (0x02BA) // existing 0x023A + next section 0x0080
+ROM[0xEF0B34] = LDA_i (0x02BA)
+ROM[0xEF0B42] = LDA_i (0xB600) // new memory location (was 0x9C08)
+ROM[0xEF0B81] = LDA_i (0x004D) // new memory size
+
 l_0xEE9200:
 	AND_i(0x00FF)	//0xEE9200
 	ASL		//0xEE9203
@@ -2068,3 +2081,4 @@ command demo_end {
 	mov_jslasm(0xC46E46)			// "[42 46 6E C4]"
 	mov_halt						// "[09]"
 }
+

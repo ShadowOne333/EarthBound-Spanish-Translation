@@ -105,7 +105,7 @@ l_0xc9c9db:
 l_0xc9c9e8:
     "@Estoy orgulloso." next
     "@Has completado el entrenamiento del Mu." next
-    "@Yo, Yi-Si-Qi, te he ense[C7]ado todo.{wait}{window_closetop}" call(data_36.l_0xc7dd6b) "{music(119)}{pause(60)}{window_open(1)}@Pr[C2]ncipe [1C 02 04]," next
+    "@Yo, Yi-Su-Chi, te he ense[C7]ado todo.{wait}{window_closetop}" call(data_36.l_0xc7dd6b) "{music(119)}{pause(60)}{window_open(1)}@Pr[C2]ncipe [1C 02 04]," next
     "@Te proveer[C1] un mensaje de los cielos." next
     "@La entidad maligna que controla toda inmoralidad" next
     "@se est[C0] preparando para el m[C0]s grande desastre..." next
